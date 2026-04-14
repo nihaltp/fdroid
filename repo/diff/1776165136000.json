@@ -1,0 +1,1 @@
+{"repo": {"name": {"en-US": "nihaltp repo"}, "timestamp": 1776167656000, "categories": {"System": {"name": {"en-US": "System"}}}}, "packages": {"com.nihaltp.volume_lock": {"metadata": {"categories": ["System", "Volume Control", "Accessibility", "Utilities"], "summary": {"en-US": "A simple volume lock app"}}}}}
