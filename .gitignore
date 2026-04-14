@@ -1,3 +1,11 @@
 keystore.p12
 config.yml
+
+# Temporary and Build Artifacts
 tmp/
+build/
+logs/
+unsigned/
+
+# Metadata caching (optional but recommended)
+.fdroid/
