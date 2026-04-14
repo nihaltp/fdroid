@@ -1,0 +1,21 @@
+Categories:
+  - Volume Control
+  - Accessibility
+  - Utilities
+
+License: 'MIT'
+AuthorName: 'nihaltp'
+AuthorEmail: 'nihaltpnki@gmail.com'
+SourceCode: 'https://github.com/nihaltp/volume_lock'
+IssueTracker: 'https://github.com/nihaltp/volume_lock/issues'
+WebSite: 'https://nihaltp.github.io/volume_lock/'
+
+AutoName: Volume Lock
+Summary: 'A simple volume lock app.'
+Description: "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes."
+
+RepoType: git
+Repo: 'https://github.com/nihaltp/volume_lock'
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version
