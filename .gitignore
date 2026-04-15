@@ -9,3 +9,7 @@ unsigned/
 
 # Metadata caching (optional but recommended)
 .fdroid/
+
+# Other miscellaneous files
+*.ps1
+*.ini
