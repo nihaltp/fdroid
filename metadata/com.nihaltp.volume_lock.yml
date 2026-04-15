@@ -17,6 +17,7 @@ Description: "A simple volume lock app built using Flutter. It allows users to l
 
 RepoType: git
 Repo: 'https://github.com/nihaltp/volume_lock'
+Binaries: 'https://github.com/nihaltp/volume_lock/releases/download/v{version}/app-release.apk'
 
 UpdateCheckMode: Tags
 AutoUpdateMode: Version
