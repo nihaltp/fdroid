@@ -1,0 +1,24 @@
+{
+  "repo": {
+    "icon": {
+      "en-US": {
+        "sha256": "33a370ce1da2276e2fbdc7bd78808037314aba2f2a4d9b2c465047340e9d6e79",
+        "size": 43847
+      }
+    },
+    "timestamp": 1778852915000
+  },
+  "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "added": 1778852814000,
+        "lastUpdated": 1778852814000
+      },
+      "versions": {
+        "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe": {
+          "added": 1778852814000
+        }
+      }
+    }
+  }
+}

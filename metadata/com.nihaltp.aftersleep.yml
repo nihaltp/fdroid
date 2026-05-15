@@ -1,0 +1,43 @@
+Categories:
+  - Multimedia
+  - Time
+  - Utilities
+
+License: 'MIT'
+AuthorName: 'nihaltp'
+AuthorEmail: 'nihaltpnki@gmail.com'
+SourceCode: 'https://github.com/nihaltp/AfterSleep'
+IssueTracker: 'https://github.com/nihaltp/AfterSleep/issues'
+WebSite: 'https://github.com/nihaltp/AfterSleep'
+
+AutoName: AfterSleep
+
+Summary: 'Delayed media playback companion for sleep'
+
+Description: |
+  AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.
+
+  Instead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.
+
+  The app works with Android media sessions and supports many media apps.
+
+  Features:
+
+  * Delayed playback start
+  * Optional automatic stop timer
+  * Foreground service reliability
+  * AMOLED-friendly dark interface
+  * Offline operation
+  * No ads
+  * No tracking
+  * No account required
+
+  AfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.
+
+RepoType: git
+Repo: 'https://github.com/nihaltp/AfterSleep'
+
+Binaries: 'https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk'
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version

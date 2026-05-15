@@ -1,0 +1,18 @@
+{
+  "repo": {
+    "timestamp": 1778852915000
+  },
+  "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "added": 1778852814000,
+        "lastUpdated": 1778852814000
+      },
+      "versions": {
+        "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe": {
+          "added": 1778852814000
+        }
+      }
+    }
+  }
+}

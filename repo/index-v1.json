@@ -1,1 +1,427 @@
-{"repo": {"timestamp": 1776270104000, "version": 20002, "name": "nihaltp", "icon": "icon.png", "address": "https://nihaltp.github.io/fdroid/repo", "description": "This is a repository of apps made by nihaltp. Feel free to try them out!"}, "requests": {"install": [], "uninstall": []}, "apps": [{"authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "binaries": "https://github.com/nihaltp/secret_chat/releases/download/v{version}/app-release.apk", "categories": ["Internet", "Connectivity", "Messaging"], "suggestedVersionCode": "9", "description": "A simple LAN chat app built using Flutter. It allows users to chat with each other over a local network without the need for an internet connection. The app uses UDP sockets for communication and supports text messaging.", "issueTracker": "https://github.com/nihaltp/secret_chat/issues", "license": "MIT", "sourceCode": "https://github.com/nihaltp/secret_chat", "summary": "Peer-to-peer LAN chat app", "webSite": "https://nihaltp.github.io/secret_chat/", "added": 1775759883000, "packageName": "com.nihaltp.secret_chat", "lastUpdated": 1776194614000, "localized": {"en-US": {"description": "Secret Chat is a local area network (LAN) messaging application that allows you to chat with friends and colleagues without an internet connection. Perfect for conferences, offices, events, or any situation where you need secure, private communication within a local network.\n\nFeatures:\n\u00e2\u20ac\u00a2 No Internet Required - Chat over your local WiFi or mobile hotspot\n\u00e2\u20ac\u00a2 Privacy Focused - Messages stay on your local network\n\u00e2\u20ac\u00a2 Multiple Security Options - Protect your rooms with passwords, PINs, or pattern locks\n\u00e2\u20ac\u00a2 Dark Theme - Easy on the eyes with built-in dark mode\n\u00e2\u20ac\u00a2 App Lock - Biometric or screen lock protection for the entire app\n\u00e2\u20ac\u00a2 Hidden Rooms - Create private rooms that don't appear in the room list\n\u00e2\u20ac\u00a2 Message History - Messages persist while the app is running, cleared when closed\n\u00e2\u20ac\u00a2 Material Design 3 - Modern, clean interface\n\nHow to Use:\n1. Choose \"Host Network\" to create a room and share as the host\n2. Or choose \"Use Wi-Fi\" to browse and join existing rooms\n3. Optionally protect your room with a password, PIN, or pattern\n4. Start chatting - all communication stays within your local network\n\nSecurity:\n- All communication happens locally on your WiFi network\n- No data transmitted to external servers\n- Messages are not stored permanently\n- Supports biometric authentication\n- Pattern lock option for additional security\n\nPerfect for:\n\u00e2\u20ac\u00a2 Office communications and quick collaboration\n\u00e2\u20ac\u00a2 Conferences and events\n\u00e2\u20ac\u00a2 Classroom discussions\n\u00e2\u20ac\u00a2 LAN parties and gaming events\n\u00e2\u20ac\u00a2 Emergency communication when internet is unavailable\n\u00e2\u20ac\u00a2 Privacy-conscious users who want local control", "icon": "icon_O_WgVXogi560N3_I3SgnduiPjuj0DtgbaKww1bp0n-A=.png", "name": "Secret Chat", "phoneScreenshots": ["1.png", "2.png", "3.png", "4.png"], "summary": "LAN chat without internet - secure, private, instant messages", "whatsNew": "v1.2.1 - Padding Compatibility & Test Reliability\n\u00e2\u20ac\u00a2 Fixed message delivery between devices with different message padding settings (chunk size mismatch).\n\u00e2\u20ac\u00a2 Added cross-device tests for mismatched padding in both user and room chat.\n\u00e2\u20ac\u00a2 Improved failover test reliability (host readiness wait).\n\u00e2\u20ac\u00a2 All tests and analyzer clean for release.\n"}}}, {"authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "binaries": "https://github.com/nihaltp/volume_lock/releases/download/v{version}/app-release.apk", "categories": ["System", "Volume Control", "Accessibility", "Utilities"], "suggestedVersionCode": "2", "description": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes.", "issueTracker": "https://github.com/nihaltp/volume_lock/issues", "license": "MIT", "sourceCode": "https://github.com/nihaltp/volume_lock", "summary": "A simple volume lock app", "webSite": "https://nihaltp.github.io/volume_lock/", "added": 1776154885000, "packageName": "com.nihaltp.volume_lock", "lastUpdated": 1776232479000, "localized": {"en-US": {"description": "Volume Lock gives you fine-grained control over your Android audio behavior with two core features:\n\n- Volume Lock: when the screen turns off, current media, ring, notification, and alarm volumes are locked and automatically restored if changed.\n- App Volume Lock: saves and restores media volume for selected apps when you return to them.\n\nKey highlights:\n- Tracks and restores audio levels automatically\n- Lets you choose which apps participate in App Volume Lock\n- Keeps behavior consistent after reboot\n\nPermissions:\n- Do Not Disturb / Notification Policy access is needed to lock ring and notification volumes on Android 6+\n- Accessibility service is needed to detect foreground app changes for App Volume Lock\n\nBuilt with Flutter", "icon": "icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png", "name": "Volume Lock", "phoneScreenshots": ["1.png", "2.png", "3.png"], "summary": "Lock device volume profiles and auto-restore per-app media volume.", "whatsNew": "Show all app icon/logo in app list. Fix bug for adaptive icon. Fallback to letter if icon missing. Many grunt.\n"}}}], "packages": {"com.nihaltp.secret_chat": [{"added": 1776194614000, "apkName": "com.nihaltp.secret_chat_9.apk", "hash": "d423067bcaff25d9734d9d631168f650de89dc514d386148f8479f4036dc7d52", "hashType": "sha256", "minSdkVersion": 24, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "packageName": "com.nihaltp.secret_chat", "sig": "d595dd76abbf3f3553a70d41bdbaf669", "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2", "size": 16166951, "targetSdkVersion": 36, "uses-permission": [["android.permission.INTERNET", null], ["android.permission.ACCESS_NETWORK_STATE", null], ["android.permission.ACCESS_WIFI_STATE", null], ["android.permission.CHANGE_WIFI_MULTICAST_STATE", null], ["android.permission.USE_BIOMETRIC", null], ["android.permission.USE_FINGERPRINT", null], ["com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION", null]], "versionCode": 9, "versionName": "1.2.1"}, {"added": 1776146239000, "apkName": "com.nihaltp.secret_chat_8.apk", "hash": "6d11f6ea77109c18f4500bed63359ef241032bd597d999b112aca161a5026206", "hashType": "sha256", "minSdkVersion": 24, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "packageName": "com.nihaltp.secret_chat", "sig": "d595dd76abbf3f3553a70d41bdbaf669", "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2", "size": 16146663, "targetSdkVersion": 36, "uses-permission": [["android.permission.INTERNET", null], ["android.permission.ACCESS_NETWORK_STATE", null], ["android.permission.ACCESS_WIFI_STATE", null], ["android.permission.CHANGE_WIFI_MULTICAST_STATE", null], ["android.permission.USE_BIOMETRIC", null], ["android.permission.USE_FINGERPRINT", null], ["com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION", null]], "versionCode": 8, "versionName": "1.2.0"}, {"added": 1775997875000, "apkName": "com.nihaltp.secret_chat_7.apk", "hash": "60ca8db6bf9c2b2168b5ca8b7c6b7db77415ba68ae66b47182ee82746d6f7d28", "hashType": "sha256", "minSdkVersion": 24, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "packageName": "com.nihaltp.secret_chat", "sig": "d595dd76abbf3f3553a70d41bdbaf669", "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2", "size": 50478457, "targetSdkVersion": 36, "uses-permission": [["android.permission.INTERNET", null], ["android.permission.ACCESS_NETWORK_STATE", null], ["android.permission.ACCESS_WIFI_STATE", null], ["android.permission.CHANGE_WIFI_MULTICAST_STATE", null], ["android.permission.USE_BIOMETRIC", null], ["android.permission.USE_FINGERPRINT", null], ["com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION", null]], "versionCode": 7, "versionName": "1.1.5"}], "com.nihaltp.volume_lock": [{"added": 1776232479000, "apkName": "com.nihaltp.volume_lock_2.apk", "hash": "2dbe387a3141c13129b48aed4e2c6927d85a6e696eaa9a5fda2e48fbc421bde7", "hashType": "sha256", "minSdkVersion": 24, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "packageName": "com.nihaltp.volume_lock", "sig": "58c0e9b9c8a42b832e2f45ebee3342eb", "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381", "size": 14929579, "targetSdkVersion": 36, "uses-permission": [["android.permission.CHANGE_AUDIO_SETTINGS", null], ["android.permission.MODIFY_AUDIO_SETTINGS", null], ["android.permission.FOREGROUND_SERVICE", null], ["android.permission.FOREGROUND_SERVICE_SPECIAL_USE", null], ["android.permission.RECEIVE_BOOT_COMPLETED", null], ["android.permission.POST_NOTIFICATIONS", null], ["android.permission.ACCESS_NOTIFICATION_POLICY", null], ["com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION", null]], "versionCode": 2, "versionName": "1.1.0"}, {"added": 1776154885000, "apkName": "com.nihaltp.volume_lock_1.apk", "hash": "87cfe0890751c14248c131437027754d3115a3f256978bd117ce71ad36f8a1e6", "hashType": "sha256", "minSdkVersion": 24, "nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "packageName": "com.nihaltp.volume_lock", "sig": "58c0e9b9c8a42b832e2f45ebee3342eb", "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381", "size": 14877803, "targetSdkVersion": 36, "uses-permission": [["android.permission.CHANGE_AUDIO_SETTINGS", null], ["android.permission.MODIFY_AUDIO_SETTINGS", null], ["android.permission.FOREGROUND_SERVICE", null], ["android.permission.FOREGROUND_SERVICE_SPECIAL_USE", null], ["android.permission.RECEIVE_BOOT_COMPLETED", null], ["android.permission.POST_NOTIFICATIONS", null], ["android.permission.ACCESS_NOTIFICATION_POLICY", null], ["com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION", null]], "versionCode": 1, "versionName": "1.0.0"}]}}
+{
+  "repo": {
+    "timestamp": 1778852915000,
+    "version": 20002,
+    "name": "nihaltp",
+    "icon": "icon.png",
+    "address": "https://nihaltp.github.io/fdroid/repo",
+    "description": "This is a repository of apps made by nihaltp. Feel free to try them out!"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorEmail": "nihaltpnki@gmail.com",
+      "authorName": "nihaltp",
+      "binaries": "https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk",
+      "categories": [
+        "Multimedia",
+        "Time",
+        "Utilities"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n",
+      "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
+      "license": "MIT",
+      "sourceCode": "https://github.com/nihaltp/AfterSleep",
+      "summary": "Delayed media playback companion for sleep",
+      "webSite": "https://github.com/nihaltp/AfterSleep",
+      "added": 1778852814000,
+      "packageName": "com.nihaltp.aftersleep",
+      "lastUpdated": 1778852814000,
+      "localized": {
+        "en-US": {
+          "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\nHighlights:\n\u00e2\u20ac\u00a2 Dark-only Material 3 UI\n\u00e2\u20ac\u00a2 MediaSessionManager and MediaController based playback control\n\u00e2\u20ac\u00a2 Foreground service for reliable timers\n\u00e2\u20ac\u00a2 Notification listener support for active session detection\n\u00e2\u20ac\u00a2 MVVM architecture with StateFlow and coroutines\n\u00e2\u20ac\u00a2 Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior\n",
+          "icon": "icon_tjVjUxAqc2Wg1cEAO6_6dr3x4Ooi72fSbvITRSMZPug=.png",
+          "name": "AfterSleep",
+          "phoneScreenshots": [
+            "1.jpg",
+            "2.jpg",
+            "3.jpg"
+          ],
+          "summary": "Set a timer to automatically pause or resume media playback while you sleep.",
+          "whatsNew": "# Version 1\n\nInitial release of YT Playback Timer.\n\nFeatures:\n\n* Set a playback timer for YouTube videos\n* Automatically pauses playback when the timer ends\n* Clean dark-themed interface\n* Simple and lightweight design\n* Works locally without unnecessary permissions\n"
+        }
+      }
+    },
+    {
+      "authorEmail": "nihaltpnki@gmail.com",
+      "authorName": "nihaltp",
+      "binaries": "https://github.com/nihaltp/secret_chat/releases/download/v{version}/app-release.apk",
+      "categories": [
+        "Internet",
+        "Connectivity",
+        "Messaging"
+      ],
+      "suggestedVersionCode": "9",
+      "description": "A simple LAN chat app built using Flutter. It allows users to chat with each other over a local network without the need for an internet connection. The app uses UDP sockets for communication and supports text messaging.",
+      "issueTracker": "https://github.com/nihaltp/secret_chat/issues",
+      "license": "MIT",
+      "sourceCode": "https://github.com/nihaltp/secret_chat",
+      "summary": "Peer-to-peer LAN chat app",
+      "webSite": "https://nihaltp.github.io/secret_chat/",
+      "added": 1775759883000,
+      "packageName": "com.nihaltp.secret_chat",
+      "lastUpdated": 1776194614000,
+      "localized": {
+        "en-US": {
+          "description": "Secret Chat is a local area network (LAN) messaging application that allows you to chat with friends and colleagues without an internet connection. Perfect for conferences, offices, events, or any situation where you need secure, private communication within a local network.\n\nFeatures:\n\u00e2\u20ac\u00a2 No Internet Required - Chat over your local WiFi or mobile hotspot\n\u00e2\u20ac\u00a2 Privacy Focused - Messages stay on your local network\n\u00e2\u20ac\u00a2 Multiple Security Options - Protect your rooms with passwords, PINs, or pattern locks\n\u00e2\u20ac\u00a2 Dark Theme - Easy on the eyes with built-in dark mode\n\u00e2\u20ac\u00a2 App Lock - Biometric or screen lock protection for the entire app\n\u00e2\u20ac\u00a2 Hidden Rooms - Create private rooms that don't appear in the room list\n\u00e2\u20ac\u00a2 Message History - Messages persist while the app is running, cleared when closed\n\u00e2\u20ac\u00a2 Material Design 3 - Modern, clean interface\n\nHow to Use:\n1. Choose \"Host Network\" to create a room and share as the host\n2. Or choose \"Use Wi-Fi\" to browse and join existing rooms\n3. Optionally protect your room with a password, PIN, or pattern\n4. Start chatting - all communication stays within your local network\n\nSecurity:\n- All communication happens locally on your WiFi network\n- No data transmitted to external servers\n- Messages are not stored permanently\n- Supports biometric authentication\n- Pattern lock option for additional security\n\nPerfect for:\n\u00e2\u20ac\u00a2 Office communications and quick collaboration\n\u00e2\u20ac\u00a2 Conferences and events\n\u00e2\u20ac\u00a2 Classroom discussions\n\u00e2\u20ac\u00a2 LAN parties and gaming events\n\u00e2\u20ac\u00a2 Emergency communication when internet is unavailable\n\u00e2\u20ac\u00a2 Privacy-conscious users who want local control",
+          "icon": "icon_O_WgVXogi560N3_I3SgnduiPjuj0DtgbaKww1bp0n-A=.png",
+          "name": "Secret Chat",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png",
+            "4.png"
+          ],
+          "summary": "LAN chat without internet - secure, private, instant messages",
+          "whatsNew": "v1.2.1 - Padding Compatibility & Test Reliability\n\u00e2\u20ac\u00a2 Fixed message delivery between devices with different message padding settings (chunk size mismatch).\n\u00e2\u20ac\u00a2 Added cross-device tests for mismatched padding in both user and room chat.\n\u00e2\u20ac\u00a2 Improved failover test reliability (host readiness wait).\n\u00e2\u20ac\u00a2 All tests and analyzer clean for release.\n"
+        }
+      }
+    },
+    {
+      "authorEmail": "nihaltpnki@gmail.com",
+      "authorName": "nihaltp",
+      "binaries": "https://github.com/nihaltp/volume_lock/releases/download/v{version}/app-release.apk",
+      "categories": [
+        "System",
+        "Volume Control",
+        "Accessibility",
+        "Utilities"
+      ],
+      "suggestedVersionCode": "2",
+      "description": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes.",
+      "issueTracker": "https://github.com/nihaltp/volume_lock/issues",
+      "license": "MIT",
+      "sourceCode": "https://github.com/nihaltp/volume_lock",
+      "summary": "A simple volume lock app",
+      "webSite": "https://nihaltp.github.io/volume_lock/",
+      "added": 1776154885000,
+      "packageName": "com.nihaltp.volume_lock",
+      "lastUpdated": 1776232479000,
+      "localized": {
+        "en-US": {
+          "description": "Volume Lock gives you fine-grained control over your Android audio behavior with two core features:\n\n- Volume Lock: when the screen turns off, current media, ring, notification, and alarm volumes are locked and automatically restored if changed.\n- App Volume Lock: saves and restores media volume for selected apps when you return to them.\n\nKey highlights:\n- Tracks and restores audio levels automatically\n- Lets you choose which apps participate in App Volume Lock\n- Keeps behavior consistent after reboot\n\nPermissions:\n- Do Not Disturb / Notification Policy access is needed to lock ring and notification volumes on Android 6+\n- Accessibility service is needed to detect foreground app changes for App Volume Lock\n\nBuilt with Flutter",
+          "icon": "icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png",
+          "name": "Volume Lock",
+          "phoneScreenshots": [
+            "1.png",
+            "2.png",
+            "3.png"
+          ],
+          "summary": "Lock device volume profiles and auto-restore per-app media volume.",
+          "whatsNew": "Show all app icon/logo in app list. Fix bug for adaptive icon. Fallback to letter if icon missing. Many grunt.\n"
+        }
+      }
+    }
+  ],
+  "packages": {
+    "com.nihaltp.aftersleep": [
+      {
+        "added": 1778852814000,
+        "apkName": "com.nihaltp.aftersleep_1.apk",
+        "hash": "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.aftersleep",
+        "sig": "143c85513cbb522e8dfce3f2f1a72ab1",
+        "signer": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908",
+        "size": 14926931,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
+    "com.nihaltp.secret_chat": [
+      {
+        "added": 1776194614000,
+        "apkName": "com.nihaltp.secret_chat_9.apk",
+        "hash": "d423067bcaff25d9734d9d631168f650de89dc514d386148f8479f4036dc7d52",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.secret_chat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 16166951,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 9,
+        "versionName": "1.2.1"
+      },
+      {
+        "added": 1776146239000,
+        "apkName": "com.nihaltp.secret_chat_8.apk",
+        "hash": "6d11f6ea77109c18f4500bed63359ef241032bd597d999b112aca161a5026206",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.secret_chat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 16146663,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 8,
+        "versionName": "1.2.0"
+      },
+      {
+        "added": 1775997875000,
+        "apkName": "com.nihaltp.secret_chat_7.apk",
+        "hash": "60ca8db6bf9c2b2168b5ca8b7c6b7db77415ba68ae66b47182ee82746d6f7d28",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.secret_chat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 50478457,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 7,
+        "versionName": "1.1.5"
+      }
+    ],
+    "com.nihaltp.volume_lock": [
+      {
+        "added": 1776232479000,
+        "apkName": "com.nihaltp.volume_lock_2.apk",
+        "hash": "2dbe387a3141c13129b48aed4e2c6927d85a6e696eaa9a5fda2e48fbc421bde7",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.volume_lock",
+        "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
+        "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
+        "size": 14929579,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CHANGE_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NOTIFICATION_POLICY",
+            null
+          ],
+          [
+            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1.0"
+      },
+      {
+        "added": 1776154885000,
+        "apkName": "com.nihaltp.volume_lock_1.apk",
+        "hash": "87cfe0890751c14248c131437027754d3115a3f256978bd117ce71ad36f8a1e6",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.volume_lock",
+        "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
+        "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
+        "size": 14877803,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.CHANGE_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.MODIFY_AUDIO_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NOTIFICATION_POLICY",
+            null
+          ],
+          [
+            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0.0"
+      }
+    ]
+  }
+}
