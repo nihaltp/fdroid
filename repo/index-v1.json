@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1778852915000,
+    "timestamp": 1778870980000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -21,7 +21,7 @@
         "Time",
         "Utilities"
       ],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "2",
       "description": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n",
       "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
       "license": "MIT",
@@ -30,7 +30,7 @@
       "webSite": "https://github.com/nihaltp/AfterSleep",
       "added": 1778852814000,
       "packageName": "com.nihaltp.aftersleep",
-      "lastUpdated": 1778852814000,
+      "lastUpdated": 1778870975000,
       "localized": {
         "en-US": {
           "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\nHighlights:\n\u00e2\u20ac\u00a2 Dark-only Material 3 UI\n\u00e2\u20ac\u00a2 MediaSessionManager and MediaController based playback control\n\u00e2\u20ac\u00a2 Foreground service for reliable timers\n\u00e2\u20ac\u00a2 Notification listener support for active session detection\n\u00e2\u20ac\u00a2 MVVM architecture with StateFlow and coroutines\n\u00e2\u20ac\u00a2 Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior\n",
@@ -42,7 +42,7 @@
             "3.jpg"
           ],
           "summary": "Set a timer to automatically pause or resume media playback while you sleep.",
-          "whatsNew": "# Version 1\n\nInitial release of YT Playback Timer.\n\nFeatures:\n\n* Set a playback timer for YouTube videos\n* Automatically pauses playback when the timer ends\n* Clean dark-themed interface\n* Simple and lightweight design\n* Works locally without unnecessary permissions\n"
+          "whatsNew": "# Version 2\n\nRelease notes for the current AfterSleep update:\n\n* Add a splash screen\n"
         }
       }
     },
@@ -119,6 +119,52 @@
   ],
   "packages": {
     "com.nihaltp.aftersleep": [
+      {
+        "added": 1778870975000,
+        "apkName": "com.nihaltp.AfterSleep_2.apk",
+        "hash": "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.aftersleep",
+        "sig": "143c85513cbb522e8dfce3f2f1a72ab1",
+        "signer": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908",
+        "size": 14927499,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.0.1"
+      },
       {
         "added": 1778852814000,
         "apkName": "com.nihaltp.aftersleep_1.apk",

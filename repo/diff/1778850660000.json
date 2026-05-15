@@ -1,14 +1,61 @@
 {
   "repo": {
-    "timestamp": 1778852915000
+    "timestamp": 1778870980000
   },
   "packages": {
     "com.nihaltp.aftersleep": {
       "metadata": {
         "added": 1778852814000,
-        "lastUpdated": 1778852814000
+        "lastUpdated": 1778870975000
       },
       "versions": {
+        "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103": {
+          "added": 1778870975000,
+          "file": {
+            "name": "/com.nihaltp.AfterSleep_2.apk",
+            "sha256": "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe": {
           "added": 1778852814000
         }
