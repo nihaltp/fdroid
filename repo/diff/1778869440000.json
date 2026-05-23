@@ -1,14 +1,61 @@
 {
   "repo": {
-    "timestamp": 1778870980000
+    "timestamp": 1779522643000
   },
   "packages": {
     "com.nihaltp.aftersleep": {
       "metadata": {
-        "lastUpdated": 1778870975000
+        "lastUpdated": 1779522639000
       },
       "versions": {
         "210837f0179afcde51b5390520f9986bff6e91a1c57d605485fb036cb47cf8cf": null,
+        "df33e6fef5acceeaadda2dc2b2f3cd3361383fd90e1388c52a682dc24fae2e48": {
+          "added": 1779522639000,
+          "file": {
+            "name": "/com.nihaltp.AfterSleep_3.apk",
+            "sha256": "df33e6fef5acceeaadda2dc2b2f3cd3361383fd90e1388c52a682dc24fae2e48",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103": {
           "added": 1778870975000,
           "file": {

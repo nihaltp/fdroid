@@ -7,16 +7,15 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1778870984058,
+  "endTimestamp": 1779522646957,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "3cf4995965c2edd31822a0b946937ae7513f08fe",
+    "commitId": "1ed7dd731366f5c16ecd8d6551a8659ba95d351f",
     "isDirty": false,
     "modifiedFiles": [],
     "untrackedFiles": [
-      "metadata/com.nihaltp.aftersleep/en-US/changelog/1.txt",
-      "metadata/com.nihaltp.aftersleep/en-US/changelog/2.txt",
-      "repo/com.nihaltp.AfterSleep_2.apk"
+      "metadata/com.nihaltp.aftersleep/en-US/changelog/3.txt",
+      "repo/com.nihaltp.AfterSleep_3.apk"
     ]
   },
   "jarsigner": "C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE",
@@ -33,17 +32,17 @@
   ],
   "noUpdateCheck": [],
   "stages": {
-    "archive_old_apks archive": 1778870975966,
-    "delete_disabled_builds": 1778870974824,
-    "index.make archive": 1778870975968,
-    "index.make repo": 1778870980408,
-    "prepare_apps archive": 1778870975967,
-    "prepare_apps repo": 1778870980343,
-    "process_apks": 1778870974824,
-    "read_added_date_from_all_apks": 1778870975965,
-    "remove_apks": 1778870975957,
-    "scan_repo_files": 1778870975954
+    "archive_old_apks archive": 1779522639120,
+    "delete_disabled_builds": 1779522635859,
+    "index.make archive": 1779522639122,
+    "index.make repo": 1779522643535,
+    "prepare_apps archive": 1779522639121,
+    "prepare_apps repo": 1779522643493,
+    "process_apks": 1779522635865,
+    "read_added_date_from_all_apks": 1779522639119,
+    "remove_apks": 1779522639113,
+    "scan_repo_files": 1779522639110
   },
-  "startTimestamp": 1778851174000,
+  "startTimestamp": 1779502833000,
   "subcommand": "update"
 }
