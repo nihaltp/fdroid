@@ -1,1 +1,87 @@
-{"antiFeatures":{},"apksigner":"C:/Users/pc/AppData/Local/Android/Sdk/build-tools/36.0.0\\apksigner.bat","archivePolicy0":[],"commandLine":["C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\fdroid update","--create-metadata"],"disabled":[],"endTimestamp":1779524983835,"failedBuilds":{},"fdroiddata":{"commitId":"f0dffe513b29ecdde114d6aa874a92bb045a4499","isDirty":false,"modifiedFiles":[],"untrackedFiles":[]},"jarsigner":"C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE","keytool":"C:\\Program Files\\Java\\jdk-24\\bin\\keytool.EXE","needsUpdate":["com.nihaltp.aftersleep","com.nihaltp.secret_chat","com.nihaltp.volume_lock"],"noPackages":["com.nihaltp.aftersleep","com.nihaltp.secret_chat","com.nihaltp.volume_lock"],"noUpdateCheck":[],"stages":{"archive_old_apks archive":1779524976401,"delete_disabled_builds":1779524976392,"index.make archive":1779524976405,"index.make repo":1779524980104,"prepare_apps archive":1779524976403,"prepare_apps repo":1779524980072,"process_apks":1779524976393,"read_added_date_from_all_apks":1779524976401,"remove_apks":1779524976398,"scan_repo_files":1779524976396},"startTimestamp":1779505175000,"subcommand":"update"}
+{
+  "antiFeatures": {},
+  "apksigner": "C:/Users/pc/AppData/Local/Android/Sdk/build-tools/36.0.0\\apksigner.bat",
+  "archivePolicy0": [],
+  "commandLine": [
+    "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1780082902471,
+  "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": "74ebb1456b27c082b970a29d6c3843111203931a",
+    "isDirty": true,
+    "modifiedFiles": [
+      "archive/diff/1778850727000.json",
+      "archive/diff/1778851923000.json",
+      "archive/diff/1778852042000.json",
+      "archive/diff/1778852278000.json",
+      "archive/diff/1778852814000.json",
+      "archive/diff/1778852911000.json",
+      "archive/diff/1778869434000.json",
+      "archive/diff/1778869659000.json",
+      "archive/diff/1778870975000.json",
+      "archive/diff/1779522639000.json",
+      "archive/entry.json",
+      "archive/index-v1.jar",
+      "archive/index-v1.json",
+      "archive/index-v2.json",
+      "archive/index.jar",
+      "archive/index.xml",
+      "repo/diff/1778850731000.json",
+      "repo/diff/1778851929000.json",
+      "repo/diff/1778852048000.json",
+      "repo/diff/1778852282000.json",
+      "repo/diff/1778852820000.json",
+      "repo/diff/1778852915000.json",
+      "repo/diff/1778869440000.json",
+      "repo/diff/1778869663000.json",
+      "repo/diff/1778870980000.json",
+      "repo/diff/1779522643000.json",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.jar",
+      "repo/index.xml",
+      "repo/status/running.json",
+      "repo/status/update.json"
+    ],
+    "untrackedFiles": [
+      "archive/diff/1779524976000.json",
+      "repo/com.nihaltp.secret_chat_4.apk",
+      "repo/com.nihaltp.secret_chat_5.apk",
+      "repo/com.nihaltp.secret_chat_6.apk",
+      "repo/diff/1779524980000.json"
+    ]
+  },
+  "jarsigner": "C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE",
+  "keytool": "C:\\Program Files\\Java\\jdk-24\\bin\\keytool.EXE",
+  "needsUpdate": [
+    "com.nihaltp.aftersleep",
+    "com.nihaltp.secret_chat",
+    "com.nihaltp.volume_lock"
+  ],
+  "noPackages": [
+    "com.nihaltp.aftersleep",
+    "com.nihaltp.secret_chat",
+    "com.nihaltp.volume_lock"
+  ],
+  "noUpdateCheck": [],
+  "stages": {
+    "archive_old_apks archive": 1780082894778,
+    "delete_disabled_builds": 1780082894771,
+    "index.make archive": 1780082894782,
+    "index.make repo": 1780082898449,
+    "prepare_apps archive": 1780082894781,
+    "prepare_apps repo": 1780082898417,
+    "process_apks": 1780082894771,
+    "read_added_date_from_all_apks": 1780082894778,
+    "remove_apks": 1780082894776,
+    "scan_repo_files": 1780082894775
+  },
+  "startTimestamp": 1780063094000,
+  "subcommand": "update"
+}
