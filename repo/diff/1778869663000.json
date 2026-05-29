@@ -1,6 +1,18 @@
 {
   "repo": {
-    "timestamp": 1780082898000
+    "timestamp": 1780085913000,
+    "categories": {
+      "Audio": {
+        "name": {
+          "en-US": "Audio"
+        }
+      },
+      "Video": {
+        "name": {
+          "en-US": "Video"
+        }
+      }
+    }
   },
   "packages": {
     "com.nihaltp.aftersleep": {
@@ -99,6 +111,130 @@
               },
               {
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.nihaltp.sbskip": {
+      "metadata": {
+        "added": 1780085906000,
+        "categories": [
+          "Multimedia",
+          "Video",
+          "Audio"
+        ],
+        "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
+        "lastUpdated": 1780085906000,
+        "license": "GPL-3.0-only",
+        "sourceCode": "https://github.com/nihaltp/SBSkip",
+        "webSite": "https://github.com/nihaltp/SBSkip",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png",
+                "sha256": "74f40924b9b911ead13807b394dedadcaad78efeedbe7fb7b811ca1aba01e5b1",
+                "size": 122787
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png",
+                "sha256": "ebd4ed00debc1a69fe05f34d8a4a12c3e41019d251f31a192fa4c49588cf862f",
+                "size": 101353
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png",
+                "sha256": "099bd4b1372d6d13970520ca06522c5d57dd4fc26f05021a21c70fa0fce8aaec",
+                "size": 89144
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/4.png",
+                "sha256": "5e69427685d0dba4b7d890d5b7677ffda500acf6c942a727b355d59567e83244",
+                "size": 120863
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/5.png",
+                "sha256": "3c80f18ac3909b5fb3fd014d5c6d591462759b4d3f6324261d7e7e6676e5455e",
+                "size": 100078
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png",
+                "sha256": "349c57fd70af20af206e28764b59928ac1e494d0935ce92bca48e34d28931523",
+                "size": 87868
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "SB Skip"
+        },
+        "summary": {
+          "en-US": "Remove SponsorBlock segments from local video and audio files"
+        },
+        "description": {
+          "en-US": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.sbskip/en-US/icon_qwYQVmszeI92847Nyr8wq3Qkrfe6-PwdBzkq--_fh5E=.png",
+            "sha256": "ab0610566b33788f76f38ecdcabf30ab7424adf7baf8fc1d07392afbefdf8791",
+            "size": 1434673
+          }
+        },
+        "preferredSigner": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+      },
+      "versions": {
+        "aeeff0e2f9cb027b5fd26e85d3aa56099bf5a93a39e58bbccf4d23b81b6b6236": {
+          "added": 1780085906000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_1.apk",
+            "sha256": "aeeff0e2f9cb027b5fd26e85d3aa56099bf5a93a39e58bbccf4d23b81b6b6236",
+            "size": 82883854
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.0.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
