@@ -1,1 +1,60 @@
-{"antiFeatures":{},"apksigner":"C:/Users/pc/AppData/Local/Android/Sdk/build-tools/36.0.0\\apksigner.bat","archivePolicy0":[],"commandLine":["C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\fdroid update"],"disabled":[],"endTimestamp":1780257275136,"failedBuilds":{},"fdroiddata":{"commitId":"8a2c978bb7e2c5d1f308ed77ff202d79a1668f58","isDirty":true,"modifiedFiles":[".gitignore","release.ps1"],"untrackedFiles":["test.txt"]},"jarsigner":"C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE","keytool":"C:\\Program Files\\Java\\jdk-24\\bin\\keytool.EXE","needsUpdate":["com.nihaltp.aftersleep","com.nihaltp.sbskip","com.nihaltp.secret_chat","com.nihaltp.volume_lock"],"noPackages":["com.nihaltp.aftersleep","com.nihaltp.sbskip","com.nihaltp.secret_chat","com.nihaltp.volume_lock"],"noUpdateCheck":[],"stages":{"archive_old_apks archive":1780257266960,"delete_disabled_builds":1780257266934,"index.make archive":1780257266965,"index.make repo":1780257271623,"prepare_apps archive":1780257266964,"prepare_apps repo":1780257271065,"process_apks":1780257266936,"read_added_date_from_all_apks":1780257266959,"remove_apks":1780257266956,"scan_repo_files":1780257266951},"startTimestamp":1780237466000,"subcommand":"update"}
+{
+  "antiFeatures": {},
+  "apksigner": "C:/Users/pc/AppData/Local/Android/Sdk/build-tools/36.0.0\\apksigner.bat",
+  "archivePolicy0": [],
+  "commandLine": [
+    "C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\fdroid update",
+    "--pretty"
+  ],
+  "disabled": [],
+  "endTimestamp": 1780257891952,
+  "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": "59af7c91e2ab35b80c5db4612be3b933e43c4e08",
+    "isDirty": true,
+    "modifiedFiles": [
+      ".gitignore",
+      "repo/com.nihaltp.sbskip_2.apk",
+      "repo/status/running.json"
+    ],
+    "untrackedFiles": [
+      "release-folder.ps1",
+      "release.ps1",
+      "repo/com.nihaltp.sbskip_2001.apk",
+      "repo/com.nihaltp.sbskip_2002.apk",
+      "repo/com.nihaltp.sbskip_2003.apk",
+      "repo/com.nihaltp.sbskip_2004.apk",
+      "repo/status/deploy.json",
+      "test.txt"
+    ]
+  },
+  "jarsigner": "C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE",
+  "keytool": "C:\\Program Files\\Java\\jdk-24\\bin\\keytool.EXE",
+  "needsUpdate": [
+    "com.nihaltp.aftersleep",
+    "com.nihaltp.sbskip",
+    "com.nihaltp.secret_chat",
+    "com.nihaltp.volume_lock"
+  ],
+  "noPackages": [
+    "com.nihaltp.aftersleep",
+    "com.nihaltp.sbskip",
+    "com.nihaltp.secret_chat",
+    "com.nihaltp.volume_lock"
+  ],
+  "noUpdateCheck": [],
+  "stages": {
+    "archive_old_apks archive": 1780257883408,
+    "delete_disabled_builds": 1780257878506,
+    "index.make archive": 1780257883412,
+    "index.make repo": 1780257888126,
+    "prepare_apps archive": 1780257883410,
+    "prepare_apps repo": 1780257887347,
+    "process_apks": 1780257878507,
+    "read_added_date_from_all_apks": 1780257883407,
+    "remove_apks": 1780257883399,
+    "scan_repo_files": 1780257883394
+  },
+  "startTimestamp": 1780238075000,
+  "subcommand": "update"
+}
