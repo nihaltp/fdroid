@@ -1,1 +1,72 @@
-{"timestamp": 1780262350000, "version": 20002, "index": {"name": "/index-v2.json", "sha256": "40c4295bdd29cad9d51bad289a5bad14e3e70e53323f8d59b42b1e095e163deb", "size": 30766, "numPackages": 4}, "diffs": {"1780085913000": {"name": "/diff/1780085913000.json", "sha256": "8e25576552fbdd207a8feb566191bdd2fd9b25f22168912b6b0732b3c89a3aee", "size": 13946, "numPackages": 3}, "1780232110000": {"name": "/diff/1780232110000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780232596000": {"name": "/diff/1780232596000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780232767000": {"name": "/diff/1780232767000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780232934000": {"name": "/diff/1780232934000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780233072000": {"name": "/diff/1780233072000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780239946000": {"name": "/diff/1780239946000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780257271000": {"name": "/diff/1780257271000.json", "sha256": "51f2692f9a149028da040d34f7082eb92a87b23a64d75d2137bbce424953a6f4", "size": 13047, "numPackages": 3}, "1780257888000": {"name": "/diff/1780257888000.json", "sha256": "76978a67aad4b80c7273e72e9b7898f657a11e57ac38125fa9cbd50c40a63433", "size": 8254, "numPackages": 2}, "1780259811000": {"name": "/diff/1780259811000.json", "sha256": "ae31d659e72c3bfbd808377019e6ee22424e65eee6a16f8a63ac4cb1831bafbe", "size": 3713, "numPackages": 2}}}
+{
+  "timestamp": 1780265736000,
+  "version": 20002,
+  "index": {
+    "name": "/index-v2.json",
+    "sha256": "6b2b86a2b4aec591d51bd07f1f3ca4bdbe0a751b9565d3626a3f295cfabd3f02",
+    "size": 57041,
+    "numPackages": 4
+  },
+  "diffs": {
+    "1780232934000": {
+      "name": "/diff/1780232934000.json",
+      "sha256": "8e6c5d9170e854a550443a9a3e23967f8c5209757acf8cb0ddb7a8982005935a",
+      "size": 30075,
+      "numPackages": 4
+    },
+    "1780233072000": {
+      "name": "/diff/1780233072000.json",
+      "sha256": "8e6c5d9170e854a550443a9a3e23967f8c5209757acf8cb0ddb7a8982005935a",
+      "size": 30075,
+      "numPackages": 4
+    },
+    "1780239946000": {
+      "name": "/diff/1780239946000.json",
+      "sha256": "8e6c5d9170e854a550443a9a3e23967f8c5209757acf8cb0ddb7a8982005935a",
+      "size": 30075,
+      "numPackages": 4
+    },
+    "1780257271000": {
+      "name": "/diff/1780257271000.json",
+      "sha256": "8e6c5d9170e854a550443a9a3e23967f8c5209757acf8cb0ddb7a8982005935a",
+      "size": 30075,
+      "numPackages": 4
+    },
+    "1780257888000": {
+      "name": "/diff/1780257888000.json",
+      "sha256": "e64096b990103c965f9dfeaf500a490da3090adfa974ee5d5e5ddddca6f09a07",
+      "size": 21480,
+      "numPackages": 3
+    },
+    "1780259811000": {
+      "name": "/diff/1780259811000.json",
+      "sha256": "1f21de06e483a7a6a30190e3c408760c01f3b9bdc1144cd1b656fbb790fb5623",
+      "size": 13759,
+      "numPackages": 3
+    },
+    "1780262350000": {
+      "name": "/diff/1780262350000.json",
+      "sha256": "3cbf048e47e5e7236512cd331a0bda6b67b9bc9b9af1651da29df6d8d086f81e",
+      "size": 7184,
+      "numPackages": 1
+    },
+    "1780262824000": {
+      "name": "/diff/1780262824000.json",
+      "sha256": "3cbf048e47e5e7236512cd331a0bda6b67b9bc9b9af1651da29df6d8d086f81e",
+      "size": 7184,
+      "numPackages": 1
+    },
+    "1780264322000": {
+      "name": "/diff/1780264322000.json",
+      "sha256": "7040d3be06176ef4cbcc46fc9033484695abdef13f1c2e3c7db061b2de3ed44a",
+      "size": 7184,
+      "numPackages": 1
+    },
+    "1780265037000": {
+      "name": "/diff/1780265037000.json",
+      "sha256": "e8faed0a66235ee8622a6874c6937b238dd2dbc1712d6cb707ae5fc119804edd",
+      "size": 5342,
+      "numPackages": 1
+    }
+  }
+}

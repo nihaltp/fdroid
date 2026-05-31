@@ -1,1 +1,20 @@
-{"repo": {"name": {"en-US": "nihaltp archive"}, "description": {"en-US": "The repository of older versions of packages from nihaltp repository."}, "icon": {"en-US": {"name": "/icons/icon.png", "sha256": "33a370ce1da2276e2fbdc7bd78808037314aba2f2a4d9b2c465047340e9d6e79", "size": 43847}}, "address": "https://nihaltp.github.io/fdroid/archive", "timestamp": 1780262340000}, "packages": {}}
+{
+  "repo": {
+    "name": {
+      "en-US": "nihaltp archive"
+    },
+    "description": {
+      "en-US": "The repository of older versions of packages from nihaltp repository."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "33a370ce1da2276e2fbdc7bd78808037314aba2f2a4d9b2c465047340e9d6e79",
+        "size": 43847
+      }
+    },
+    "address": "https://nihaltp.github.io/fdroid/archive",
+    "timestamp": 1780265731000
+  },
+  "packages": {}
+}
