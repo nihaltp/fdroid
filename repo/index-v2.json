@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1780085913000,
+    "timestamp": 1780232110000,
     "categories": {
       "Accessibility": {
         "name": {
@@ -281,7 +281,7 @@
           "Audio"
         ],
         "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
-        "lastUpdated": 1780085906000,
+        "lastUpdated": 1780232103000,
         "license": "GPL-3.0-only",
         "sourceCode": "https://github.com/nihaltp/SBSkip",
         "webSite": "https://github.com/nihaltp/SBSkip",
@@ -290,13 +290,13 @@
             "en-US": [
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png",
-                "sha256": "74f40924b9b911ead13807b394dedadcaad78efeedbe7fb7b811ca1aba01e5b1",
-                "size": 122787
+                "sha256": "16e4103124ae41612b769087a178afe17534dd0e92dcf001b612b437cd08fd50",
+                "size": 125619
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png",
-                "sha256": "ebd4ed00debc1a69fe05f34d8a4a12c3e41019d251f31a192fa4c49588cf862f",
-                "size": 101353
+                "sha256": "f8bfd9bfdbbeaa462edcab378f101f8088be0de789e740a883b2ef951c8c256b",
+                "size": 107268
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png",
@@ -305,13 +305,13 @@
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/4.png",
-                "sha256": "5e69427685d0dba4b7d890d5b7677ffda500acf6c942a727b355d59567e83244",
-                "size": 120863
+                "sha256": "47c70e72cf9e39053247a1405476df83fe3b77e6fc15fed8552ebf4f0b2186a1",
+                "size": 123889
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/5.png",
-                "sha256": "3c80f18ac3909b5fb3fd014d5c6d591462759b4d3f6324261d7e7e6676e5455e",
-                "size": 100078
+                "sha256": "d12eae672b67d43429a703ad5cbedbbea42d921feb74804f6ae9067523bd9acb",
+                "size": 105694
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png",
@@ -342,6 +342,58 @@
         "preferredSigner": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
       },
       "versions": {
+        "c1b7d1abceaf2283e6218ea9048a91bf71113a3c7aecac03f22d12c4c2806949": {
+          "added": 1780232103000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_2.apk",
+            "sha256": "c1b7d1abceaf2283e6218ea9048a91bf71113a3c7aecac03f22d12c4c2806949",
+            "size": 82886582
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.1.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "aeeff0e2f9cb027b5fd26e85d3aa56099bf5a93a39e58bbccf4d23b81b6b6236": {
           "added": 1780085906000,
           "file": {

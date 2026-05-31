@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780085913000,
+    "timestamp": 1780232110000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -55,7 +55,7 @@
         "Video",
         "Audio"
       ],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "2",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
       "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
       "license": "GPL-3.0-only",
@@ -64,7 +64,7 @@
       "webSite": "https://github.com/nihaltp/SBSkip",
       "added": 1780085906000,
       "packageName": "com.nihaltp.sbskip",
-      "lastUpdated": 1780085906000,
+      "lastUpdated": 1780232103000,
       "localized": {
         "en-US": {
           "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\nFeatures:\n\n\u00e2\u20ac\u00a2 Remove SponsorBlock segments from existing video and audio files\n\u00e2\u20ac\u00a2 Supports videos and audio shared from other apps\n\u00e2\u20ac\u00a2 Paste a YouTube URL to retrieve SponsorBlock segment information\n\u00e2\u20ac\u00a2 Queue multiple cleaning jobs for background processing\n\u00e2\u20ac\u00a2 Configure which SponsorBlock categories should be removed\n\u00e2\u20ac\u00a2 Persistent queue with progress tracking and notifications\n\u00e2\u20ac\u00a2 Separate settings for output behavior and file handling\n\u00e2\u20ac\u00a2 Material 3 user interface\n\u00e2\u20ac\u00a2 Translation-ready and fully open source\n\nSupported SponsorBlock categories include:\n\n\u00e2\u20ac\u00a2 Sponsor segments\n\u00e2\u20ac\u00a2 Self-promotion\n\u00e2\u20ac\u00a2 Interaction reminders (like, subscribe, etc.)\n\u00e2\u20ac\u00a2 Intros\n\u00e2\u20ac\u00a2 Outros\n\u00e2\u20ac\u00a2 Preview/recap sections\n\u00e2\u20ac\u00a2 Filler content\n\u00e2\u20ac\u00a2 Music off-topic sections\n\u00e2\u20ac\u00a2 And other categories provided by SponsorBlock\n\nHow it works:\n\n1. Select or share a media file with SB Skip.\n2. Provide the corresponding YouTube URL.\n3. SB Skip retrieves SponsorBlock segment data.\n4. Unwanted segments are removed from the media file.\n5. A cleaned copy is saved to your device.\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
@@ -79,7 +79,7 @@
             "6.png"
           ],
           "summary": "Remove SponsorBlock segments from downloaded videos and audio files.",
-          "whatsNew": "Initial release of SB Skip! Remove SponsorBlock-marked sections (sponsors, self-promotion, intros/outros) from your local audio and video files automatically in the background.\n"
+          "whatsNew": "SB Skip v1.1.0 (2026-05-31)\n\nRelease highlights\n- Feature work: video/audio conversion enhancements and UI updates.\n- SponsorBlock integration: status URL handling + status-check worker.\n- Build & packaging: resource shrinking enabled for release builds.\n- UX polish: swapped several outlined icons for filled variants.\n- Various small bug fixes and debug improvements.\n\nCommits included in this release\n- 5b3993d  feat: enhance video conversion functionality and UI for direct audio conversion\n- 7a2"
         }
       }
     },
@@ -296,6 +296,59 @@
       }
     ],
     "com.nihaltp.sbskip": [
+      {
+        "added": 1780232103000,
+        "apkName": "com.nihaltp.sbskip_2.apk",
+        "hash": "c1b7d1abceaf2283e6218ea9048a91bf71113a3c7aecac03f22d12c4c2806949",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 82886582,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1.0"
+      },
       {
         "added": 1780085906000,
         "apkName": "com.nihaltp.sbskip_1.apk",
