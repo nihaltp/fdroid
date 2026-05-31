@@ -1,10 +1,10 @@
 {
   "repo": {
-    "timestamp": 1780232103000,
+    "timestamp": 1780239941000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
-    "description": "The repository of older versions of packages from the main repository.",
+    "description": "The repository of older versions of packages from nihaltp repository.",
     "address": "https://nihaltp.github.io/fdroid/archive"
   },
   "requests": {

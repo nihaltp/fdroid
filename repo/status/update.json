@@ -7,21 +7,18 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1780232115450,
+  "endTimestamp": 1780239949945,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "5ca1974c184946a44320fb2e73daffeb9b828a88",
+    "commitId": "1db63d04c613656924deb170fa279f3476a5488b",
     "isDirty": true,
     "modifiedFiles": [
-      "metadata/com.nihaltp.sbskip/en-US/images/phoneScreenshots/1.png",
-      "metadata/com.nihaltp.sbskip/en-US/images/phoneScreenshots/2.png",
-      "metadata/com.nihaltp.sbskip/en-US/images/phoneScreenshots/4.png",
-      "metadata/com.nihaltp.sbskip/en-US/images/phoneScreenshots/5.png"
+      ".gitignore",
+      "repo/entry.jar",
+      "repo/index-v1.jar",
+      "repo/index.jar"
     ],
-    "untrackedFiles": [
-      "metadata/com.nihaltp.sbskip/en-US/changelogs/2.txt",
-      "repo/com.nihaltp.sbskip_2.apk"
-    ]
+    "untrackedFiles": []
   },
   "jarsigner": "C:\\Program Files\\Java\\jdk-24\\bin\\jarsigner.EXE",
   "keytool": "C:\\Program Files\\Java\\jdk-24\\bin\\keytool.EXE",
@@ -39,17 +36,17 @@
   ],
   "noUpdateCheck": [],
   "stages": {
-    "archive_old_apks archive": 1780232103669,
-    "delete_disabled_builds": 1780232101112,
-    "index.make archive": 1780232103672,
-    "index.make repo": 1780232110053,
-    "prepare_apps archive": 1780232103671,
-    "prepare_apps repo": 1780232109331,
-    "process_apks": 1780232101114,
-    "read_added_date_from_all_apks": 1780232103668,
-    "remove_apks": 1780232103662,
-    "scan_repo_files": 1780232103658
+    "archive_old_apks archive": 1780239941601,
+    "delete_disabled_builds": 1780239941592,
+    "index.make archive": 1780239941604,
+    "index.make repo": 1780239946030,
+    "prepare_apps archive": 1780239941603,
+    "prepare_apps repo": 1780239945478,
+    "process_apks": 1780239941593,
+    "read_added_date_from_all_apks": 1780239941600,
+    "remove_apks": 1780239941599,
+    "scan_repo_files": 1780239941597
   },
-  "startTimestamp": 1780212300000,
+  "startTimestamp": 1780220140000,
   "subcommand": "update"
 }

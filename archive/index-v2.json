@@ -4,7 +4,7 @@
       "en-US": "nihaltp archive"
     },
     "description": {
-      "en-US": "The repository of older versions of packages from the main repository."
+      "en-US": "The repository of older versions of packages from nihaltp repository."
     },
     "icon": {
       "en-US": {
@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/archive",
-    "timestamp": 1780232103000,
+    "timestamp": 1780239941000,
     "categories": {
       "Connectivity": {
         "name": {
