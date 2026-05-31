@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780257883000,
+    "timestamp": 1780259804000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -12,6 +12,31 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "authorEmail": "nihaltpnki@gmail.com",
+      "authorName": "nihaltp",
+      "binaries": "https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk",
+      "categories": [
+        "Multimedia",
+        "Time",
+        "Utilities"
+      ],
+      "suggestedVersionCode": "1",
+      "description": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n",
+      "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
+      "license": "MIT",
+      "sourceCode": "https://github.com/nihaltp/AfterSleep",
+      "summary": "Delayed media playback companion for sleep",
+      "webSite": "https://github.com/nihaltp/AfterSleep",
+      "added": 1778852814000,
+      "packageName": "com.nihaltp.aftersleep",
+      "lastUpdated": 1780259804000,
+      "localized": {
+        "en-US": {
+          "name": "AfterSleep"
+        }
+      }
+    },
     {
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
@@ -39,6 +64,54 @@
     }
   ],
   "packages": {
+    "com.nihaltp.aftersleep": [
+      {
+        "added": 1778852814000,
+        "apkName": "com.nihaltp.aftersleep_1.apk",
+        "hash": "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.aftersleep",
+        "sig": "143c85513cbb522e8dfce3f2f1a72ab1",
+        "signer": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908",
+        "size": 14926931,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1,
+        "versionName": "1.0"
+      }
+    ],
     "com.nihaltp.secret_chat": [
       {
         "added": 1775897087000,

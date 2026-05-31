@@ -7,24 +7,29 @@
     "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1780257891952,
+  "endTimestamp": 1780259817563,
   "failedBuilds": {},
   "fdroiddata": {
-    "commitId": "59af7c91e2ab35b80c5db4612be3b933e43c4e08",
+    "commitId": "fed402c3b43cf406b5401f4967ac40c87cfd03a9",
     "isDirty": true,
     "modifiedFiles": [
       ".gitignore",
-      "repo/com.nihaltp.sbskip_2.apk",
-      "repo/status/running.json"
+      "README.md",
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/1.jpg",
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/2.jpg",
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/3.jpg",
+      "repo/com.nihaltp.AfterSleep_3.apk"
     ],
     "untrackedFiles": [
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/1.png",
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/2.png",
+      "metadata/com.nihaltp.aftersleep/en-US/images/phoneScreenshots/3.png",
       "release-folder.ps1",
       "release.ps1",
-      "repo/com.nihaltp.sbskip_2001.apk",
-      "repo/com.nihaltp.sbskip_2002.apk",
-      "repo/com.nihaltp.sbskip_2003.apk",
-      "repo/com.nihaltp.sbskip_2004.apk",
-      "repo/status/deploy.json",
+      "repo/com.nihaltp.aftersleep_3001.apk",
+      "repo/com.nihaltp.aftersleep_3002.apk",
+      "repo/com.nihaltp.aftersleep_3003.apk",
+      "repo/com.nihaltp.aftersleep_3004.apk",
       "test.txt"
     ]
   },
@@ -44,17 +49,17 @@
   ],
   "noUpdateCheck": [],
   "stages": {
-    "archive_old_apks archive": 1780257883408,
-    "delete_disabled_builds": 1780257878506,
-    "index.make archive": 1780257883412,
-    "index.make repo": 1780257888126,
-    "prepare_apps archive": 1780257883410,
-    "prepare_apps repo": 1780257887347,
-    "process_apks": 1780257878507,
-    "read_added_date_from_all_apks": 1780257883407,
-    "remove_apks": 1780257883399,
-    "scan_repo_files": 1780257883394
+    "archive_old_apks archive": 1780259804429,
+    "delete_disabled_builds": 1780259799260,
+    "index.make archive": 1780259804436,
+    "index.make repo": 1780259811515,
+    "prepare_apps archive": 1780259804435,
+    "prepare_apps repo": 1780259810386,
+    "process_apks": 1780259799261,
+    "read_added_date_from_all_apks": 1780259804428,
+    "remove_apks": 1780259804417,
+    "scan_repo_files": 1780259804413
   },
-  "startTimestamp": 1780238075000,
+  "startTimestamp": 1780239998000,
   "subcommand": "update"
 }
