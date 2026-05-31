@@ -13,3 +13,6 @@ unsigned/
 # Other miscellaneous files
 *.ps1
 *.ini
+
+# Status files
+repo/status/

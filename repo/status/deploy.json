@@ -1,1 +1,0 @@
-{"commandLine":["C:\\Users\\pc\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\fdroid deploy"],"endTimestamp":1780257480750,"fdroiddata":{"commitId":"59af7c91e2ab35b80c5db4612be3b933e43c4e08","isDirty":true,"modifiedFiles":[".gitignore"],"untrackedFiles":["release-folder.ps1","release.ps1","test.txt"]},"startTimestamp":1780237518000,"subcommand":"deploy"}
