@@ -1,1 +1,16 @@
-{"repo": {"timestamp": 1780290502000, "version": 20002, "name": "nihaltp archive", "icon": "icon.png", "description": "The repository of older versions of packages from nihaltp repository.", "address": "https://nihaltp.github.io/fdroid/archive"}, "requests": {"install": [], "uninstall": []}, "apps": [], "packages": {}}
+{
+  "repo": {
+    "timestamp": 1780294099000,
+    "version": 20002,
+    "name": "nihaltp archive",
+    "icon": "icon.png",
+    "description": "The repository of older versions of packages from nihaltp repository.",
+    "address": "https://nihaltp.github.io/fdroid/archive"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [],
+  "packages": {}
+}

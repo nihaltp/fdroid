@@ -8,7 +8,11 @@
         "lastUpdated": 1780293797000
       },
       "versions": {
-        "60e3c2c6198e381d0b701fe3d2e73aa48ca3200d1c7707ba15e31c5a14b5015b": null,
+        "68729f09a29fa5c086b3d42d2ac7efa9e290cfd3bb1bb93660f5cfc8bc1f8541": null,
+        "92169dfb3244429224f8bb5e485e573a5aafc07118345f22e5a15e515466900f": null,
+        "743817cea90cdb8f29f29ffb49dbb5b921924b229a7238fe4bed7035c157c41d": null,
+        "2da95ef31f736df161187dcae7a2df813a8349688492676a28c806e981b1bec9": null,
+        "197670ff3caee143096ad3a6179c38f2f79a50c0e866f2dbfd654d755c937771": null,
         "96c9cdcdc7cabc1ad6d5705d02eddc0fe336f892237741b37e6f989e0064d7f0": {
           "added": 1780293797000,
           "file": {
@@ -122,58 +126,6 @@
             ],
             "versionName": "1.1.0",
             "versionCode": 2001,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
-              },
-              {
-                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "e950e73762a15ad939f98df5f86532a546266443e4372d54984a5d8c7f902db9": {
-          "added": 1776232479000,
-          "file": {
-            "name": "/com.nihaltp.volume_lock_2.apk",
-            "sha256": "e950e73762a15ad939f98df5f86532a546266443e4372d54984a5d8c7f902db9",
-            "size": 22274479
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.1.0",
-            "versionCode": 2,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
