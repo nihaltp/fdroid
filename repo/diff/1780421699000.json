@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780423830000,
+    "timestamp": 1780423883000,
     "categories": {
       "Time": null,
       "Timer": {
@@ -257,7 +257,77 @@
           "Audio",
           "Multimedia",
           "Video"
-        ]
+        ],
+        "lastUpdated": 1780423875000
+      },
+      "versions": {
+        "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf": null,
+        "f717ee800332174a5f692e4062d12ff0cda51182a9b8e37ffa133e735d10f7f8": {
+          "added": 1780423875000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_4000.apk",
+            "sha256": "f717ee800332174a5f692e4062d12ff0cda51182a9b8e37ffa133e735d10f7f8",
+            "size": 82910518
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.2.1",
+            "versionCode": 4000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
       }
     },
     "com.nihaltp.secret_chat": {

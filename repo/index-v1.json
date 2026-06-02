@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780423830000,
+    "timestamp": 1780423883000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -67,7 +67,7 @@
       "webSite": "https://github.com/nihaltp/SBSkip",
       "added": 1780085906000,
       "packageName": "com.nihaltp.sbskip",
-      "lastUpdated": 1780421694000,
+      "lastUpdated": 1780423875000,
       "localized": {
         "en-US": {
           "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\nFeatures:\n\n\u00e2\u20ac\u00a2 Remove SponsorBlock segments from existing video and audio files\n\u00e2\u20ac\u00a2 Supports videos and audio shared from other apps\n\u00e2\u20ac\u00a2 Paste a YouTube URL to retrieve SponsorBlock segment information\n\u00e2\u20ac\u00a2 Queue multiple cleaning jobs for background processing\n\u00e2\u20ac\u00a2 Configure which SponsorBlock categories should be removed\n\u00e2\u20ac\u00a2 Persistent queue with progress tracking and notifications\n\u00e2\u20ac\u00a2 Separate settings for output behavior and file handling\n\u00e2\u20ac\u00a2 Material 3 user interface\n\u00e2\u20ac\u00a2 Translation-ready and fully open source\n\nSupported SponsorBlock categories include:\n\n\u00e2\u20ac\u00a2 Sponsor segments\n\u00e2\u20ac\u00a2 Self-promotion\n\u00e2\u20ac\u00a2 Interaction reminders (like, subscribe, etc.)\n\u00e2\u20ac\u00a2 Intros\n\u00e2\u20ac\u00a2 Outros\n\u00e2\u20ac\u00a2 Preview/recap sections\n\u00e2\u20ac\u00a2 Filler content\n\u00e2\u20ac\u00a2 Music off-topic sections\n\u00e2\u20ac\u00a2 And other categories provided by SponsorBlock\n\nHow it works:\n\n1. Select or share a media file with SB Skip.\n2. Provide the corresponding YouTube URL.\n3. SB Skip retrieves SponsorBlock segment data.\n4. Unwanted segments are removed from the media file.\n5. A cleaned copy is saved to your device.\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
@@ -784,6 +784,75 @@
         "versionName": "1.2.1"
       },
       {
+        "added": 1780423875000,
+        "apkName": "com.nihaltp.sbskip_4000.apk",
+        "hash": "f717ee800332174a5f692e4062d12ff0cda51182a9b8e37ffa133e735d10f7f8",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 82910518,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4000,
+        "versionName": "1.2.1"
+      },
+      {
         "added": 1780418824000,
         "apkName": "com.nihaltp.sbskip_3004.apk",
         "hash": "39215f10e4ca0abfcea0cdf103227148dd47c4cc8bdae9e9c28b4f25ca239535",
@@ -1202,57 +1271,6 @@
           ]
         ],
         "versionCode": 2002,
-        "versionName": "1.1.0"
-      },
-      {
-        "added": 1780257880000,
-        "apkName": "com.nihaltp.sbskip_2001.apk",
-        "hash": "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 27590922,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 2001,
         "versionName": "1.1.0"
       }
     ],

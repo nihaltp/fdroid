@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780423825000,
+    "timestamp": 1780423875000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -21,7 +21,7 @@
         "Multimedia",
         "Video"
       ],
-      "suggestedVersionCode": "4",
+      "suggestedVersionCode": "2001",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
       "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
       "license": "GPL-3.0-only",
@@ -30,7 +30,7 @@
       "webSite": "https://github.com/nihaltp/SBSkip",
       "added": 1780085906000,
       "packageName": "com.nihaltp.sbskip",
-      "lastUpdated": 1780421694000,
+      "lastUpdated": 1780423875000,
       "localized": {
         "en-US": {
           "name": "SB Skip"
@@ -40,6 +40,57 @@
   ],
   "packages": {
     "com.nihaltp.sbskip": [
+      {
+        "added": 1780257880000,
+        "apkName": "com.nihaltp.sbskip_2001.apk",
+        "hash": "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 27590922,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2001,
+        "versionName": "1.1.0"
+      },
       {
         "added": 1780421691000,
         "apkName": "com.nihaltp.sbskip_4.apk",
