@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780423875000
+    "timestamp": 1780423958000
   },
   "packages": {
     "com.nihaltp.sbskip": {
@@ -13,56 +13,8 @@
         "lastUpdated": 1780423875000
       },
       "versions": {
-        "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf": {
-          "added": 1780257880000,
-          "file": {
-            "name": "/com.nihaltp.sbskip_2001.apk",
-            "sha256": "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf",
-            "size": 27590922
-          },
-          "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "1.1.0",
-            "versionCode": 2001,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        }
+        "d363b6d038b367f09ea3a1b43675ab89cdada621921cab0289fa816409d31380": null,
+        "8b783cfe691ede862cf556d5f1bde1803a36d8a383964867f1067b4830bca082": null
       }
     }
   }

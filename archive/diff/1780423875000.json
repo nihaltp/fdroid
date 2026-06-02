@@ -4,10 +4,8 @@
   },
   "packages": {
     "com.nihaltp.sbskip": {
-      "metadata": {
-        "lastUpdated": 1780423875000
-      },
       "versions": {
+        "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf": null,
         "d363b6d038b367f09ea3a1b43675ab89cdada621921cab0289fa816409d31380": null,
         "8b783cfe691ede862cf556d5f1bde1803a36d8a383964867f1067b4830bca082": null
       }
