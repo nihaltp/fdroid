@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780421699000,
+    "timestamp": 1780423830000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -17,8 +17,9 @@
       "authorName": "nihaltp",
       "binaries": "https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk",
       "categories": [
+        "Accessibility",
         "Multimedia",
-        "Time",
+        "Timer",
         "Utilities"
       ],
       "suggestedVersionCode": "3004",
@@ -30,7 +31,7 @@
       "webSite": "https://github.com/nihaltp/AfterSleep",
       "added": 1778852814000,
       "packageName": "com.nihaltp.aftersleep",
-      "lastUpdated": 1780259804000,
+      "lastUpdated": 1780423822000,
       "localized": {
         "en-US": {
           "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\nHighlights:\n\u00e2\u20ac\u00a2 Dark-only Material 3 UI\n\u00e2\u20ac\u00a2 MediaSessionManager and MediaController based playback control\n\u00e2\u20ac\u00a2 Foreground service for reliable timers\n\u00e2\u20ac\u00a2 Notification listener support for active session detection\n\u00e2\u20ac\u00a2 MVVM architecture with StateFlow and coroutines\n\u00e2\u20ac\u00a2 Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior\n",
@@ -53,9 +54,9 @@
       "authorName": "nihaltp",
       "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-release.apk",
       "categories": [
+        "Audio",
         "Multimedia",
-        "Video",
-        "Audio"
+        "Video"
       ],
       "suggestedVersionCode": "4004",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
@@ -89,8 +90,8 @@
       "authorName": "nihaltp",
       "binaries": "https://github.com/nihaltp/secret_chat/releases/download/v{version}/app-release.apk",
       "categories": [
-        "Internet",
         "Connectivity",
+        "Internet",
         "Messaging"
       ],
       "suggestedVersionCode": "9",
@@ -124,10 +125,10 @@
       "authorName": "nihaltp",
       "binaries": "https://github.com/nihaltp/volume_lock/releases/download/v{version}/app-release.apk",
       "categories": [
-        "System",
-        "Volume Control",
         "Accessibility",
-        "Utilities"
+        "System",
+        "Utilities",
+        "Volume Control"
       ],
       "suggestedVersionCode": "2003",
       "description": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes.",
@@ -159,7 +160,7 @@
       {
         "added": 1780259804000,
         "apkName": "com.nihaltp.aftersleep_3004.apk",
-        "hash": "045ea2d41b7ba65240f75c348c34cd399ddb2da8506a1a211f1a32041a02c44d",
+        "hash": "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -202,7 +203,7 @@
       {
         "added": 1780259803000,
         "apkName": "com.nihaltp.aftersleep_3003.apk",
-        "hash": "e91993954291d9de6ba2574d5ae56b6b33c4c7d3e64a7998375cb81f89ee6bc5",
+        "hash": "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -245,7 +246,7 @@
       {
         "added": 1780259802000,
         "apkName": "com.nihaltp.aftersleep_3002.apk",
-        "hash": "49480d57de179723872e55856f30c21e8cbfbef0002ca9d62d48a9e15cb05276",
+        "hash": "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -288,7 +289,7 @@
       {
         "added": 1780259801000,
         "apkName": "com.nihaltp.aftersleep_3001.apk",
-        "hash": "d2447bc803ca465df7d58abb5a06bead0767db331e632f0aefd204dbbfab5e03",
+        "hash": "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade",
         "hashType": "sha256",
         "minSdkVersion": 26,
         "nativecode": [
@@ -326,6 +327,52 @@
           ]
         ],
         "versionCode": 3001,
+        "versionName": "1.0.2"
+      },
+      {
+        "added": 1780423822000,
+        "apkName": "com.nihaltp.aftersleep_3000.apk",
+        "hash": "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.aftersleep",
+        "sig": "143c85513cbb522e8dfce3f2f1a72ab1",
+        "signer": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908",
+        "size": 14927499,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 3000,
         "versionName": "1.0.2"
       },
       {

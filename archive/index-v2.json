@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/archive",
-    "timestamp": 1780421694000,
+    "timestamp": 1780423825000,
     "categories": {
       "Audio": {
         "name": {
@@ -38,9 +38,9 @@
       "metadata": {
         "added": 1780085906000,
         "categories": [
+          "Audio",
           "Multimedia",
-          "Video",
-          "Audio"
+          "Video"
         ],
         "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
         "lastUpdated": 1780421694000,

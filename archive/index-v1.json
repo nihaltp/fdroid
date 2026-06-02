@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780421694000,
+    "timestamp": 1780423825000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -17,9 +17,9 @@
       "authorName": "nihaltp",
       "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-release.apk",
       "categories": [
+        "Audio",
         "Multimedia",
-        "Video",
-        "Audio"
+        "Video"
       ],
       "suggestedVersionCode": "4",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",

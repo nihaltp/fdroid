@@ -1,10 +1,263 @@
 {
   "repo": {
-    "timestamp": 1780421699000
+    "timestamp": 1780423830000,
+    "categories": {
+      "Time": null,
+      "Timer": {
+        "name": {
+          "en-US": "Timer"
+        }
+      }
+    }
   },
   "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "categories": [
+          "Accessibility",
+          "Multimedia",
+          "Timer",
+          "Utilities"
+        ],
+        "lastUpdated": 1780423822000
+      },
+      "versions": {
+        "045ea2d41b7ba65240f75c348c34cd399ddb2da8506a1a211f1a32041a02c44d": null,
+        "e91993954291d9de6ba2574d5ae56b6b33c4c7d3e64a7998375cb81f89ee6bc5": null,
+        "49480d57de179723872e55856f30c21e8cbfbef0002ca9d62d48a9e15cb05276": null,
+        "d2447bc803ca465df7d58abb5a06bead0767db331e632f0aefd204dbbfab5e03": null,
+        "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0": {
+          "added": 1780259804000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3004.apk",
+            "sha256": "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0",
+            "size": 14878081
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53": {
+          "added": 1780259803000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3003.apk",
+            "sha256": "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53",
+            "size": 14877002
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26": {
+          "added": 1780259802000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3002.apk",
+            "sha256": "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26",
+            "size": 14878972
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade": {
+          "added": 1780259801000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3001.apk",
+            "sha256": "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade",
+            "size": 14876278
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1": {
+          "added": 1780423822000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3000.apk",
+            "sha256": "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.nihaltp.sbskip": {
       "metadata": {
+        "categories": [
+          "Audio",
+          "Multimedia",
+          "Video"
+        ],
         "lastUpdated": 1780421694000,
         "screenshots": {
           "phone": {
@@ -560,7 +813,24 @@
         }
       }
     },
+    "com.nihaltp.secret_chat": {
+      "metadata": {
+        "categories": [
+          "Connectivity",
+          "Internet",
+          "Messaging"
+        ]
+      }
+    },
     "com.nihaltp.volume_lock": {
+      "metadata": {
+        "categories": [
+          "Accessibility",
+          "System",
+          "Utilities",
+          "Volume Control"
+        ]
+      },
       "versions": {
         "68729f09a29fa5c086b3d42d2ac7efa9e290cfd3bb1bb93660f5cfc8bc1f8541": null
       }

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1780421699000,
+    "timestamp": 1780423830000,
     "categories": {
       "Accessibility": {
         "name": {
@@ -51,9 +51,9 @@
           "en-US": "System"
         }
       },
-      "Time": {
+      "Timer": {
         "name": {
-          "en-US": "Time"
+          "en-US": "Timer"
         }
       },
       "Utilities": {
@@ -78,12 +78,13 @@
       "metadata": {
         "added": 1778852814000,
         "categories": [
+          "Accessibility",
           "Multimedia",
-          "Time",
+          "Timer",
           "Utilities"
         ],
         "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
-        "lastUpdated": 1780259804000,
+        "lastUpdated": 1780423822000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/AfterSleep",
         "webSite": "https://github.com/nihaltp/AfterSleep",
@@ -144,11 +145,11 @@
         "preferredSigner": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
       },
       "versions": {
-        "045ea2d41b7ba65240f75c348c34cd399ddb2da8506a1a211f1a32041a02c44d": {
+        "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0": {
           "added": 1780259804000,
           "file": {
             "name": "/com.nihaltp.aftersleep_3004.apk",
-            "sha256": "045ea2d41b7ba65240f75c348c34cd399ddb2da8506a1a211f1a32041a02c44d",
+            "sha256": "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0",
             "size": 14878081
           },
           "manifest": {
@@ -188,11 +189,11 @@
             ]
           }
         },
-        "e91993954291d9de6ba2574d5ae56b6b33c4c7d3e64a7998375cb81f89ee6bc5": {
+        "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53": {
           "added": 1780259803000,
           "file": {
             "name": "/com.nihaltp.aftersleep_3003.apk",
-            "sha256": "e91993954291d9de6ba2574d5ae56b6b33c4c7d3e64a7998375cb81f89ee6bc5",
+            "sha256": "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53",
             "size": 14877002
           },
           "manifest": {
@@ -232,11 +233,11 @@
             ]
           }
         },
-        "49480d57de179723872e55856f30c21e8cbfbef0002ca9d62d48a9e15cb05276": {
+        "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26": {
           "added": 1780259802000,
           "file": {
             "name": "/com.nihaltp.aftersleep_3002.apk",
-            "sha256": "49480d57de179723872e55856f30c21e8cbfbef0002ca9d62d48a9e15cb05276",
+            "sha256": "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26",
             "size": 14878972
           },
           "manifest": {
@@ -276,11 +277,11 @@
             ]
           }
         },
-        "d2447bc803ca465df7d58abb5a06bead0767db331e632f0aefd204dbbfab5e03": {
+        "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade": {
           "added": 1780259801000,
           "file": {
             "name": "/com.nihaltp.aftersleep_3001.apk",
-            "sha256": "d2447bc803ca465df7d58abb5a06bead0767db331e632f0aefd204dbbfab5e03",
+            "sha256": "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade",
             "size": 14876278
           },
           "manifest": {
@@ -289,6 +290,53 @@
             ],
             "versionName": "1.0.2",
             "versionCode": 3001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1": {
+          "added": 1780423822000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3000.apk",
+            "sha256": "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3000,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 35
@@ -467,9 +515,9 @@
       "metadata": {
         "added": 1780085906000,
         "categories": [
+          "Audio",
           "Multimedia",
-          "Video",
-          "Audio"
+          "Video"
         ],
         "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
         "lastUpdated": 1780421694000,
@@ -1251,8 +1299,8 @@
       "metadata": {
         "added": 1775759883000,
         "categories": [
-          "Internet",
           "Connectivity",
+          "Internet",
           "Messaging"
         ],
         "issueTracker": "https://github.com/nihaltp/secret_chat/issues",
@@ -1754,10 +1802,10 @@
       "metadata": {
         "added": 1776154885000,
         "categories": [
-          "System",
-          "Volume Control",
           "Accessibility",
-          "Utilities"
+          "System",
+          "Utilities",
+          "Volume Control"
         ],
         "issueTracker": "https://github.com/nihaltp/volume_lock/issues",
         "lastUpdated": 1780293797000,
