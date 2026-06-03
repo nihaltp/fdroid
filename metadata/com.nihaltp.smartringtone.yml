@@ -1,0 +1,44 @@
+Categories:
+  - Ringtone
+  - System
+  - Utilities
+
+License: 'MIT'
+AuthorName: 'nihaltp'
+AuthorEmail: 'nihaltpnki@gmail.com'
+SourceCode: 'https://github.com/nihaltp/SmartRingtone'
+IssueTracker: 'https://github.com/nihaltp/SmartRingtone/issues'
+WebSite: 'https://github.com/nihaltp/SmartRingtone/'
+
+AutoName: Smart Ringtone
+Summary: 'Automatically adjust contact ringtones based on call activity'
+Description: |
+  Smart Ringtone automatically changes contact-specific ringtones based on your call history.
+
+  The app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.
+
+  Features:
+
+  * Automatic contact ringtone assignment
+  * Configurable ringtone priority levels
+  * Call score tracking based on call activity
+  * Support for missed, rejected, incoming, and outgoing calls
+  * Contact score management and reset controls
+  * Local processing with no account required
+  * No internet connection required
+
+  Smart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.
+
+  Required permissions:
+
+  * Contacts - to read and update contact ringtone settings
+  * Phone State - to detect call state changes
+  * Call Logs - to process call activity and update scores
+
+
+RepoType: git
+Repo: 'https://github.com/nihaltp/SmartRingtone'
+Binaries: 'https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk'
+
+UpdateCheckMode: Tags
+AutoUpdateMode: Version

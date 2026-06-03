@@ -1,0 +1,18 @@
+{
+  "repo": {
+    "timestamp": 1780523456000
+  },
+  "packages": {
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.smartringtone/en-US/icon_Wgt3HHlMjfAgYH3csO8xgJB8HPu3AkDyTLPYNvERF6Q=.png",
+            "sha256": "5a0b771c794c8df020607ddcb0ef3180907c1cfbb70240f24cb3d836f11117a4",
+            "size": 106641
+          }
+        }
+      }
+    }
+  }
+}

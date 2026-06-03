@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780485883000,
+    "timestamp": 1780523451000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -15,7 +15,7 @@
     {
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-release.apk",
+      "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk",
       "categories": [
         "Audio",
         "Multimedia",

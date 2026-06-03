@@ -37,7 +37,7 @@ Description: |
 RepoType: git
 Repo: 'https://github.com/nihaltp/SBSkip'
 
-Binaries: 'https://github.com/nihaltp/SBSkip/releases/download/v%v/app-release.apk'
+Binaries: 'https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk'
 
 UpdateCheckMode: Tags
 AutoUpdateMode: Version
