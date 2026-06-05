@@ -6,7 +6,7 @@ This is a private repository for nihaltp.
 
 Open the repo page here:
 
-https://nihaltp.github.io/fdroid/repo/
+<https://nihaltp.github.io/fdroid/repo/>
 
 [Open Repo Page](https://nihaltp.github.io/fdroid/repo/)
 
