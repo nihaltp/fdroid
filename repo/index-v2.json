@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1780834751000,
+    "timestamp": 1780838296000,
     "categories": {
       "Accessibility": {
         "name": {
@@ -2043,7 +2043,7 @@
     },
     "com.nihaltp.smartringtone": {
       "metadata": {
-        "added": 1780645614000,
+        "added": 1780700986000,
         "categories": [
           "Ringtone",
           "System",
@@ -2121,11 +2121,11 @@
         "preferredSigner": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
       },
       "versions": {
-        "bd6e76b90b4e4846d6680185c0106155b757b5f0fd269c48a11098039f2ab23d": {
+        "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e": {
           "added": 1780834747000,
           "file": {
             "name": "/com.nihaltp.smartringtone_84.apk",
-            "sha256": "bd6e76b90b4e4846d6680185c0106155b757b5f0fd269c48a11098039f2ab23d",
+            "sha256": "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e",
             "size": 1574522
           },
           "manifest": {
@@ -2181,11 +2181,11 @@
             ]
           }
         },
-        "fc730c53c02a5ce682a85639b4930bea748156e37954f96fc1e32c09b33e4ed3": {
+        "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697": {
           "added": 1780834746000,
           "file": {
             "name": "/com.nihaltp.smartringtone_83.apk",
-            "sha256": "fc730c53c02a5ce682a85639b4930bea748156e37954f96fc1e32c09b33e4ed3",
+            "sha256": "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697",
             "size": 1574522
           },
           "manifest": {
@@ -2241,11 +2241,11 @@
             ]
           }
         },
-        "450fd7261201edf2a682f455be1f16cbf58ef4b95995e05f4ca0abd6582131ca": {
+        "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b": {
           "added": 1780834746000,
           "file": {
             "name": "/com.nihaltp.smartringtone_82.apk",
-            "sha256": "450fd7261201edf2a682f455be1f16cbf58ef4b95995e05f4ca0abd6582131ca",
+            "sha256": "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b",
             "size": 1574522
           },
           "manifest": {
@@ -2301,11 +2301,11 @@
             ]
           }
         },
-        "3125f67af77c8f82e57c2959be4704173f8fd7c89aae66cfe373b76249d6f840": {
+        "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466": {
           "added": 1780834745000,
           "file": {
             "name": "/com.nihaltp.smartringtone_81.apk",
-            "sha256": "3125f67af77c8f82e57c2959be4704173f8fd7c89aae66cfe373b76249d6f840",
+            "sha256": "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466",
             "size": 1574522
           },
           "manifest": {
@@ -2361,11 +2361,11 @@
             ]
           }
         },
-        "6abac7627578d901605e9d229045478e37bb1076b93b1717b20b3b4013829a49": {
+        "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210": {
           "added": 1780834745000,
           "file": {
             "name": "/com.nihaltp.smartringtone_80.apk",
-            "sha256": "6abac7627578d901605e9d229045478e37bb1076b93b1717b20b3b4013829a49",
+            "sha256": "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210",
             "size": 1574522
           },
           "manifest": {
