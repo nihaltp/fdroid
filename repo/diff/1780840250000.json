@@ -1,0 +1,219 @@
+{
+  "repo": {
+    "timestamp": 1780852976000
+  },
+  "packages": {
+    "com.nihaltp.volume_lock": {
+      "metadata": {
+        "lastUpdated": 1780852970000
+      },
+      "versions": {
+        "96c9cdcdc7cabc1ad6d5705d02eddc0fe336f892237741b37e6f989e0064d7f0": null,
+        "04a62cee876d0eb223e05c4baf5a0e1d8617e34fe2f7b3b44bf7ba3b456f471d": null,
+        "ccba157b8dfe061cb7a3211ddb80b2e7d497e6368cc41186ad77104f8e23783b": null,
+        "283388034ffc7c8ffb1d4c82fa4eb5232f3e7bd42f093207a4f506894de0826f": {
+          "added": 1780852970000,
+          "file": {
+            "name": "/com.nihaltp.volume_lock_3003.apk",
+            "sha256": "283388034ffc7c8ffb1d4c82fa4eb5232f3e7bd42f093207a4f506894de0826f",
+            "size": 8495369
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.2.0",
+            "versionCode": 3003,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "03e6d3fb80349ae9d0b6be3f8653703a09010261418a1e6c22d5c80703037ff6": {
+          "added": 1780852970000,
+          "file": {
+            "name": "/com.nihaltp.volume_lock_3002.apk",
+            "sha256": "03e6d3fb80349ae9d0b6be3f8653703a09010261418a1e6c22d5c80703037ff6",
+            "size": 8332206
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.0",
+            "versionCode": 3002,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "77093e34b49d85f65fe99637ee5cb7e350bf31d2af7700c6af54d181f6ef527d": {
+          "added": 1780852969000,
+          "file": {
+            "name": "/com.nihaltp.volume_lock_3001.apk",
+            "sha256": "77093e34b49d85f65fe99637ee5cb7e350bf31d2af7700c6af54d181f6ef527d",
+            "size": 7798316
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.2.0",
+            "versionCode": 3001,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "a545d27c3f79a37afdb7c85b8761f4c6d8a427aa09424175b3c2e9f5a9c3250a": {
+          "added": 1780852968000,
+          "file": {
+            "name": "/com.nihaltp.volume_lock_3000.apk",
+            "sha256": "a545d27c3f79a37afdb7c85b8761f4c6d8a427aa09424175b3c2e9f5a9c3250a",
+            "size": 22425811
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.2.0",
+            "versionCode": 3000,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
