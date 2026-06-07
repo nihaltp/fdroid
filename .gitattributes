@@ -6,3 +6,12 @@
 *.xml text eol=lf
 *.txt text eol=lf
 *.md text eol=lf
+
+# Keep F-Droid repository metadata files exactly as generated on disk
+# to prevent signature/hash mismatches due to Git's line ending conversions.
+repo/*.json -text
+repo/diff/*.json -text
+repo/*.xml -text
+archive/*.json -text
+archive/diff/*.json -text
+archive/*.xml -text
