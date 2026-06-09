@@ -1,8 +1,9 @@
 {
   "repo": {
-    "timestamp": 1780852976000
+    "timestamp": 1781017288000
   },
   "packages": {
+    "com.nihaltp.volume_lock": null,
     "com.nihaltp.smartringtone": {
       "metadata": {
         "added": 1780700986000,
@@ -912,30 +913,100 @@
         }
       }
     },
-    "com.nihaltp.volume_lock": {
+    "com.nihaltp.volumelock": {
       "metadata": {
-        "lastUpdated": 1780852970000
+        "added": 1781017280000,
+        "categories": [
+          "Accessibility",
+          "System",
+          "Utilities",
+          "Volume Control"
+        ],
+        "issueTracker": "https://github.com/nihaltp/volumelock/issues",
+        "lastUpdated": 1781017283000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/nihaltp/volumelock",
+        "webSite": "https://nihaltp.github.io/volumelock/",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/1.png",
+                "sha256": "d22768ca9789e2a5294ed6043db4cee2cfdaf0af204e2272b5849b0e50bdd9a9",
+                "size": 109978
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/2.png",
+                "sha256": "be529a4dcd7d55530895dfa72065d2975773cbd4f8c65c55f5714b2486eca700",
+                "size": 114586
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/3.png",
+                "sha256": "8327f6782fb0fe07a3c129139d3e3109db84a02223a98d6cae2510b58f9af61d",
+                "size": 116243
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/4.png",
+                "sha256": "1bc1638de8059160965380fa0f6ba266d730a35e28804a9493d6aadea8c33b18",
+                "size": 123733
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/5.png",
+                "sha256": "6bbfa5f8ca1278bf22183144ad788b1b304bd57cf2c9be36cd75dca028227ed1",
+                "size": 110799
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/6.png",
+                "sha256": "6d458050a9132609ac0465146c2625a919d5594615c39485b4dbf16ba5ad8c00",
+                "size": 115915
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/7.png",
+                "sha256": "9f7a2f07d95c60e92116cd62076f1862247445f852d8fc38d0628307b0ffe9fb",
+                "size": 113853
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/8.png",
+                "sha256": "148efba6dbd1cb596b1017b974c4ac971ea49f94264cc5065920fcdbe350dd9d",
+                "size": 122344
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "Volume Lock"
+        },
+        "summary": {
+          "en-US": "A simple volume lock app"
+        },
+        "description": {
+          "en-US": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.volumelock/en-US/icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png",
+            "sha256": "fe5f0d81acdffa05fff5f3536a3f6275e545a7155f7623c9f46b11f251a61a4b",
+            "size": 5211
+          }
+        },
+        "preferredSigner": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
       },
       "versions": {
-        "96c9cdcdc7cabc1ad6d5705d02eddc0fe336f892237741b37e6f989e0064d7f0": null,
-        "04a62cee876d0eb223e05c4baf5a0e1d8617e34fe2f7b3b44bf7ba3b456f471d": null,
-        "ccba157b8dfe061cb7a3211ddb80b2e7d497e6368cc41186ad77104f8e23783b": null,
-        "283388034ffc7c8ffb1d4c82fa4eb5232f3e7bd42f093207a4f506894de0826f": {
-          "added": 1780852970000,
+        "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387": {
+          "added": 1781017283000,
           "file": {
-            "name": "/com.nihaltp.volume_lock_3003.apk",
-            "sha256": "283388034ffc7c8ffb1d4c82fa4eb5232f3e7bd42f093207a4f506894de0826f",
-            "size": 8495369
+            "name": "/com.nihaltp.volumelock_5004.apk",
+            "sha256": "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387",
+            "size": 2374713
           },
           "manifest": {
-            "nativecode": [
-              "x86_64"
-            ],
-            "versionName": "1.2.0",
-            "versionCode": 3003,
+            "versionName": "2.0.0",
+            "versionCode": 5004,
             "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
@@ -965,27 +1036,24 @@
                 "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
               },
               {
-                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
         },
-        "03e6d3fb80349ae9d0b6be3f8653703a09010261418a1e6c22d5c80703037ff6": {
-          "added": 1780852970000,
+        "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62": {
+          "added": 1781017282000,
           "file": {
-            "name": "/com.nihaltp.volume_lock_3002.apk",
-            "sha256": "03e6d3fb80349ae9d0b6be3f8653703a09010261418a1e6c22d5c80703037ff6",
-            "size": 8332206
+            "name": "/com.nihaltp.volumelock_5003.apk",
+            "sha256": "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62",
+            "size": 2374713
           },
           "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "1.2.0",
-            "versionCode": 3002,
+            "versionName": "2.0.0",
+            "versionCode": 5003,
             "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
@@ -1015,27 +1083,24 @@
                 "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
               },
               {
-                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
         },
-        "77093e34b49d85f65fe99637ee5cb7e350bf31d2af7700c6af54d181f6ef527d": {
-          "added": 1780852969000,
+        "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6": {
+          "added": 1781017282000,
           "file": {
-            "name": "/com.nihaltp.volume_lock_3001.apk",
-            "sha256": "77093e34b49d85f65fe99637ee5cb7e350bf31d2af7700c6af54d181f6ef527d",
-            "size": 7798316
+            "name": "/com.nihaltp.volumelock_5002.apk",
+            "sha256": "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6",
+            "size": 2374713
           },
           "manifest": {
-            "nativecode": [
-              "armeabi-v7a"
-            ],
-            "versionName": "1.2.0",
-            "versionCode": 3001,
+            "versionName": "2.0.0",
+            "versionCode": 5002,
             "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
@@ -1065,29 +1130,24 @@
                 "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
               },
               {
-                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }
         },
-        "a545d27c3f79a37afdb7c85b8761f4c6d8a427aa09424175b3c2e9f5a9c3250a": {
-          "added": 1780852968000,
+        "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2": {
+          "added": 1781017281000,
           "file": {
-            "name": "/com.nihaltp.volume_lock_3000.apk",
-            "sha256": "a545d27c3f79a37afdb7c85b8761f4c6d8a427aa09424175b3c2e9f5a9c3250a",
-            "size": 22425811
+            "name": "/com.nihaltp.volumelock_5001.apk",
+            "sha256": "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2",
+            "size": 2374713
           },
           "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.2.0",
-            "versionCode": 3000,
+            "versionName": "2.0.0",
+            "versionCode": 5001,
             "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
             },
             "signer": {
               "sha256": [
@@ -1117,7 +1177,54 @@
                 "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
               },
               {
-                "name": "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd": {
+          "added": 1781017280000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5000.apk",
+            "sha256": "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
           }

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1780852976000,
+    "timestamp": 1781017288000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -159,23 +159,23 @@
     {
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/volume_lock/releases/download/v{version}/app-universal-release.apk",
+      "binaries": "https://github.com/nihaltp/volumelock/releases/download/v{version}/app-universal-release.apk",
       "categories": [
         "Accessibility",
         "System",
         "Utilities",
         "Volume Control"
       ],
-      "suggestedVersionCode": "3003",
+      "suggestedVersionCode": "5004",
       "description": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes.",
-      "issueTracker": "https://github.com/nihaltp/volume_lock/issues",
+      "issueTracker": "https://github.com/nihaltp/volumelock/issues",
       "license": "MIT",
-      "sourceCode": "https://github.com/nihaltp/volume_lock",
+      "sourceCode": "https://github.com/nihaltp/volumelock",
       "summary": "A simple volume lock app",
-      "webSite": "https://nihaltp.github.io/volume_lock/",
-      "added": 1776154885000,
-      "packageName": "com.nihaltp.volume_lock",
-      "lastUpdated": 1780852970000,
+      "webSite": "https://nihaltp.github.io/volumelock/",
+      "added": 1781017280000,
+      "packageName": "com.nihaltp.volumelock",
+      "lastUpdated": 1781017283000,
       "localized": {
         "en-US": {
           "description": "Volume Lock gives you fine-grained control over your Android audio behavior with two core features:\n\n- Volume Lock: when the screen turns off, current media, ring, notification, and alarm volumes are locked and automatically restored if changed.\n- App Volume Lock: saves and restores media volume for selected apps when you return to them.\n\nKey highlights:\n- Tracks and restores audio levels automatically\n- Lets you choose which apps participate in App Volume Lock\n- Keeps behavior consistent after reboot\n\nPermissions:\n- Do Not Disturb / Notification Policy access is needed to lock ring and notification volumes on Android 6+\n- Accessibility service is needed to detect foreground app changes for App Volume Lock\n\nBuilt with Flutter",
@@ -184,7 +184,12 @@
           "phoneScreenshots": [
             "1.png",
             "2.png",
-            "3.png"
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png"
           ],
           "summary": "Lock device volume profiles and auto-restore per-app media volume."
         }
@@ -2870,21 +2875,18 @@
         "versionName": "1.3.0"
       }
     ],
-    "com.nihaltp.volume_lock": [
+    "com.nihaltp.volumelock": [
       {
-        "added": 1780852970000,
-        "apkName": "com.nihaltp.volume_lock_3003.apk",
-        "hash": "283388034ffc7c8ffb1d4c82fa4eb5232f3e7bd42f093207a4f506894de0826f",
+        "added": 1781017283000,
+        "apkName": "com.nihaltp.volumelock_5004.apk",
+        "hash": "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387",
         "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "x86_64"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.volumelock",
         "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
         "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 8495369,
-        "targetSdkVersion": 36,
+        "size": 2374713,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.CHANGE_AUDIO_SETTINGS",
@@ -2915,27 +2917,24 @@
             null
           ],
           [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
-        "versionCode": 3003,
-        "versionName": "1.2.0"
+        "versionCode": 5004,
+        "versionName": "2.0.0"
       },
       {
-        "added": 1780852970000,
-        "apkName": "com.nihaltp.volume_lock_3002.apk",
-        "hash": "03e6d3fb80349ae9d0b6be3f8653703a09010261418a1e6c22d5c80703037ff6",
+        "added": 1781017282000,
+        "apkName": "com.nihaltp.volumelock_5003.apk",
+        "hash": "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62",
         "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.volumelock",
         "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
         "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 8332206,
-        "targetSdkVersion": 36,
+        "size": 2374713,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.CHANGE_AUDIO_SETTINGS",
@@ -2966,27 +2965,24 @@
             null
           ],
           [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
-        "versionCode": 3002,
-        "versionName": "1.2.0"
+        "versionCode": 5003,
+        "versionName": "2.0.0"
       },
       {
-        "added": 1780852969000,
-        "apkName": "com.nihaltp.volume_lock_3001.apk",
-        "hash": "77093e34b49d85f65fe99637ee5cb7e350bf31d2af7700c6af54d181f6ef527d",
+        "added": 1781017282000,
+        "apkName": "com.nihaltp.volumelock_5002.apk",
+        "hash": "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6",
         "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.volumelock",
         "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
         "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 7798316,
-        "targetSdkVersion": 36,
+        "size": 2374713,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.CHANGE_AUDIO_SETTINGS",
@@ -3017,29 +3013,24 @@
             null
           ],
           [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
-        "versionCode": 3001,
-        "versionName": "1.2.0"
+        "versionCode": 5002,
+        "versionName": "2.0.0"
       },
       {
-        "added": 1780852968000,
-        "apkName": "com.nihaltp.volume_lock_3000.apk",
-        "hash": "a545d27c3f79a37afdb7c85b8761f4c6d8a427aa09424175b3c2e9f5a9c3250a",
+        "added": 1781017281000,
+        "apkName": "com.nihaltp.volumelock_5001.apk",
+        "hash": "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2",
         "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86_64"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.volumelock",
         "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
         "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 22425811,
-        "targetSdkVersion": 36,
+        "size": 2374713,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.CHANGE_AUDIO_SETTINGS",
@@ -3070,29 +3061,24 @@
             null
           ],
           [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
-        "versionCode": 3000,
-        "versionName": "1.2.0"
+        "versionCode": 5001,
+        "versionName": "2.0.0"
       },
       {
-        "added": 1776232479000,
-        "apkName": "com.nihaltp.volume_lock_2.apk",
-        "hash": "e950e73762a15ad939f98df5f86532a546266443e4372d54984a5d8c7f902db9",
+        "added": 1781017280000,
+        "apkName": "com.nihaltp.volumelock_5000.apk",
+        "hash": "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd",
         "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86_64"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.volumelock",
         "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
         "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 22274479,
-        "targetSdkVersion": 36,
+        "size": 2374713,
+        "targetSdkVersion": 34,
         "uses-permission": [
           [
             "android.permission.CHANGE_AUDIO_SETTINGS",
@@ -3123,65 +3109,12 @@
             null
           ],
           [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
             null
           ]
         ],
-        "versionCode": 2,
-        "versionName": "1.1.0"
-      },
-      {
-        "added": 1776154885000,
-        "apkName": "com.nihaltp.volume_lock_1.apk",
-        "hash": "87cfe0890751c14248c131437027754d3115a3f256978bd117ce71ad36f8a1e6",
-        "hashType": "sha256",
-        "minSdkVersion": 24,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a",
-          "x86_64"
-        ],
-        "packageName": "com.nihaltp.volume_lock",
-        "sig": "58c0e9b9c8a42b832e2f45ebee3342eb",
-        "signer": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381",
-        "size": 14877803,
-        "targetSdkVersion": 36,
-        "uses-permission": [
-          [
-            "android.permission.CHANGE_AUDIO_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.MODIFY_AUDIO_SETTINGS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_SPECIAL_USE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NOTIFICATION_POLICY",
-            null
-          ],
-          [
-            "com.nihaltp.volume_lock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 1,
-        "versionName": "1.0.0"
+        "versionCode": 5000,
+        "versionName": "2.0.0"
       }
     ]
   }
