@@ -2,16 +2,15 @@ Categories:
   - Ringtone
   - System
   - Utilities
-
-License: 'MIT'
-AuthorName: 'nihaltp'
-AuthorEmail: 'nihaltpnki@gmail.com'
-SourceCode: 'https://github.com/nihaltp/SmartRingtone'
-IssueTracker: 'https://github.com/nihaltp/SmartRingtone/issues'
-WebSite: 'https://github.com/nihaltp/SmartRingtone/'
+License: MIT
+AuthorName: nihaltp
+AuthorEmail: nihaltpnki@gmail.com
+WebSite: https://github.com/nihaltp/SmartRingtone/
+SourceCode: https://github.com/nihaltp/SmartRingtone
+IssueTracker: https://github.com/nihaltp/SmartRingtone/issues
 
 AutoName: Smart Ringtone
-Summary: 'Automatically adjust contact ringtones based on call activity'
+Summary: Automatically adjust contact ringtones based on call activity
 Description: |
   Smart Ringtone automatically changes contact-specific ringtones based on your call history.
 
@@ -35,10 +34,11 @@ Description: |
   * Phone State - to detect call state changes
   * Call Logs - to process call activity and update scores
 
-
 RepoType: git
-Repo: 'https://github.com/nihaltp/SmartRingtone'
-Binaries: 'https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk'
+Repo: https://github.com/nihaltp/SmartRingtone
+Binaries: https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk
 
-UpdateCheckMode: Tags
 AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.5.0
+CurrentVersionCode: 8

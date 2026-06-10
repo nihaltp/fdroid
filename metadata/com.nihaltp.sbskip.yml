@@ -2,18 +2,15 @@ Categories:
   - Audio
   - Multimedia
   - Video
+License: GPL-3.0-only
+AuthorName: nihaltp
+AuthorEmail: nihaltpnki@gmail.com
+WebSite: https://github.com/nihaltp/SBSkip
+SourceCode: https://github.com/nihaltp/SBSkip
+IssueTracker: https://github.com/nihaltp/SBSkip/issues
 
-License: 'GPL-3.0-only'
-AuthorName: 'nihaltp'
-AuthorEmail: 'nihaltpnki@gmail.com'
-SourceCode: 'https://github.com/nihaltp/SBSkip'
-IssueTracker: 'https://github.com/nihaltp/SBSkip/issues'
-WebSite: 'https://github.com/nihaltp/SBSkip'
-
-AutoName: SBSkip
-
-Summary: 'Remove SponsorBlock segments from local video and audio files'
-
+AutoName: SB Skip
+Summary: Remove SponsorBlock segments from local video and audio files
 Description: |
   SBSkip is a SponsorBlock-powered media cleaner for Android.
 
@@ -35,9 +32,10 @@ Description: |
   is required.
 
 RepoType: git
-Repo: 'https://github.com/nihaltp/SBSkip'
+Repo: https://github.com/nihaltp/SBSkip
+Binaries: https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk
 
-Binaries: 'https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk'
-
-UpdateCheckMode: Tags
 AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.3.0
+CurrentVersionCode: 7

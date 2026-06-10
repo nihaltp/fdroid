@@ -3,18 +3,15 @@ Categories:
   - Multimedia
   - Timer
   - Utilities
-
-License: 'MIT'
-AuthorName: 'nihaltp'
-AuthorEmail: 'nihaltpnki@gmail.com'
-SourceCode: 'https://github.com/nihaltp/AfterSleep'
-IssueTracker: 'https://github.com/nihaltp/AfterSleep/issues'
-WebSite: 'https://github.com/nihaltp/AfterSleep'
+License: MIT
+AuthorName: nihaltp
+AuthorEmail: nihaltpnki@gmail.com
+WebSite: https://github.com/nihaltp/AfterSleep
+SourceCode: https://github.com/nihaltp/AfterSleep
+IssueTracker: https://github.com/nihaltp/AfterSleep/issues
 
 AutoName: AfterSleep
-
-Summary: 'Delayed media playback companion for sleep'
-
+Summary: Delayed media playback companion for sleep
 Description: |
   AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.
 
@@ -36,9 +33,10 @@ Description: |
   AfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.
 
 RepoType: git
-Repo: 'https://github.com/nihaltp/AfterSleep'
+Repo: https://github.com/nihaltp/AfterSleep
+Binaries: https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-universal-release.apk
 
-Binaries: 'https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-universal-release.apk'
-
-UpdateCheckMode: Tags
 AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3
