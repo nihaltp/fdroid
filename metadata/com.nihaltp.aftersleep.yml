@@ -34,7 +34,7 @@ Description: |
 
 RepoType: git
 Repo: https://github.com/nihaltp/AfterSleep
-Binaries: https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-universal-release.apk
+Binaries: https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk
 
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
