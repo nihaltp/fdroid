@@ -1,0 +1,271 @@
+{
+  "repo": {
+    "timestamp": 1781118406000
+  },
+  "packages": {
+    "com.nihaltp.secretchat": {
+      "metadata": {
+        "added": 1781117967000,
+        "lastUpdated": 1781117971000
+      },
+      "versions": {
+        "42bfdcfbb02fce026054a2b53b5b6bea145bd0f199b0c460dd61c25a4fe1dac1": null,
+        "4bff4c4c873be49c4c661eed63d33e13e11e011e59f74c925aef2060deffe114": null,
+        "f1b66c174acd834fe283dc1b4ad4e309906d670249fd260cd79888d2e261d6fb": null,
+        "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88": {
+          "added": 1781117971000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_104.apk",
+            "sha256": "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88",
+            "size": 9254309
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 104,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa": {
+          "added": 1781117969000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_103.apk",
+            "sha256": "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa",
+            "size": 1507278
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 103,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e": {
+          "added": 1781117969000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_102.apk",
+            "sha256": "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e",
+            "size": 9087270
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 102,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905": {
+          "added": 1781117967000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_101.apk",
+            "sha256": "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905",
+            "size": 8592952
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 101,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3": {
+          "added": 1781117967000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_100.apk",
+            "sha256": "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3",
+            "size": 23927423
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    }
+  }
+}

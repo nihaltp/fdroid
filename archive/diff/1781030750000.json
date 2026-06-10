@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781100954000
+    "timestamp": 1781118398000
   },
   "packages": {
     "com.nihaltp.sbskip": {
@@ -70,7 +70,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "9b7c1dad4a6562ffd3f01ccdb2cf6398c2fe1a6c0b81dcbf5003957e2baba195": {
           "added": 1780421693000,
@@ -134,7 +137,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "b558a0b8edacd02980b2d9b51be3f17c75da4cb663865fd73ad381d6fdf0158a": {
           "added": 1780421692000,
@@ -198,7 +204,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "0410224e351eb752323fd5273a94cb869e47211762118277b499c689a91ca661": {
           "added": 1780421691000,
@@ -262,7 +271,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "f717ee800332174a5f692e4062d12ff0cda51182a9b8e37ffa133e735d10f7f8": {
           "added": 1780423875000,
@@ -328,7 +340,84 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "39215f10e4ca0abfcea0cdf103227148dd47c4cc8bdae9e9c28b4f25ca239535": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "39a8068e2b9a2dd3408b8be281c0a560863d72dab6aa18090c2d5d1472d10343": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "f3d8837d33c4767ac4a74b3edee22b490849775be835304a2077f78e792e6790": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ab47c988745eb5fdcbded4dc9b1e0094d8adfea64c5dbceb079a7af6f6799195": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "9dd455bb61fcd51ed967e49ce761c355461798bf529b542228b87b8f7fd47adb": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ff1c2c1e2e3fa007fe4066604251f79ac4fa4f08ee381ba03fa5ac78cbfaa164": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "64247cffe7cbfb505bbe0a9b308a491cac2d091979c54832682990a4da348ea9": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "3a794590be053e655c60f375f5b0afab3749c9fd2547bacbc1647c7880676dbf": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "com.nihaltp.smartringtone": {
+      "versions": {
+        "1479f9c81b178578e165988d207b9cdb0fe921589115cdf74ea7ca0a03dfd80e": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a694730687546617ba6a5aac47729ca55d4decd428f31db2b02afbfd571a51a9": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "3784566b5ad8af6911e481a097a71b9d5ddb2f0ff35b72f810547bfcbdbea69e": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "13f182501d7e836e4d39e87efb6a06e70d9b6e6e16990cf2057c1a9d25270de0": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "833fee321773ae1e9f6bb7812e56ce94d7cd2e261225c97442113a49b818d40b": {
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "54443ff757faa5dccc33eaa65350c4943a2a7e85ad17fe33ddb4b7f694926d58": {
+          "releaseChannels": [
+            "Beta"
+          ]
         }
       }
     }

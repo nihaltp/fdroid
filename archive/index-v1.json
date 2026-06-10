@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781100954000,
+    "timestamp": 1781118398000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -21,7 +21,8 @@
         "Multimedia",
         "Video"
       ],
-      "suggestedVersionCode": "4004",
+      "suggestedVersionName": "1.3.0",
+      "suggestedVersionCode": "7",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
       "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
       "license": "GPL-3.0-only",
@@ -46,7 +47,8 @@
         "System",
         "Utilities"
       ],
-      "suggestedVersionCode": "54",
+      "suggestedVersionName": "1.5.0",
+      "suggestedVersionCode": "8",
       "description": "Smart Ringtone automatically changes contact-specific ringtones based on your call history.\n\nThe app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.\n\nFeatures:\n\n* Automatic contact ringtone assignment\n* Configurable ringtone priority levels\n* Call score tracking based on call activity\n* Support for missed, rejected, incoming, and outgoing calls\n* Contact score management and reset controls\n* Local processing with no account required\n* No internet connection required\n\nSmart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.\n\nRequired permissions:\n\n* Contacts - to read and update contact ringtone settings\n* Phone State - to detect call state changes\n* Call Logs - to process call activity and update scores\n",
       "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues",
       "license": "MIT",

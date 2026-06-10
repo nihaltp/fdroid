@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1781100964000,
+    "timestamp": 1781118406000,
     "categories": {
       "Accessibility": {
         "name": {
@@ -192,7 +192,10 @@
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53": {
           "added": 1780259803000,
@@ -236,7 +239,10 @@
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26": {
           "added": 1780259802000,
@@ -280,7 +286,10 @@
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade": {
           "added": 1780259801000,
@@ -324,7 +333,10 @@
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1": {
           "added": 1780423822000,
@@ -371,7 +383,10 @@
                 "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "a1a1558dba0f77870aca2faab0611d60ca8b192cb6f727c204052fb1a8995b81": {
           "added": 1779522639000,
@@ -648,7 +663,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "f6a112efb3bde3704a4e0347d2455e4d09bc3a7b1d9afd762b17d913206bc74f": {
           "added": 1781100953000,
@@ -712,7 +730,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "98b6b68717e70e6c8aed021aa6394b4a4e36ccd106ec7a29cd73245ea95df6da": {
           "added": 1781100953000,
@@ -776,7 +797,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "8e0bb0c41342377707a32468a91a3f8dcf1ea62770638726835377527afbbc60": {
           "added": 1781100952000,
@@ -840,7 +864,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "769b3d5a969224daae1c2b73a51b5f1aa5f6a54e5b94078c73d90ee18bbe0947": {
           "added": 1781100951000,
@@ -906,7 +933,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "0cef4ba8a11a9fb9b987e77b80ae2dd6cb1986ab2c817e2d1820671b02d15f36": {
           "added": 1781030749000,
@@ -970,7 +1000,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "e3b38dce67a30044a31eb489100d9a1beb5ad002994f19f6190c864d11c73bb7": {
           "added": 1781030749000,
@@ -1034,7 +1067,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "5c182228407c14fae44f1408ebffb97db58a40dc5619b2ed42d7dbbc561e1a73": {
           "added": 1781030748000,
@@ -1098,7 +1134,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "a97bdd1efaeb1f8f688b1eb3b0e0e21d7b548db98172fe4a8c0604d3a621a06c": {
           "added": 1781030747000,
@@ -1162,7 +1201,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "f0cf33391df4ec508d3b5eb69e3a50677863baac538e25d5fc5954aea91b58c1": {
           "added": 1781030747000,
@@ -1228,7 +1270,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "c8bb074e19ef983ffc00e003a3fd821b8cb001c1cd6bef5cfdf70450cd709f25": {
           "added": 1780485883000,
@@ -1292,7 +1337,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "ac1d130c0e3128fc87f74451ba5b96b0dcb0eb166cf541a965c745e68b74df40": {
           "added": 1780485882000,
@@ -1356,7 +1404,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "233b51eae36bbd6b071cee67b7112b35d0a44b5c086f65c980a6c722eafd9e5d": {
           "added": 1780485881000,
@@ -1420,7 +1471,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "16dc1e2130eb97332b17f3f6a64f87188883896b6af62da7c599be2ebe273a80": {
           "added": 1780485880000,
@@ -1484,7 +1538,10 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "30480000f0fff47a58c10541a48b5bbd39110a9fbf49d77a7b348e8c68074041": {
           "added": 1780485879000,
@@ -1550,43 +1607,46 @@
                 "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         }
       }
     },
-    "com.nihaltp.secret_chat": {
+    "com.nihaltp.secretchat": {
       "metadata": {
-        "added": 1775759883000,
+        "added": 1781117967000,
         "categories": [
           "Connectivity",
           "Internet",
           "Messaging"
         ],
-        "issueTracker": "https://github.com/nihaltp/secret_chat/issues",
-        "lastUpdated": 1776194614000,
+        "issueTracker": "https://github.com/nihaltp/secretchat/issues",
+        "lastUpdated": 1781117971000,
         "license": "MIT",
-        "sourceCode": "https://github.com/nihaltp/secret_chat",
-        "webSite": "https://nihaltp.github.io/secret_chat/",
+        "sourceCode": "https://github.com/nihaltp/secretchat",
+        "webSite": "https://nihaltp.github.io/secretchat/",
         "screenshots": {
           "phone": {
             "en-US": [
               {
-                "name": "/com.nihaltp.secret_chat/en-US/phoneScreenshots/1.png",
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/1.png",
                 "sha256": "e49ef6cbaf1c4267cb4c36f0f107b84efe44326988b9a9f5ef7943c4e5742cd0",
                 "size": 91677
               },
               {
-                "name": "/com.nihaltp.secret_chat/en-US/phoneScreenshots/2.png",
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/2.png",
                 "sha256": "181722eb0a228dfd87686d4a526d0260c01418f6cbd1987510ef6a35961ef8c6",
                 "size": 91968
               },
               {
-                "name": "/com.nihaltp.secret_chat/en-US/phoneScreenshots/3.png",
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/3.png",
                 "sha256": "559e6c2136f2162c1c04ea29d8408cf4d30bcd3ae43705017cc1e942fcc4430f",
                 "size": 95767
               },
               {
-                "name": "/com.nihaltp.secret_chat/en-US/phoneScreenshots/4.png",
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/4.png",
                 "sha256": "7df828b22b2498e302a8f337dbb8f47e17cbe1d37ad4a4a8865b95b5486b0505",
                 "size": 107117
               }
@@ -1606,29 +1666,27 @@
         },
         "icon": {
           "en-US": {
-            "name": "/com.nihaltp.secret_chat/en-US/icon_O_WgVXogi560N3_I3SgnduiPjuj0DtgbaKww1bp0n-A=.png",
-            "sha256": "3bf5a0557a208b9eb4377fc8dd282776e88f8ee8f40ed81b68ac30d5ba749fe0",
-            "size": 6334
+            "name": "/com.nihaltp.secretchat/en-US/icon_cEvdAYifCQ2u0rhzqS8r3pTULRH8CcGtFd-teo-vnTM=.png",
+            "sha256": "704bdd01889f090daed2b873a92f2bde94d42d11fc09c1ad15dfad7a8faf9d33",
+            "size": 8663
           }
         },
         "preferredSigner": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
       },
       "versions": {
-        "d423067bcaff25d9734d9d631168f650de89dc514d386148f8479f4036dc7d52": {
-          "added": 1776194614000,
+        "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88": {
+          "added": 1781117971000,
           "file": {
-            "name": "/com.nihaltp.secret_chat_9.apk",
-            "sha256": "d423067bcaff25d9734d9d631168f650de89dc514d386148f8479f4036dc7d52",
-            "size": 16166951
+            "name": "/com.nihaltp.secretchat_104.apk",
+            "sha256": "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88",
+            "size": 9254309
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
               "x86_64"
             ],
-            "versionName": "1.2.1",
-            "versionCode": 9,
+            "versionName": "2.0.0",
+            "versionCode": 104,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -1658,26 +1716,27 @@
                 "name": "android.permission.USE_FINGERPRINT"
               },
               {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
-        "6d11f6ea77109c18f4500bed63359ef241032bd597d999b112aca161a5026206": {
-          "added": 1776146239000,
+        "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa": {
+          "added": 1781117969000,
           "file": {
-            "name": "/com.nihaltp.secret_chat_8.apk",
-            "sha256": "6d11f6ea77109c18f4500bed63359ef241032bd597d999b112aca161a5026206",
-            "size": 16146663
+            "name": "/com.nihaltp.secretchat_103.apk",
+            "sha256": "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa",
+            "size": 1507278
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
+              "x86"
             ],
-            "versionName": "1.2.0",
-            "versionCode": 8,
+            "versionName": "2.0.0",
+            "versionCode": 103,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -1707,26 +1766,27 @@
                 "name": "android.permission.USE_FINGERPRINT"
               },
               {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
-        "60ca8db6bf9c2b2168b5ca8b7c6b7db77415ba68ae66b47182ee82746d6f7d28": {
-          "added": 1775997875000,
+        "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e": {
+          "added": 1781117969000,
           "file": {
-            "name": "/com.nihaltp.secret_chat_7.apk",
-            "sha256": "60ca8db6bf9c2b2168b5ca8b7c6b7db77415ba68ae66b47182ee82746d6f7d28",
-            "size": 50478457
+            "name": "/com.nihaltp.secretchat_102.apk",
+            "sha256": "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e",
+            "size": 9087270
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
+              "arm64-v8a"
             ],
-            "versionName": "1.1.5",
-            "versionCode": 7,
+            "versionName": "2.0.0",
+            "versionCode": 102,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -1756,26 +1816,27 @@
                 "name": "android.permission.USE_FINGERPRINT"
               },
               {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
-        "cf235f1b467f16fd6f08de29000c6a5c31498be656570f44501765fb9d3470c7": {
-          "added": 1775973154000,
+        "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905": {
+          "added": 1781117967000,
           "file": {
-            "name": "/com.nihaltp.secret_chat_6.apk",
-            "sha256": "cf235f1b467f16fd6f08de29000c6a5c31498be656570f44501765fb9d3470c7",
-            "size": 50445689
+            "name": "/com.nihaltp.secretchat_101.apk",
+            "sha256": "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905",
+            "size": 8592952
           },
           "manifest": {
             "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
+              "armeabi-v7a"
             ],
-            "versionName": "1.1.4",
-            "versionCode": 6,
+            "versionName": "2.0.0",
+            "versionCode": 101,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -1805,26 +1866,30 @@
                 "name": "android.permission.USE_FINGERPRINT"
               },
               {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
-        "b65b64cddddf4ce281f77bbae397a0c79f48f81daab137d4ff2df40147c6d3ef": {
-          "added": 1775934705000,
+        "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3": {
+          "added": 1781117967000,
           "file": {
-            "name": "/com.nihaltp.secret_chat_5.apk",
-            "sha256": "b65b64cddddf4ce281f77bbae397a0c79f48f81daab137d4ff2df40147c6d3ef",
-            "size": 50445689
+            "name": "/com.nihaltp.secretchat_100.apk",
+            "sha256": "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3",
+            "size": 23927423
           },
           "manifest": {
             "nativecode": [
               "arm64-v8a",
               "armeabi-v7a",
+              "x86",
               "x86_64"
             ],
-            "versionName": "1.1.3",
-            "versionCode": 5,
+            "versionName": "2.0.0",
+            "versionCode": 100,
             "usesSdk": {
               "minSdkVersion": 24,
               "targetSdkVersion": 36
@@ -1854,206 +1919,13 @@
                 "name": "android.permission.USE_FINGERPRINT"
               },
               {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
-        },
-        "eb6c81dc10414490275011b315881a3a50a0d3f18faaa7f28d7396e32dd53429": {
-          "added": 1775908095000,
-          "file": {
-            "name": "/com.nihaltp.secret_chat_4.apk",
-            "sha256": "eb6c81dc10414490275011b315881a3a50a0d3f18faaa7f28d7396e32dd53429",
-            "size": 50445689
           },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.1.2",
-            "versionCode": 4,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "d9882a6ddc4e8f068e9f4afaa1e57c92fa3e042cb096f7ee1fecc65404a01c0e": {
-          "added": 1775897087000,
-          "file": {
-            "name": "/com.nihaltp.secret_chat_3.apk",
-            "sha256": "d9882a6ddc4e8f068e9f4afaa1e57c92fa3e042cb096f7ee1fecc65404a01c0e",
-            "size": 50200241
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.1.1",
-            "versionCode": 3,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "4a84253a1794aa671dd0beb20df3a4e9057fb256a0d309c7e95acc24702821ab": {
-          "added": 1775892708000,
-          "file": {
-            "name": "/com.nihaltp.secret_chat_2.apk",
-            "sha256": "4a84253a1794aa671dd0beb20df3a4e9057fb256a0d309c7e95acc24702821ab",
-            "size": 49898734
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.1.0",
-            "versionCode": 2,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "c60b2d076e3faadeaaf95ca18cfddb49c39c12c70d854a885530400c494e033f": {
-          "added": 1775759883000,
-          "file": {
-            "name": "/com.nihaltp.secret_chat_1.apk",
-            "sha256": "c60b2d076e3faadeaaf95ca18cfddb49c39c12c70d854a885530400c494e033f",
-            "size": 52877683
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a",
-              "x86_64"
-            ],
-            "versionName": "1.0.0",
-            "versionCode": 1,
-            "usesSdk": {
-              "minSdkVersion": 24,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
-              },
-              {
-                "name": "android.permission.USE_BIOMETRIC"
-              },
-              {
-                "name": "android.permission.USE_FINGERPRINT"
-              },
-              {
-                "name": "com.nihaltp.secret_chat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
+          "releaseChannels": [
+            "Beta"
+          ]
         }
       }
     },
@@ -2195,7 +2067,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697": {
           "added": 1780834746000,
@@ -2255,7 +2130,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b": {
           "added": 1780834746000,
@@ -2315,7 +2193,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466": {
           "added": 1780834745000,
@@ -2375,7 +2256,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210": {
           "added": 1780834745000,
@@ -2435,7 +2319,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75": {
           "added": 1780813673000,
@@ -2495,7 +2382,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6": {
           "added": 1780813673000,
@@ -2555,7 +2445,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353": {
           "added": 1780813672000,
@@ -2615,7 +2508,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b": {
           "added": 1780813672000,
@@ -2675,7 +2571,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": {
           "added": 1780813671000,
@@ -2735,7 +2634,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "2c45d89f1451eb1e196266a2ce582ee704d992884a1c95ada9810302ef809ae7": {
           "added": 1780767552000,
@@ -2783,7 +2685,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "316eadb40fe14548facd103a817dc04812c6c6df086a7faecef0ddad568249cd": {
           "added": 1780767552000,
@@ -2831,7 +2736,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "2da540a15a70a1e79dda3a76a52a85ce4cb484d4ff44725714f2a2e33fbbf94a": {
           "added": 1780767551000,
@@ -2879,7 +2787,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "91d39b05483da32835d813cebc128c95ee00cb72500176ece4af09de4e8edac9": {
           "added": 1780767551000,
@@ -2927,7 +2838,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "8a070dde9636ad3737486ffdece97d8e2bf733e8457a82f256fd11405910035d": {
           "added": 1780767550000,
@@ -2975,7 +2889,10 @@
                 "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         }
       }
     },
@@ -3105,7 +3022,10 @@
                 "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62": {
           "added": 1781017282000,
@@ -3152,7 +3072,10 @@
                 "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6": {
           "added": 1781017282000,
@@ -3199,7 +3122,10 @@
                 "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2": {
           "added": 1781017281000,
@@ -3246,7 +3172,10 @@
                 "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         },
         "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd": {
           "added": 1781017280000,
@@ -3293,7 +3222,10 @@
                 "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
               }
             ]
-          }
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
         }
       }
     }

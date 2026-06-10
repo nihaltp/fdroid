@@ -1,0 +1,17 @@
+{
+  "repo": {
+    "timestamp": 1781118406000
+  },
+  "packages": {
+    "com.nihaltp.secretchat": {
+      "metadata": {
+        "added": 1781117967000
+      },
+      "versions": {
+        "42bfdcfbb02fce026054a2b53b5b6bea145bd0f199b0c460dd61c25a4fe1dac1": null,
+        "4bff4c4c873be49c4c661eed63d33e13e11e011e59f74c925aef2060deffe114": null,
+        "f1b66c174acd834fe283dc1b4ad4e309906d670249fd260cd79888d2e261d6fb": null
+      }
+    }
+  }
+}
