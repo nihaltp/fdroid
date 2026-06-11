@@ -1,1 +1,3320 @@
-{"repo": {"name": {"en-US": "nihaltp"}, "description": {"en-US": "This is a repository of apps made by nihaltp. Feel free to try them out!"}, "icon": {"en-US": {"name": "/icons/icon.png", "sha256": "33a370ce1da2276e2fbdc7bd78808037314aba2f2a4d9b2c465047340e9d6e79", "size": 43847}}, "address": "https://nihaltp.github.io/fdroid/repo", "timestamp": 1781161417000, "categories": {"Accessibility": {"name": {"en-US": "Accessibility"}}, "Audio": {"name": {"en-US": "Audio"}}, "Connectivity": {"name": {"en-US": "Connectivity"}}, "Internet": {"name": {"en-US": "Internet"}}, "Messaging": {"name": {"en-US": "Messaging"}}, "Multimedia": {"name": {"en-US": "Multimedia"}}, "Ringtone": {"name": {"en-US": "Ringtone"}}, "System": {"name": {"en-US": "System"}}, "Timer": {"name": {"en-US": "Timer"}}, "Utilities": {"name": {"en-US": "Utilities"}}, "Video": {"name": {"en-US": "Video"}}, "Volume Control": {"name": {"en-US": "Volume Control"}}}}, "packages": {"com.nihaltp.aftersleep": {"metadata": {"added": 1778852814000, "categories": ["Accessibility", "Multimedia", "Timer", "Utilities"], "issueTracker": "https://github.com/nihaltp/AfterSleep/issues", "lastUpdated": 1780423822000, "license": "MIT", "sourceCode": "https://github.com/nihaltp/AfterSleep", "webSite": "https://github.com/nihaltp/AfterSleep", "screenshots": {"phone": {"en-US": [{"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.jpg", "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4", "size": 78400}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.png", "sha256": "0ad207ed575e8f280b77537a7e0680aa8314eb5da5eba6652dc501562775eef3", "size": 224013}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.jpg", "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a", "size": 67931}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.png", "sha256": "65603a912ab1c7cd3ecab14189a6545bd12275972e52ca24327636deef49942e", "size": 202098}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.jpg", "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f", "size": 53536}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.png", "sha256": "eed32968f97054fcf7cc3fe9ed9baf91a80f02084696136153775a467dafe5ed", "size": 164506}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_1.jpg", "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4", "size": 78400}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_2.jpg", "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a", "size": 67931}, {"name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_3.jpg", "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f", "size": 53536}]}}, "authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "name": {"en-US": "AfterSleep"}, "summary": {"en-US": "Delayed media playback companion for sleep"}, "description": {"en-US": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n"}, "icon": {"en-US": {"name": "/com.nihaltp.aftersleep/en-US/icon_tjVjUxAqc2Wg1cEAO6_6dr3x4Ooi72fSbvITRSMZPug=.png", "sha256": "b6356353102a7365a0d5c1003baffa76bdf1e0ea22ef67d26ef2134523193ee8", "size": 1315449}}, "preferredSigner": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"}, "versions": {"92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0": {"added": 1780259804000, "file": {"name": "/com.nihaltp.aftersleep_3004.apk", "sha256": "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0", "size": 14878081}, "manifest": {"nativecode": ["x86_64"], "versionName": "1.0.2", "versionCode": 3004, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53": {"added": 1780259803000, "file": {"name": "/com.nihaltp.aftersleep_3003.apk", "sha256": "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53", "size": 14877002}, "manifest": {"nativecode": ["x86"], "versionName": "1.0.2", "versionCode": 3003, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26": {"added": 1780259802000, "file": {"name": "/com.nihaltp.aftersleep_3002.apk", "sha256": "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26", "size": 14878972}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "1.0.2", "versionCode": 3002, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade": {"added": 1780259801000, "file": {"name": "/com.nihaltp.aftersleep_3001.apk", "sha256": "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade", "size": 14876278}, "manifest": {"nativecode": ["armeabi-v7a"], "versionName": "1.0.2", "versionCode": 3001, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1": {"added": 1780423822000, "file": {"name": "/com.nihaltp.aftersleep_3000.apk", "sha256": "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1", "size": 14927499}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "1.0.2", "versionCode": 3000, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "a1a1558dba0f77870aca2faab0611d60ca8b192cb6f727c204052fb1a8995b81": {"added": 1779522639000, "file": {"name": "/com.nihaltp.AfterSleep_3.apk", "sha256": "a1a1558dba0f77870aca2faab0611d60ca8b192cb6f727c204052fb1a8995b81", "size": 14927499}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "1.0.2", "versionCode": 3, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}, "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103": {"added": 1778870975000, "file": {"name": "/com.nihaltp.AfterSleep_2.apk", "sha256": "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103", "size": 14927499}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "1.0.1", "versionCode": 2, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}, "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe": {"added": 1778852814000, "file": {"name": "/com.nihaltp.aftersleep_1.apk", "sha256": "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe", "size": 14926931}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "1.0", "versionCode": 1, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"]}, "usesPermission": [{"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"}, {"name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}}}}, "com.nihaltp.sbskip": {"metadata": {"added": 1780085906000, "categories": ["Audio", "Multimedia", "Video"], "issueTracker": "https://github.com/nihaltp/SBSkip/issues", "lastUpdated": 1781100954000, "license": "GPL-3.0-only", "sourceCode": "https://github.com/nihaltp/SBSkip", "webSite": "https://github.com/nihaltp/SBSkip", "screenshots": {"phone": {"en-US": [{"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png", "sha256": "16e4103124ae41612b769087a178afe17534dd0e92dcf001b612b437cd08fd50", "size": 125619}, {"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png", "sha256": "cd61e0078aced58c294a0c478e5bd115a7bc53e16cb2815d0cae551db04515d6", "size": 107550}, {"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png", "sha256": "fc6ff203ab272f239ce219f4e8208671ae75d01e1853be59cb49ea455f531608", "size": 105157}, {"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/4.png", "sha256": "47c70e72cf9e39053247a1405476df83fe3b77e6fc15fed8552ebf4f0b2186a1", "size": 123889}, {"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/5.png", "sha256": "5978d436115825c54ca40af37168878408365d679fe06168312508afc53f2944", "size": 105962}, {"name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png", "sha256": "edf49dbd2d48be440aaf48555befd6b791cfc18be8827cc39a1a31284ca061a7", "size": 103608}]}}, "authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "name": {"en-US": "SB Skip"}, "summary": {"en-US": "Remove SponsorBlock segments from local video and audio files"}, "description": {"en-US": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n"}, "icon": {"en-US": {"name": "/com.nihaltp.sbskip/en-US/icon_qwYQVmszeI92847Nyr8wq3Qkrfe6-PwdBzkq--_fh5E=.png", "sha256": "ab0610566b33788f76f38ecdcabf30ab7424adf7baf8fc1d07392afbefdf8791", "size": 1434673}}, "preferredSigner": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"}, "versions": {"6cdf8a2f2bc2196a0bb3771e4ac6f80145a8ce04fee0db3b2d9f325aae3ad31d": {"added": 1781100954000, "file": {"name": "/com.nihaltp.sbskip_7004.apk", "sha256": "6cdf8a2f2bc2196a0bb3771e4ac6f80145a8ce04fee0db3b2d9f325aae3ad31d", "size": 33418679}, "manifest": {"nativecode": ["x86_64"], "versionName": "1.3.0", "versionCode": 7004, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "f6a112efb3bde3704a4e0347d2455e4d09bc3a7b1d9afd762b17d913206bc74f": {"added": 1781100953000, "file": {"name": "/com.nihaltp.sbskip_7003.apk", "sha256": "f6a112efb3bde3704a4e0347d2455e4d09bc3a7b1d9afd762b17d913206bc74f", "size": 30072891}, "manifest": {"nativecode": ["x86"], "versionName": "1.3.0", "versionCode": 7003, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "98b6b68717e70e6c8aed021aa6394b4a4e36ccd106ec7a29cd73245ea95df6da": {"added": 1781100953000, "file": {"name": "/com.nihaltp.sbskip_7002.apk", "sha256": "98b6b68717e70e6c8aed021aa6394b4a4e36ccd106ec7a29cd73245ea95df6da", "size": 28454547}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "1.3.0", "versionCode": 7002, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "8e0bb0c41342377707a32468a91a3f8dcf1ea62770638726835377527afbbc60": {"added": 1781100952000, "file": {"name": "/com.nihaltp.sbskip_7001.apk", "sha256": "8e0bb0c41342377707a32468a91a3f8dcf1ea62770638726835377527afbbc60", "size": 27637394}, "manifest": {"nativecode": ["armeabi-v7a"], "versionName": "1.3.0", "versionCode": 7001, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "769b3d5a969224daae1c2b73a51b5f1aa5f6a54e5b94078c73d90ee18bbe0947": {"added": 1781100951000, "file": {"name": "/com.nihaltp.sbskip_7000.apk", "sha256": "769b3d5a969224daae1c2b73a51b5f1aa5f6a54e5b94078c73d90ee18bbe0947", "size": 82933058}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "versionName": "1.3.0", "versionCode": 7000, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "0cef4ba8a11a9fb9b987e77b80ae2dd6cb1986ab2c817e2d1820671b02d15f36": {"added": 1781030749000, "file": {"name": "/com.nihaltp.sbskip_6004.apk", "sha256": "0cef4ba8a11a9fb9b987e77b80ae2dd6cb1986ab2c817e2d1820671b02d15f36", "size": 33416027}, "manifest": {"nativecode": ["x86_64"], "versionName": "1.2.3", "versionCode": 6004, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "e3b38dce67a30044a31eb489100d9a1beb5ad002994f19f6190c864d11c73bb7": {"added": 1781030749000, "file": {"name": "/com.nihaltp.sbskip_6003.apk", "sha256": "e3b38dce67a30044a31eb489100d9a1beb5ad002994f19f6190c864d11c73bb7", "size": 30070239}, "manifest": {"nativecode": ["x86"], "versionName": "1.2.3", "versionCode": 6003, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "5c182228407c14fae44f1408ebffb97db58a40dc5619b2ed42d7dbbc561e1a73": {"added": 1781030748000, "file": {"name": "/com.nihaltp.sbskip_6002.apk", "sha256": "5c182228407c14fae44f1408ebffb97db58a40dc5619b2ed42d7dbbc561e1a73", "size": 28451895}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "1.2.3", "versionCode": 6002, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "a97bdd1efaeb1f8f688b1eb3b0e0e21d7b548db98172fe4a8c0604d3a621a06c": {"added": 1781030747000, "file": {"name": "/com.nihaltp.sbskip_6001.apk", "sha256": "a97bdd1efaeb1f8f688b1eb3b0e0e21d7b548db98172fe4a8c0604d3a621a06c", "size": 27634746}, "manifest": {"nativecode": ["armeabi-v7a"], "versionName": "1.2.3", "versionCode": 6001, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "f0cf33391df4ec508d3b5eb69e3a50677863baac538e25d5fc5954aea91b58c1": {"added": 1781030747000, "file": {"name": "/com.nihaltp.sbskip_6000.apk", "sha256": "f0cf33391df4ec508d3b5eb69e3a50677863baac538e25d5fc5954aea91b58c1", "size": 82930406}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "versionName": "1.2.3", "versionCode": 6000, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "c8bb074e19ef983ffc00e003a3fd821b8cb001c1cd6bef5cfdf70450cd709f25": {"added": 1780485883000, "file": {"name": "/com.nihaltp.sbskip_5004.apk", "sha256": "c8bb074e19ef983ffc00e003a3fd821b8cb001c1cd6bef5cfdf70450cd709f25", "size": 33414775}, "manifest": {"nativecode": ["x86_64"], "versionName": "1.2.2", "versionCode": 5004, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "ac1d130c0e3128fc87f74451ba5b96b0dcb0eb166cf541a965c745e68b74df40": {"added": 1780485882000, "file": {"name": "/com.nihaltp.sbskip_5003.apk", "sha256": "ac1d130c0e3128fc87f74451ba5b96b0dcb0eb166cf541a965c745e68b74df40", "size": 30068987}, "manifest": {"nativecode": ["x86"], "versionName": "1.2.2", "versionCode": 5003, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "233b51eae36bbd6b071cee67b7112b35d0a44b5c086f65c980a6c722eafd9e5d": {"added": 1780485881000, "file": {"name": "/com.nihaltp.sbskip_5002.apk", "sha256": "233b51eae36bbd6b071cee67b7112b35d0a44b5c086f65c980a6c722eafd9e5d", "size": 28450643}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "1.2.2", "versionCode": 5002, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "16dc1e2130eb97332b17f3f6a64f87188883896b6af62da7c599be2ebe273a80": {"added": 1780485880000, "file": {"name": "/com.nihaltp.sbskip_5001.apk", "sha256": "16dc1e2130eb97332b17f3f6a64f87188883896b6af62da7c599be2ebe273a80", "size": 27633494}, "manifest": {"nativecode": ["armeabi-v7a"], "versionName": "1.2.2", "versionCode": 5001, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "30480000f0fff47a58c10541a48b5bbd39110a9fbf49d77a7b348e8c68074041": {"added": 1780485879000, "file": {"name": "/com.nihaltp.sbskip_5000.apk", "sha256": "30480000f0fff47a58c10541a48b5bbd39110a9fbf49d77a7b348e8c68074041", "size": 82929154}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86_64"], "versionName": "1.2.2", "versionCode": 5000, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 35}, "signer": {"sha256": ["004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.WRITE_EXTERNAL_STORAGE", "maxSdkVersion": 29}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.READ_MEDIA_VIDEO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}}}, "com.nihaltp.secretchat": {"metadata": {"added": 1781117967000, "categories": ["Connectivity", "Internet", "Messaging"], "issueTracker": "https://github.com/nihaltp/secretchat/issues", "lastUpdated": 1781117971000, "license": "MIT", "sourceCode": "https://github.com/nihaltp/secretchat", "webSite": "https://nihaltp.github.io/secretchat/", "screenshots": {"phone": {"en-US": [{"name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/1.png", "sha256": "e49ef6cbaf1c4267cb4c36f0f107b84efe44326988b9a9f5ef7943c4e5742cd0", "size": 91677}, {"name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/2.png", "sha256": "181722eb0a228dfd87686d4a526d0260c01418f6cbd1987510ef6a35961ef8c6", "size": 91968}, {"name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/3.png", "sha256": "559e6c2136f2162c1c04ea29d8408cf4d30bcd3ae43705017cc1e942fcc4430f", "size": 95767}, {"name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/4.png", "sha256": "7df828b22b2498e302a8f337dbb8f47e17cbe1d37ad4a4a8865b95b5486b0505", "size": 107117}]}}, "authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "name": {"en-US": "Secret Chat"}, "summary": {"en-US": "Peer-to-peer LAN chat app"}, "description": {"en-US": "A simple LAN chat app built using Flutter. It allows users to chat with each other over a local network without the need for an internet connection. The app uses UDP sockets for communication and supports text messaging."}, "icon": {"en-US": {"name": "/com.nihaltp.secretchat/en-US/icon_cEvdAYifCQ2u0rhzqS8r3pTULRH8CcGtFd-teo-vnTM=.png", "sha256": "704bdd01889f090daed2b873a92f2bde94d42d11fc09c1ad15dfad7a8faf9d33", "size": 8663}}, "preferredSigner": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"}, "versions": {"30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88": {"added": 1781117971000, "file": {"name": "/com.nihaltp.secretchat_104.apk", "sha256": "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88", "size": 9254309}, "manifest": {"nativecode": ["x86_64"], "versionName": "2.0.0", "versionCode": 104, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa": {"added": 1781117969000, "file": {"name": "/com.nihaltp.secretchat_103.apk", "sha256": "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa", "size": 1507278}, "manifest": {"nativecode": ["x86"], "versionName": "2.0.0", "versionCode": 103, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e": {"added": 1781117969000, "file": {"name": "/com.nihaltp.secretchat_102.apk", "sha256": "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e", "size": 9087270}, "manifest": {"nativecode": ["arm64-v8a"], "versionName": "2.0.0", "versionCode": 102, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905": {"added": 1781117967000, "file": {"name": "/com.nihaltp.secretchat_101.apk", "sha256": "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905", "size": 8592952}, "manifest": {"nativecode": ["armeabi-v7a"], "versionName": "2.0.0", "versionCode": 101, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3": {"added": 1781117967000, "file": {"name": "/com.nihaltp.secretchat_100.apk", "sha256": "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3", "size": 23927423}, "manifest": {"nativecode": ["arm64-v8a", "armeabi-v7a", "x86", "x86_64"], "versionName": "2.0.0", "versionCode": 100, "usesSdk": {"minSdkVersion": 24, "targetSdkVersion": 36}, "signer": {"sha256": ["eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"]}, "usesPermission": [{"name": "android.permission.INTERNET"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.ACCESS_WIFI_STATE"}, {"name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"}, {"name": "android.permission.USE_BIOMETRIC"}, {"name": "android.permission.USE_FINGERPRINT"}, {"name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}}}, "com.nihaltp.smartringtone": {"metadata": {"added": 1780700986000, "categories": ["Ringtone", "System", "Utilities"], "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues", "lastUpdated": 1781158881000, "license": "MIT", "sourceCode": "https://github.com/nihaltp/SmartRingtone", "webSite": "https://github.com/nihaltp/SmartRingtone/", "screenshots": {"phone": {"en-US": [{"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/1.png", "sha256": "7340af3531a75ee1a3a37ab5d92378dce9556f477da92d1e1de8d32295c08072", "size": 80564}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/2.png", "sha256": "707884e33c9b9f89250fb5a46e19c5d1a9670a77cda592e69eec4037ee3c36ac", "size": 79363}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/3.png", "sha256": "f8810faac870ac32b492cbdafee30970570e59c0fa8f1aea5650c4cd014b58a0", "size": 50692}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/4.png", "sha256": "7dd8210122aa6378d48ac81e929fb1927f36499d44017dcea329f94305790b67", "size": 102594}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/5.png", "sha256": "1a2266f796c76895e641781c939b9787f0f8419e486383ddd253110c7548a2b2", "size": 80397}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/6.png", "sha256": "abfd93b375d1815e22f1f4d7ce5d3ec1fdb5ded834623956583c2b6f8ebed09e", "size": 79191}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/7.png", "sha256": "7aacf7c003def98e362bd63d499d6bc5a690dd1683d256316692e31769daea36", "size": 50646}, {"name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/8.png", "sha256": "2e7dc32298c408c4061b353d0ba673dfa38b3158eca0fe4444e03f54218a0c3f", "size": 103104}]}}, "authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "name": {"en-US": "Smart Ringtone"}, "summary": {"en-US": "Automatically adjust contact ringtones based on call activity"}, "description": {"en-US": "Smart Ringtone automatically changes contact-specific ringtones based on your call history.\n\nThe app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.\n\nFeatures:\n\n* Automatic contact ringtone assignment\n* Configurable ringtone priority levels\n* Call score tracking based on call activity\n* Support for missed, rejected, incoming, and outgoing calls\n* Contact score management and reset controls\n* Local processing with no account required\n* No internet connection required\n\nSmart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.\n\nRequired permissions:\n\n* Contacts - to read and update contact ringtone settings\n* Phone State - to detect call state changes\n* Call Logs - to process call activity and update scores\n"}, "icon": {"en-US": {"name": "/com.nihaltp.smartringtone/en-US/icon_Wgt3HHlMjfAgYH3csO8xgJB8HPu3AkDyTLPYNvERF6Q=.png", "sha256": "5a0b771c794c8df020607ddcb0ef3180907c1cfbb70240f24cb3d836f11117a4", "size": 106641}}, "preferredSigner": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"}, "versions": {"ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54": {"added": 1781158881000, "file": {"name": "/com.nihaltp.smartringtone_94.apk", "sha256": "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54", "size": 1574534}, "manifest": {"versionName": "1.5.1", "versionCode": 94, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60": {"added": 1781158880000, "file": {"name": "/com.nihaltp.smartringtone_93.apk", "sha256": "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60", "size": 1574534}, "manifest": {"versionName": "1.5.1", "versionCode": 93, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2": {"added": 1781158880000, "file": {"name": "/com.nihaltp.smartringtone_92.apk", "sha256": "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2", "size": 1574534}, "manifest": {"versionName": "1.5.1", "versionCode": 92, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651": {"added": 1781158879000, "file": {"name": "/com.nihaltp.smartringtone_91.apk", "sha256": "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651", "size": 1574534}, "manifest": {"versionName": "1.5.1", "versionCode": 91, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262": {"added": 1781158878000, "file": {"name": "/com.nihaltp.smartringtone_90.apk", "sha256": "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262", "size": 1574534}, "manifest": {"versionName": "1.5.1", "versionCode": 90, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e": {"added": 1780834747000, "file": {"name": "/com.nihaltp.smartringtone_84.apk", "sha256": "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e", "size": 1574522}, "manifest": {"versionName": "1.5.0", "versionCode": 84, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697": {"added": 1780834746000, "file": {"name": "/com.nihaltp.smartringtone_83.apk", "sha256": "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697", "size": 1574522}, "manifest": {"versionName": "1.5.0", "versionCode": 83, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b": {"added": 1780834746000, "file": {"name": "/com.nihaltp.smartringtone_82.apk", "sha256": "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b", "size": 1574522}, "manifest": {"versionName": "1.5.0", "versionCode": 82, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466": {"added": 1780834745000, "file": {"name": "/com.nihaltp.smartringtone_81.apk", "sha256": "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466", "size": 1574522}, "manifest": {"versionName": "1.5.0", "versionCode": 81, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210": {"added": 1780834745000, "file": {"name": "/com.nihaltp.smartringtone_80.apk", "sha256": "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210", "size": 1574522}, "manifest": {"versionName": "1.5.0", "versionCode": 80, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75": {"added": 1780813673000, "file": {"name": "/com.nihaltp.smartringtone_74.apk", "sha256": "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75", "size": 1567266}, "manifest": {"versionName": "1.4.0", "versionCode": 74, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6": {"added": 1780813673000, "file": {"name": "/com.nihaltp.smartringtone_73.apk", "sha256": "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6", "size": 1567266}, "manifest": {"versionName": "1.4.0", "versionCode": 73, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353": {"added": 1780813672000, "file": {"name": "/com.nihaltp.smartringtone_72.apk", "sha256": "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353", "size": 1567266}, "manifest": {"versionName": "1.4.0", "versionCode": 72, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b": {"added": 1780813672000, "file": {"name": "/com.nihaltp.smartringtone_71.apk", "sha256": "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b", "size": 1567266}, "manifest": {"versionName": "1.4.0", "versionCode": 71, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": {"added": 1780813671000, "file": {"name": "/com.nihaltp.smartringtone_70.apk", "sha256": "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60", "size": 1567266}, "manifest": {"versionName": "1.4.0", "versionCode": 70, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"]}, "usesPermission": [{"name": "android.permission.READ_PHONE_STATE"}, {"name": "android.permission.READ_CALL_LOG"}, {"name": "android.permission.READ_CONTACTS"}, {"name": "android.permission.WRITE_CONTACTS"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.READ_EXTERNAL_STORAGE", "maxSdkVersion": 32}, {"name": "android.permission.READ_MEDIA_AUDIO"}, {"name": "android.permission.WAKE_LOCK"}, {"name": "android.permission.ACCESS_NETWORK_STATE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}}}, "com.nihaltp.volumelock": {"metadata": {"added": 1781017280000, "categories": ["Accessibility", "System", "Utilities", "Volume Control"], "issueTracker": "https://github.com/nihaltp/volumelock/issues", "lastUpdated": 1781017283000, "license": "MIT", "sourceCode": "https://github.com/nihaltp/volumelock", "webSite": "https://nihaltp.github.io/volumelock/", "screenshots": {"phone": {"en-US": [{"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/1.png", "sha256": "d22768ca9789e2a5294ed6043db4cee2cfdaf0af204e2272b5849b0e50bdd9a9", "size": 109978}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/2.png", "sha256": "be529a4dcd7d55530895dfa72065d2975773cbd4f8c65c55f5714b2486eca700", "size": 114586}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/3.png", "sha256": "8327f6782fb0fe07a3c129139d3e3109db84a02223a98d6cae2510b58f9af61d", "size": 116243}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/4.png", "sha256": "1bc1638de8059160965380fa0f6ba266d730a35e28804a9493d6aadea8c33b18", "size": 123733}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/5.png", "sha256": "6bbfa5f8ca1278bf22183144ad788b1b304bd57cf2c9be36cd75dca028227ed1", "size": 110799}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/6.png", "sha256": "6d458050a9132609ac0465146c2625a919d5594615c39485b4dbf16ba5ad8c00", "size": 115915}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/7.png", "sha256": "9f7a2f07d95c60e92116cd62076f1862247445f852d8fc38d0628307b0ffe9fb", "size": 113853}, {"name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/8.png", "sha256": "148efba6dbd1cb596b1017b974c4ac971ea49f94264cc5065920fcdbe350dd9d", "size": 122344}]}}, "authorEmail": "nihaltpnki@gmail.com", "authorName": "nihaltp", "name": {"en-US": "Volume Lock"}, "summary": {"en-US": "A simple volume lock app"}, "description": {"en-US": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes."}, "icon": {"en-US": {"name": "/com.nihaltp.volumelock/en-US/icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png", "sha256": "fe5f0d81acdffa05fff5f3536a3f6275e545a7155f7623c9f46b11f251a61a4b", "size": 5211}}, "preferredSigner": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"}, "versions": {"d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387": {"added": 1781017283000, "file": {"name": "/com.nihaltp.volumelock_5004.apk", "sha256": "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387", "size": 2374713}, "manifest": {"versionName": "2.0.0", "versionCode": 5004, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"]}, "usesPermission": [{"name": "android.permission.CHANGE_AUDIO_SETTINGS"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NOTIFICATION_POLICY"}, {"name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62": {"added": 1781017282000, "file": {"name": "/com.nihaltp.volumelock_5003.apk", "sha256": "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62", "size": 2374713}, "manifest": {"versionName": "2.0.0", "versionCode": 5003, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"]}, "usesPermission": [{"name": "android.permission.CHANGE_AUDIO_SETTINGS"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NOTIFICATION_POLICY"}, {"name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6": {"added": 1781017282000, "file": {"name": "/com.nihaltp.volumelock_5002.apk", "sha256": "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6", "size": 2374713}, "manifest": {"versionName": "2.0.0", "versionCode": 5002, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"]}, "usesPermission": [{"name": "android.permission.CHANGE_AUDIO_SETTINGS"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NOTIFICATION_POLICY"}, {"name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2": {"added": 1781017281000, "file": {"name": "/com.nihaltp.volumelock_5001.apk", "sha256": "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2", "size": 2374713}, "manifest": {"versionName": "2.0.0", "versionCode": 5001, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"]}, "usesPermission": [{"name": "android.permission.CHANGE_AUDIO_SETTINGS"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NOTIFICATION_POLICY"}, {"name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}, "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd": {"added": 1781017280000, "file": {"name": "/com.nihaltp.volumelock_5000.apk", "sha256": "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd", "size": 2374713}, "manifest": {"versionName": "2.0.0", "versionCode": 5000, "usesSdk": {"minSdkVersion": 26, "targetSdkVersion": 34}, "signer": {"sha256": ["6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"]}, "usesPermission": [{"name": "android.permission.CHANGE_AUDIO_SETTINGS"}, {"name": "android.permission.MODIFY_AUDIO_SETTINGS"}, {"name": "android.permission.FOREGROUND_SERVICE"}, {"name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"}, {"name": "android.permission.RECEIVE_BOOT_COMPLETED"}, {"name": "android.permission.POST_NOTIFICATIONS"}, {"name": "android.permission.ACCESS_NOTIFICATION_POLICY"}, {"name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"}]}, "releaseChannels": ["Beta"]}}}}}
+{
+  "repo": {
+    "name": {
+      "en-US": "nihaltp"
+    },
+    "description": {
+      "en-US": "This is a repository of apps made by nihaltp. Feel free to try them out!"
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "33a370ce1da2276e2fbdc7bd78808037314aba2f2a4d9b2c465047340e9d6e79",
+        "size": 43847
+      }
+    },
+    "address": "https://nihaltp.github.io/fdroid/repo",
+    "timestamp": 1781164828000,
+    "categories": {
+      "Accessibility": {
+        "name": {
+          "en-US": "Accessibility"
+        }
+      },
+      "Audio": {
+        "name": {
+          "en-US": "Audio"
+        }
+      },
+      "Connectivity": {
+        "name": {
+          "en-US": "Connectivity"
+        }
+      },
+      "Internet": {
+        "name": {
+          "en-US": "Internet"
+        }
+      },
+      "Messaging": {
+        "description": {
+          "en-US": "Instant messaging, chat, and SMS communication apps"
+        },
+        "name": {
+          "en-US": "Messaging"
+        }
+      },
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      },
+      "Ringtone": {
+        "name": {
+          "en-US": "Ringtone"
+        }
+      },
+      "System": {
+        "name": {
+          "en-US": "System"
+        }
+      },
+      "Timer": {
+        "description": {
+          "en-US": "Interval timing, timekeeping, countdown"
+        },
+        "name": {
+          "en-US": "Timer"
+        }
+      },
+      "Utilities": {
+        "description": {
+          "en-US": "Miscellaneous tools and utilities that don't fit into other categories"
+        },
+        "name": {
+          "en-US": "Utilities"
+        }
+      },
+      "Video": {
+        "name": {
+          "en-US": "Video"
+        }
+      },
+      "Volume Control": {
+        "description": {
+          "en-US": "Adjust and manage audio volume levels and profiles"
+        },
+        "name": {
+          "en-US": "Volume Control"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "added": 1778852814000,
+        "categories": [
+          "Accessibility",
+          "Multimedia",
+          "Timer",
+          "Utilities"
+        ],
+        "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
+        "lastUpdated": 1780423822000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/nihaltp/AfterSleep",
+        "webSite": "https://github.com/nihaltp/AfterSleep",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.jpg",
+                "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4",
+                "size": 78400
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.png",
+                "sha256": "0ad207ed575e8f280b77537a7e0680aa8314eb5da5eba6652dc501562775eef3",
+                "size": 224013
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.jpg",
+                "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a",
+                "size": 67931
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.png",
+                "sha256": "65603a912ab1c7cd3ecab14189a6545bd12275972e52ca24327636deef49942e",
+                "size": 202098
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.jpg",
+                "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f",
+                "size": 53536
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.png",
+                "sha256": "eed32968f97054fcf7cc3fe9ed9baf91a80f02084696136153775a467dafe5ed",
+                "size": 164506
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_1.jpg",
+                "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4",
+                "size": 78400
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_2.jpg",
+                "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a",
+                "size": 67931
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_3.jpg",
+                "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f",
+                "size": 53536
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "AfterSleep"
+        },
+        "summary": {
+          "en-US": "Delayed media playback companion for sleep"
+        },
+        "description": {
+          "en-US": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.aftersleep/en-US/icon_tjVjUxAqc2Wg1cEAO6_6dr3x4Ooi72fSbvITRSMZPug=.png",
+            "sha256": "b6356353102a7365a0d5c1003baffa76bdf1e0ea22ef67d26ef2134523193ee8",
+            "size": 1315449
+          }
+        },
+        "preferredSigner": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+      },
+      "versions": {
+        "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0": {
+          "added": 1780259804000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3004.apk",
+            "sha256": "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0",
+            "size": 14878081
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53": {
+          "added": 1780259803000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3003.apk",
+            "sha256": "b2d51c0281e7f72218034610b83450cd114827b65c82fc1efc7e2dc02933ab53",
+            "size": 14877002
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26": {
+          "added": 1780259802000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3002.apk",
+            "sha256": "54e2acdc3c810d4313637c0f048e0395ff87f341c39e68ee37199e2422b1cd26",
+            "size": 14878972
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade": {
+          "added": 1780259801000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3001.apk",
+            "sha256": "8b3b07707e74ea9522bb36608ad02b9bb4ae3fbcdc65265f37c7567ca2da8ade",
+            "size": 14876278
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1": {
+          "added": 1780423822000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_3000.apk",
+            "sha256": "a1c57e2a4ff5f331bcb76b7fad105d93c51945c577553acdfe1363a524a323e1",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a1a1558dba0f77870aca2faab0611d60ca8b192cb6f727c204052fb1a8995b81": {
+          "added": 1779522639000,
+          "file": {
+            "name": "/com.nihaltp.AfterSleep_3.apk",
+            "sha256": "a1a1558dba0f77870aca2faab0611d60ca8b192cb6f727c204052fb1a8995b81",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.2",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103": {
+          "added": 1778870975000,
+          "file": {
+            "name": "/com.nihaltp.AfterSleep_2.apk",
+            "sha256": "cee2acfacc3c855fefb93c52ad6cf22c42fd8837de15c112db31f17a8357b103",
+            "size": 14927499
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0.1",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
+        "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe": {
+          "added": 1778852814000,
+          "file": {
+            "name": "/com.nihaltp.aftersleep_1.apk",
+            "sha256": "ef3a06fd9c5ebd502607c4b4f5e35f8a688eb0e8ca0f70dff8da146e3ff48ebe",
+            "size": 14926931
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"
+              },
+              {
+                "name": "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "com.nihaltp.sbskip": {
+      "metadata": {
+        "added": 1780085906000,
+        "categories": [
+          "Audio",
+          "Multimedia",
+          "Video"
+        ],
+        "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
+        "lastUpdated": 1781100954000,
+        "license": "GPL-3.0-only",
+        "sourceCode": "https://github.com/nihaltp/SBSkip",
+        "webSite": "https://github.com/nihaltp/SBSkip",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png",
+                "sha256": "16e4103124ae41612b769087a178afe17534dd0e92dcf001b612b437cd08fd50",
+                "size": 125619
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png",
+                "sha256": "cd61e0078aced58c294a0c478e5bd115a7bc53e16cb2815d0cae551db04515d6",
+                "size": 107550
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png",
+                "sha256": "fc6ff203ab272f239ce219f4e8208671ae75d01e1853be59cb49ea455f531608",
+                "size": 105157
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/4.png",
+                "sha256": "47c70e72cf9e39053247a1405476df83fe3b77e6fc15fed8552ebf4f0b2186a1",
+                "size": 123889
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/5.png",
+                "sha256": "5978d436115825c54ca40af37168878408365d679fe06168312508afc53f2944",
+                "size": 105962
+              },
+              {
+                "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png",
+                "sha256": "edf49dbd2d48be440aaf48555befd6b791cfc18be8827cc39a1a31284ca061a7",
+                "size": 103608
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "SB Skip"
+        },
+        "summary": {
+          "en-US": "Remove SponsorBlock segments from local video and audio files"
+        },
+        "description": {
+          "en-US": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.sbskip/en-US/icon_qwYQVmszeI92847Nyr8wq3Qkrfe6-PwdBzkq--_fh5E=.png",
+            "sha256": "ab0610566b33788f76f38ecdcabf30ab7424adf7baf8fc1d07392afbefdf8791",
+            "size": 1434673
+          }
+        },
+        "preferredSigner": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+      },
+      "versions": {
+        "6cdf8a2f2bc2196a0bb3771e4ac6f80145a8ce04fee0db3b2d9f325aae3ad31d": {
+          "added": 1781100954000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_7004.apk",
+            "sha256": "6cdf8a2f2bc2196a0bb3771e4ac6f80145a8ce04fee0db3b2d9f325aae3ad31d",
+            "size": 33418679
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "f6a112efb3bde3704a4e0347d2455e4d09bc3a7b1d9afd762b17d913206bc74f": {
+          "added": 1781100953000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_7003.apk",
+            "sha256": "f6a112efb3bde3704a4e0347d2455e4d09bc3a7b1d9afd762b17d913206bc74f",
+            "size": 30072891
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "98b6b68717e70e6c8aed021aa6394b4a4e36ccd106ec7a29cd73245ea95df6da": {
+          "added": 1781100953000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_7002.apk",
+            "sha256": "98b6b68717e70e6c8aed021aa6394b4a4e36ccd106ec7a29cd73245ea95df6da",
+            "size": 28454547
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "8e0bb0c41342377707a32468a91a3f8dcf1ea62770638726835377527afbbc60": {
+          "added": 1781100952000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_7001.apk",
+            "sha256": "8e0bb0c41342377707a32468a91a3f8dcf1ea62770638726835377527afbbc60",
+            "size": 27637394
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "769b3d5a969224daae1c2b73a51b5f1aa5f6a54e5b94078c73d90ee18bbe0947": {
+          "added": 1781100951000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_7000.apk",
+            "sha256": "769b3d5a969224daae1c2b73a51b5f1aa5f6a54e5b94078c73d90ee18bbe0947",
+            "size": 82933058
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.3.0",
+            "versionCode": 7000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "0cef4ba8a11a9fb9b987e77b80ae2dd6cb1986ab2c817e2d1820671b02d15f36": {
+          "added": 1781030749000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_6004.apk",
+            "sha256": "0cef4ba8a11a9fb9b987e77b80ae2dd6cb1986ab2c817e2d1820671b02d15f36",
+            "size": 33416027
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 6004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "e3b38dce67a30044a31eb489100d9a1beb5ad002994f19f6190c864d11c73bb7": {
+          "added": 1781030749000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_6003.apk",
+            "sha256": "e3b38dce67a30044a31eb489100d9a1beb5ad002994f19f6190c864d11c73bb7",
+            "size": 30070239
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 6003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "5c182228407c14fae44f1408ebffb97db58a40dc5619b2ed42d7dbbc561e1a73": {
+          "added": 1781030748000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_6002.apk",
+            "sha256": "5c182228407c14fae44f1408ebffb97db58a40dc5619b2ed42d7dbbc561e1a73",
+            "size": 28451895
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 6002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a97bdd1efaeb1f8f688b1eb3b0e0e21d7b548db98172fe4a8c0604d3a621a06c": {
+          "added": 1781030747000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_6001.apk",
+            "sha256": "a97bdd1efaeb1f8f688b1eb3b0e0e21d7b548db98172fe4a8c0604d3a621a06c",
+            "size": 27634746
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 6001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "f0cf33391df4ec508d3b5eb69e3a50677863baac538e25d5fc5954aea91b58c1": {
+          "added": 1781030747000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_6000.apk",
+            "sha256": "f0cf33391df4ec508d3b5eb69e3a50677863baac538e25d5fc5954aea91b58c1",
+            "size": 82930406
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.2.3",
+            "versionCode": 6000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "c8bb074e19ef983ffc00e003a3fd821b8cb001c1cd6bef5cfdf70450cd709f25": {
+          "added": 1780485883000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_5004.apk",
+            "sha256": "c8bb074e19ef983ffc00e003a3fd821b8cb001c1cd6bef5cfdf70450cd709f25",
+            "size": 33414775
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "1.2.2",
+            "versionCode": 5004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ac1d130c0e3128fc87f74451ba5b96b0dcb0eb166cf541a965c745e68b74df40": {
+          "added": 1780485882000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_5003.apk",
+            "sha256": "ac1d130c0e3128fc87f74451ba5b96b0dcb0eb166cf541a965c745e68b74df40",
+            "size": 30068987
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "1.2.2",
+            "versionCode": 5003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "233b51eae36bbd6b071cee67b7112b35d0a44b5c086f65c980a6c722eafd9e5d": {
+          "added": 1780485881000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_5002.apk",
+            "sha256": "233b51eae36bbd6b071cee67b7112b35d0a44b5c086f65c980a6c722eafd9e5d",
+            "size": 28450643
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.2.2",
+            "versionCode": 5002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "16dc1e2130eb97332b17f3f6a64f87188883896b6af62da7c599be2ebe273a80": {
+          "added": 1780485880000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_5001.apk",
+            "sha256": "16dc1e2130eb97332b17f3f6a64f87188883896b6af62da7c599be2ebe273a80",
+            "size": 27633494
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.2.2",
+            "versionCode": 5001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "30480000f0fff47a58c10541a48b5bbd39110a9fbf49d77a7b348e8c68074041": {
+          "added": 1780485879000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_5000.apk",
+            "sha256": "30480000f0fff47a58c10541a48b5bbd39110a9fbf49d77a7b348e8c68074041",
+            "size": 82929154
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86_64"
+            ],
+            "versionName": "1.2.2",
+            "versionCode": 5000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "com.nihaltp.secretchat": {
+      "metadata": {
+        "added": 1781117967000,
+        "categories": [
+          "Connectivity",
+          "Internet",
+          "Messaging"
+        ],
+        "issueTracker": "https://github.com/nihaltp/secretchat/issues",
+        "lastUpdated": 1781117971000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/nihaltp/secretchat",
+        "webSite": "https://nihaltp.github.io/secretchat/",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/1.png",
+                "sha256": "e49ef6cbaf1c4267cb4c36f0f107b84efe44326988b9a9f5ef7943c4e5742cd0",
+                "size": 91677
+              },
+              {
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/2.png",
+                "sha256": "181722eb0a228dfd87686d4a526d0260c01418f6cbd1987510ef6a35961ef8c6",
+                "size": 91968
+              },
+              {
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/3.png",
+                "sha256": "559e6c2136f2162c1c04ea29d8408cf4d30bcd3ae43705017cc1e942fcc4430f",
+                "size": 95767
+              },
+              {
+                "name": "/com.nihaltp.secretchat/en-US/phoneScreenshots/4.png",
+                "sha256": "7df828b22b2498e302a8f337dbb8f47e17cbe1d37ad4a4a8865b95b5486b0505",
+                "size": 107117
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "Secret Chat"
+        },
+        "summary": {
+          "en-US": "Peer-to-peer LAN chat app"
+        },
+        "description": {
+          "en-US": "A simple LAN chat app built using Flutter. It allows users to chat with each other over a local network without the need for an internet connection. The app uses UDP sockets for communication and supports text messaging."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.secretchat/en-US/icon_cEvdAYifCQ2u0rhzqS8r3pTULRH8CcGtFd-teo-vnTM=.png",
+            "sha256": "704bdd01889f090daed2b873a92f2bde94d42d11fc09c1ad15dfad7a8faf9d33",
+            "size": 8663
+          }
+        },
+        "preferredSigner": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+      },
+      "versions": {
+        "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88": {
+          "added": 1781117971000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_104.apk",
+            "sha256": "30b24c9221cfad9906003e4ef98502dc7b116727fdb50669a8c124327835df88",
+            "size": 9254309
+          },
+          "manifest": {
+            "nativecode": [
+              "x86_64"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 104,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa": {
+          "added": 1781117969000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_103.apk",
+            "sha256": "cb0e0777ed212a55ea7e3b52db6736cfc4cb88519faa619b91e7ca26dd6f47aa",
+            "size": 1507278
+          },
+          "manifest": {
+            "nativecode": [
+              "x86"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 103,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e": {
+          "added": 1781117969000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_102.apk",
+            "sha256": "249789d859bc379e8db87a717106cb1efc979aa3697e868056caaefebe8f621e",
+            "size": 9087270
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 102,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905": {
+          "added": 1781117967000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_101.apk",
+            "sha256": "50cd92a9b9c715db923a50a4b2b3e08f97225ba5bc5cf5030587749f9a55d905",
+            "size": 8592952
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 101,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3": {
+          "added": 1781117967000,
+          "file": {
+            "name": "/com.nihaltp.secretchat_100.apk",
+            "sha256": "53c279cc972821a7bb95294e4c04844798b45b9515cd40116ba224fa178e42e3",
+            "size": 23927423
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "2.0.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 24,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE"
+              },
+              {
+                "name": "android.permission.USE_BIOMETRIC"
+              },
+              {
+                "name": "android.permission.USE_FINGERPRINT"
+              },
+              {
+                "name": "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "added": 1780700986000,
+        "categories": [
+          "Ringtone",
+          "System",
+          "Utilities"
+        ],
+        "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues",
+        "lastUpdated": 1781158881000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/nihaltp/SmartRingtone",
+        "webSite": "https://github.com/nihaltp/SmartRingtone/",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/1.png",
+                "sha256": "7340af3531a75ee1a3a37ab5d92378dce9556f477da92d1e1de8d32295c08072",
+                "size": 80564
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/2.png",
+                "sha256": "707884e33c9b9f89250fb5a46e19c5d1a9670a77cda592e69eec4037ee3c36ac",
+                "size": 79363
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/3.png",
+                "sha256": "f8810faac870ac32b492cbdafee30970570e59c0fa8f1aea5650c4cd014b58a0",
+                "size": 50692
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/4.png",
+                "sha256": "7dd8210122aa6378d48ac81e929fb1927f36499d44017dcea329f94305790b67",
+                "size": 102594
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/5.png",
+                "sha256": "1a2266f796c76895e641781c939b9787f0f8419e486383ddd253110c7548a2b2",
+                "size": 80397
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/6.png",
+                "sha256": "abfd93b375d1815e22f1f4d7ce5d3ec1fdb5ded834623956583c2b6f8ebed09e",
+                "size": 79191
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/7.png",
+                "sha256": "7aacf7c003def98e362bd63d499d6bc5a690dd1683d256316692e31769daea36",
+                "size": 50646
+              },
+              {
+                "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/8.png",
+                "sha256": "2e7dc32298c408c4061b353d0ba673dfa38b3158eca0fe4444e03f54218a0c3f",
+                "size": 103104
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "Smart Ringtone"
+        },
+        "summary": {
+          "en-US": "Automatically adjust contact ringtones based on call activity"
+        },
+        "description": {
+          "en-US": "Smart Ringtone automatically changes contact-specific ringtones based on your call history.\n\nThe app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.\n\nFeatures:\n\n* Automatic contact ringtone assignment\n* Configurable ringtone priority levels\n* Call score tracking based on call activity\n* Support for missed, rejected, incoming, and outgoing calls\n* Contact score management and reset controls\n* Local processing with no account required\n* No internet connection required\n\nSmart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.\n\nRequired permissions:\n\n* Contacts - to read and update contact ringtone settings\n* Phone State - to detect call state changes\n* Call Logs - to process call activity and update scores\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.smartringtone/en-US/icon_Wgt3HHlMjfAgYH3csO8xgJB8HPu3AkDyTLPYNvERF6Q=.png",
+            "sha256": "5a0b771c794c8df020607ddcb0ef3180907c1cfbb70240f24cb3d836f11117a4",
+            "size": 106641
+          }
+        },
+        "preferredSigner": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+      },
+      "versions": {
+        "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54": {
+          "added": 1781158881000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_94.apk",
+            "sha256": "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 94,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60": {
+          "added": 1781158880000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_93.apk",
+            "sha256": "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 93,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2": {
+          "added": 1781158880000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_92.apk",
+            "sha256": "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 92,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651": {
+          "added": 1781158879000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_91.apk",
+            "sha256": "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 91,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262": {
+          "added": 1781158878000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_90.apk",
+            "sha256": "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 90,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e": {
+          "added": 1780834747000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_84.apk",
+            "sha256": "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e",
+            "size": 1574522
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 84,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697": {
+          "added": 1780834746000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_83.apk",
+            "sha256": "e9f411e0bcba8d41b69e05780760609b443c6b48cbc1954a8b0ce58eb6509697",
+            "size": 1574522
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 83,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b": {
+          "added": 1780834746000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_82.apk",
+            "sha256": "7ae1aa77a56f655fa112f66bd105f83374c060d85adbd95f97f547a16f2af49b",
+            "size": 1574522
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 82,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466": {
+          "added": 1780834745000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_81.apk",
+            "sha256": "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466",
+            "size": 1574522
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 81,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210": {
+          "added": 1780834745000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_80.apk",
+            "sha256": "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210",
+            "size": 1574522
+          },
+          "manifest": {
+            "versionName": "1.5.0",
+            "versionCode": 80,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75": {
+          "added": 1780813673000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_74.apk",
+            "sha256": "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75",
+            "size": 1567266
+          },
+          "manifest": {
+            "versionName": "1.4.0",
+            "versionCode": 74,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6": {
+          "added": 1780813673000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_73.apk",
+            "sha256": "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6",
+            "size": 1567266
+          },
+          "manifest": {
+            "versionName": "1.4.0",
+            "versionCode": 73,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353": {
+          "added": 1780813672000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_72.apk",
+            "sha256": "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353",
+            "size": 1567266
+          },
+          "manifest": {
+            "versionName": "1.4.0",
+            "versionCode": 72,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b": {
+          "added": 1780813672000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_71.apk",
+            "sha256": "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b",
+            "size": 1567266
+          },
+          "manifest": {
+            "versionName": "1.4.0",
+            "versionCode": 71,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": {
+          "added": 1780813671000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_70.apk",
+            "sha256": "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60",
+            "size": 1567266
+          },
+          "manifest": {
+            "versionName": "1.4.0",
+            "versionCode": 70,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    },
+    "com.nihaltp.volumelock": {
+      "metadata": {
+        "added": 1781017280000,
+        "categories": [
+          "Accessibility",
+          "System",
+          "Utilities",
+          "Volume Control"
+        ],
+        "issueTracker": "https://github.com/nihaltp/volumelock/issues",
+        "lastUpdated": 1781017283000,
+        "license": "MIT",
+        "sourceCode": "https://github.com/nihaltp/volumelock",
+        "webSite": "https://nihaltp.github.io/volumelock/",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/1.png",
+                "sha256": "d22768ca9789e2a5294ed6043db4cee2cfdaf0af204e2272b5849b0e50bdd9a9",
+                "size": 109978
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/2.png",
+                "sha256": "be529a4dcd7d55530895dfa72065d2975773cbd4f8c65c55f5714b2486eca700",
+                "size": 114586
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/3.png",
+                "sha256": "8327f6782fb0fe07a3c129139d3e3109db84a02223a98d6cae2510b58f9af61d",
+                "size": 116243
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/4.png",
+                "sha256": "1bc1638de8059160965380fa0f6ba266d730a35e28804a9493d6aadea8c33b18",
+                "size": 123733
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/5.png",
+                "sha256": "6bbfa5f8ca1278bf22183144ad788b1b304bd57cf2c9be36cd75dca028227ed1",
+                "size": 110799
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/6.png",
+                "sha256": "6d458050a9132609ac0465146c2625a919d5594615c39485b4dbf16ba5ad8c00",
+                "size": 115915
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/7.png",
+                "sha256": "9f7a2f07d95c60e92116cd62076f1862247445f852d8fc38d0628307b0ffe9fb",
+                "size": 113853
+              },
+              {
+                "name": "/com.nihaltp.volumelock/en-US/phoneScreenshots/8.png",
+                "sha256": "148efba6dbd1cb596b1017b974c4ac971ea49f94264cc5065920fcdbe350dd9d",
+                "size": 122344
+              }
+            ]
+          }
+        },
+        "authorEmail": "nihaltpnki@gmail.com",
+        "authorName": "nihaltp",
+        "name": {
+          "en-US": "Volume Lock"
+        },
+        "summary": {
+          "en-US": "A simple volume lock app"
+        },
+        "description": {
+          "en-US": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.volumelock/en-US/icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png",
+            "sha256": "fe5f0d81acdffa05fff5f3536a3f6275e545a7155f7623c9f46b11f251a61a4b",
+            "size": 5211
+          }
+        },
+        "preferredSigner": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+      },
+      "versions": {
+        "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387": {
+          "added": 1781017283000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5004.apk",
+            "sha256": "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5004,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62": {
+          "added": 1781017282000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5003.apk",
+            "sha256": "393a5bee4e811185b24baa8926067899c140d3fca1fe7539fa38a6cb80a9df62",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5003,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6": {
+          "added": 1781017282000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5002.apk",
+            "sha256": "db77d6d39b2fe8b7cd7c72963298638125f302c4790d384ece662429d53696f6",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2": {
+          "added": 1781017281000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5001.apk",
+            "sha256": "258febcea7de105d533524b1d9e1bd88b456cd347e9aaba8bb55f4f5bb511ff2",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd": {
+          "added": 1781017280000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5000.apk",
+            "sha256": "b313b5b7faa7337d383f01e61071149d9b91cdf791852b34ea5460a0459301dd",
+            "size": 2374713
+          },
+          "manifest": {
+            "versionName": "2.0.0",
+            "versionCode": 5000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,12 @@
-{"repo": {"timestamp": 1781161403000}}
+{
+  "repo": {
+    "timestamp": 1781164812000,
+    "categories": {
+      "Utilities": {
+        "description": {
+          "en-US": "Miscellaneous tools and utilities that don't fit into other categories"
+        }
+      }
+    }
+  }
+}

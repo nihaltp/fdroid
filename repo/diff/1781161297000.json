@@ -1,1 +1,27 @@
-{"repo": {"timestamp": 1781161417000}}
+{
+  "repo": {
+    "timestamp": 1781164828000,
+    "categories": {
+      "Messaging": {
+        "description": {
+          "en-US": "Instant messaging, chat, and SMS communication apps"
+        }
+      },
+      "Timer": {
+        "description": {
+          "en-US": "Interval timing, timekeeping, countdown"
+        }
+      },
+      "Utilities": {
+        "description": {
+          "en-US": "Miscellaneous tools and utilities that don't fit into other categories"
+        }
+      },
+      "Volume Control": {
+        "description": {
+          "en-US": "Adjust and manage audio volume levels and profiles"
+        }
+      }
+    }
+  }
+}
