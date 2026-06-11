@@ -1,5 +1,269 @@
 {
   "repo": {
-    "timestamp": 1781118398000
+    "timestamp": 1781158881000
+  },
+  "packages": {
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "lastUpdated": 1781158881000
+      },
+      "versions": {
+        "2c45d89f1451eb1e196266a2ce582ee704d992884a1c95ada9810302ef809ae7": {
+          "added": 1780767552000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_64.apk",
+            "sha256": "2c45d89f1451eb1e196266a2ce582ee704d992884a1c95ada9810302ef809ae7",
+            "size": 1465318
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 64,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "316eadb40fe14548facd103a817dc04812c6c6df086a7faecef0ddad568249cd": {
+          "added": 1780767552000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_63.apk",
+            "sha256": "316eadb40fe14548facd103a817dc04812c6c6df086a7faecef0ddad568249cd",
+            "size": 1465318
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 63,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "2da540a15a70a1e79dda3a76a52a85ce4cb484d4ff44725714f2a2e33fbbf94a": {
+          "added": 1780767551000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_62.apk",
+            "sha256": "2da540a15a70a1e79dda3a76a52a85ce4cb484d4ff44725714f2a2e33fbbf94a",
+            "size": 1465318
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 62,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "91d39b05483da32835d813cebc128c95ee00cb72500176ece4af09de4e8edac9": {
+          "added": 1780767551000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_61.apk",
+            "sha256": "91d39b05483da32835d813cebc128c95ee00cb72500176ece4af09de4e8edac9",
+            "size": 1465318
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 61,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "8a070dde9636ad3737486ffdece97d8e2bf733e8457a82f256fd11405910035d": {
+          "added": 1780767550000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_60.apk",
+            "sha256": "8a070dde9636ad3737486ffdece97d8e2bf733e8457a82f256fd11405910035d",
+            "size": 1465318
+          },
+          "manifest": {
+            "versionName": "1.3.0",
+            "versionCode": 60,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        }
+      }
+    }
   }
 }

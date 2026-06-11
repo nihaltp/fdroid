@@ -1,11 +1,64 @@
 {
   "repo": {
-    "timestamp": 1781118406000
+    "timestamp": 1781158899000
   },
   "packages": {
     "com.nihaltp.secret_chat": null,
     "com.nihaltp.volume_lock": null,
     "com.nihaltp.aftersleep": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.jpg",
+                "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4",
+                "size": 78400
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.png",
+                "sha256": "0ad207ed575e8f280b77537a7e0680aa8314eb5da5eba6652dc501562775eef3",
+                "size": 224013
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.jpg",
+                "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a",
+                "size": 67931
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.png",
+                "sha256": "65603a912ab1c7cd3ecab14189a6545bd12275972e52ca24327636deef49942e",
+                "size": 202098
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.jpg",
+                "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f",
+                "size": 53536
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.png",
+                "sha256": "eed32968f97054fcf7cc3fe9ed9baf91a80f02084696136153775a467dafe5ed",
+                "size": 164506
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_1.jpg",
+                "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4",
+                "size": 78400
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_2.jpg",
+                "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a",
+                "size": 67931
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_3.jpg",
+                "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f",
+                "size": 53536
+              }
+            ]
+          }
+        }
+      },
       "versions": {
         "92301430c7146e6a68c81a227fcfd1ac6aed41bbacfab7962467688b4c4a68c0": {
           "releaseChannels": [
@@ -1102,7 +1155,330 @@
       }
     },
     "com.nihaltp.smartringtone": {
+      "metadata": {
+        "lastUpdated": 1781158881000
+      },
       "versions": {
+        "2c45d89f1451eb1e196266a2ce582ee704d992884a1c95ada9810302ef809ae7": null,
+        "316eadb40fe14548facd103a817dc04812c6c6df086a7faecef0ddad568249cd": null,
+        "2da540a15a70a1e79dda3a76a52a85ce4cb484d4ff44725714f2a2e33fbbf94a": null,
+        "91d39b05483da32835d813cebc128c95ee00cb72500176ece4af09de4e8edac9": null,
+        "8a070dde9636ad3737486ffdece97d8e2bf733e8457a82f256fd11405910035d": null,
+        "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54": {
+          "added": 1781158881000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_94.apk",
+            "sha256": "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 94,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60": {
+          "added": 1781158880000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_93.apk",
+            "sha256": "ddf88b656d51974ebb7c9ce040d7d55f663f2de4adfbd909140770f43af5ad60",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 93,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2": {
+          "added": 1781158880000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_92.apk",
+            "sha256": "540a7e3642cf391861aa143d7bdb9b69f46eae5953d795bc1ffdb2ab9bf16ff2",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 92,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651": {
+          "added": 1781158879000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_91.apk",
+            "sha256": "a888a198ff08155502c65646bb03b60a8084345779f83b0b59a3cc1c1cc32651",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 91,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262": {
+          "added": 1781158878000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_90.apk",
+            "sha256": "87e2d4e96fe63ecfb1b481b8cba9dd3cb533ea3c51f0a7b0a3dc53f651663262",
+            "size": 1574534
+          },
+          "manifest": {
+            "versionName": "1.5.1",
+            "versionCode": 90,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "c7c851d3999b11b837426f5db74c4894ece6e9bdc5e3ca5803cff6ee0450f69e": {
           "releaseChannels": [
             "Beta"
@@ -1149,31 +1525,6 @@
           ]
         },
         "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": {
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "2c45d89f1451eb1e196266a2ce582ee704d992884a1c95ada9810302ef809ae7": {
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "316eadb40fe14548facd103a817dc04812c6c6df086a7faecef0ddad568249cd": {
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "2da540a15a70a1e79dda3a76a52a85ce4cb484d4ff44725714f2a2e33fbbf94a": {
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "91d39b05483da32835d813cebc128c95ee00cb72500176ece4af09de4e8edac9": {
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "8a070dde9636ad3737486ffdece97d8e2bf733e8457a82f256fd11405910035d": {
           "releaseChannels": [
             "Beta"
           ]
