@@ -14,7 +14,89 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1781164828000,
+    "timestamp": 1781165048000,
+    "antiFeatures": {
+      "Ads": {
+        "description": {
+          "en-US": "This app contains advertising"
+        },
+        "name": {
+          "en-US": "Ads"
+        }
+      },
+      "DisabledAlgorithm": {
+        "description": {
+          "en-US": "This app has a weak security signature"
+        },
+        "name": {
+          "en-US": "Signed Using An Unsafe Algorithm"
+        }
+      },
+      "KnownVuln": {
+        "description": {
+          "en-US": "This app contains a known security vulnerability"
+        },
+        "name": {
+          "en-US": "Known Vulnerability"
+        }
+      },
+      "NoSourceSince": {
+        "name": {
+          "en-US": "No Source Since"
+        },
+        "description": {
+          "en-US": "The source code is no longer available, no updates possible"
+        }
+      },
+      "NonFreeAdd": {
+        "description": {
+          "en-US": "This app promotes non-free add-ons"
+        },
+        "name": {
+          "en-US": "Non-Free Addons"
+        }
+      },
+      "NonFreeAssets": {
+        "description": {
+          "en-US": "This app contains non-free assets"
+        },
+        "name": {
+          "en-US": "Non-Free Assets"
+        }
+      },
+      "NonFreeDep": {
+        "description": {
+          "en-US": "This app depends on other non-free apps"
+        },
+        "name": {
+          "en-US": "Non-Free Dependencies"
+        }
+      },
+      "NonFreeNet": {
+        "description": {
+          "en-US": "This app promotes or depends entirely on a non-free network service"
+        },
+        "name": {
+          "en-US": "Non-Free Network Services"
+        }
+      },
+      "Tracking": {
+        "description": {
+          "en-US": "This app tracks and reports your activity"
+        },
+        "name": {
+          "en-US": "Tracking"
+        }
+      },
+      "TetheredNet": {
+        "description": {
+          "en-US": "This app depends entirely on a certain instance of a network service"
+        },
+        "name": {
+          "en-US": "Tethered Network Services"
+        }
+      }
+    },
     "categories": {
       "Accessibility": {
         "name": {

@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781165035000,
+    "timestamp": 1781165048000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -80,13 +80,6 @@
         },
         "name": {
           "en-US": "Tethered Network Services"
-        }
-      }
-    },
-    "categories": {
-      "Utilities": {
-        "description": {
-          "en-US": "Miscellaneous tools and utilities that don't fit into other categories"
         }
       }
     }
