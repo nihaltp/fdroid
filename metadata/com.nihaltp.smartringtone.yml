@@ -38,6 +38,8 @@ RepoType: git
 Repo: https://github.com/nihaltp/SmartRingtone
 Binaries: https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk
 
+AllowedAPKSigningKeys: 10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b
+
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: 1.5.0

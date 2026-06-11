@@ -19,6 +19,8 @@ RepoType: git
 Repo: https://github.com/nihaltp/volumelock
 Binaries: https://github.com/nihaltp/volumelock/releases/download/v{version}/app-universal-release.apk
 
+AllowedAPKSigningKeys: 6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381
+
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: 2.0.0

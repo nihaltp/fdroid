@@ -36,6 +36,8 @@ RepoType: git
 Repo: https://github.com/nihaltp/AfterSleep
 Binaries: https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk
 
+AllowedAPKSigningKeys: 6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908
+
 AutoUpdateMode: Version
 UpdateCheckMode: Tags
 CurrentVersion: 1.0.2
