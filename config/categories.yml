@@ -1,0 +1,24 @@
+Accessibility:
+  name: Accessibility
+Audio:
+  name: Audio
+Connectivity:
+  name: Connectivity
+Internet:
+  name: Internet
+Messaging:
+  name: Messaging
+Multimedia:
+  name: Multimedia
+Ringtone:
+  name: Ringtone
+System:
+  name: System
+Timer:
+  name: Timer
+Utilities:
+  name: Utilities
+Video:
+  name: Video
+Volume Control:
+  name: Volume Control
