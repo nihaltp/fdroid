@@ -1,5 +1,32 @@
 {
   "repo": {
-    "timestamp": 1781459382000
+    "timestamp": 1781460311000
+  },
+  "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.png",
+                "sha256": "0ad207ed575e8f280b77537a7e0680aa8314eb5da5eba6652dc501562775eef3",
+                "size": 224013
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.png",
+                "sha256": "65603a912ab1c7cd3ecab14189a6545bd12275972e52ca24327636deef49942e",
+                "size": 202098
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.png",
+                "sha256": "eed32968f97054fcf7cc3fe9ed9baf91a80f02084696136153775a467dafe5ed",
+                "size": 164506
+              }
+            ]
+          }
+        }
+      }
+    }
   }
 }
