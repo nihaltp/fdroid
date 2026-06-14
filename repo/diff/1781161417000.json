@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781301787000,
+    "timestamp": 1781459382000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -107,6 +107,46 @@
     }
   },
   "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/1.png",
+                "sha256": "0ad207ed575e8f280b77537a7e0680aa8314eb5da5eba6652dc501562775eef3",
+                "size": 224013
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/2.png",
+                "sha256": "65603a912ab1c7cd3ecab14189a6545bd12275972e52ca24327636deef49942e",
+                "size": 202098
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/3.png",
+                "sha256": "eed32968f97054fcf7cc3fe9ed9baf91a80f02084696136153775a467dafe5ed",
+                "size": 164506
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_1.jpg",
+                "sha256": "fa068f7d9a6555dcb3a9a106a4ed4069fbdec523d45d60c4349a07e0f75964a4",
+                "size": 78400
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_2.jpg",
+                "sha256": "7ac9aedff2d0cb9e9a044a43f0affe8eac8d65894dc5463f0bf22da4d4fbf08a",
+                "size": 67931
+              },
+              {
+                "name": "/com.nihaltp.aftersleep/en-US/phoneScreenshots/Screenshot_3.jpg",
+                "sha256": "1f4b0d6db83570c6352231c9aad7d974ddb5975edc02fb6380681b4290f3d73f",
+                "size": 53536
+              }
+            ]
+          }
+        }
+      }
+    },
     "com.nihaltp.sbskip": {
       "metadata": {
         "lastUpdated": 1781301775000
