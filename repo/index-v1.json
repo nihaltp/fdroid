@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1781460311000,
+    "timestamp": 1782248218000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -38,7 +38,7 @@
       "lastUpdated": 1780423822000,
       "localized": {
         "en-US": {
-          "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\nHighlights:\n\u00e2\u20ac\u00a2 Dark-only Material 3 UI\n\u00e2\u20ac\u00a2 MediaSessionManager and MediaController based playback control\n\u00e2\u20ac\u00a2 Foreground service for reliable timers\n\u00e2\u20ac\u00a2 Notification listener support for active session detection\n\u00e2\u20ac\u00a2 MVVM architecture with StateFlow and coroutines\n\u00e2\u20ac\u00a2 Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior\n",
+          "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\n<h3>Highlights</h3>\n\n<ul>\n  <li>Dark-only Material 3 UI</li>\n  <li>MediaSessionManager and MediaController based playback control</li>\n  <li>Foreground service for reliable timers</li>\n  <li>Notification listener support for active session detection</li>\n  <li>MVVM architecture with StateFlow and coroutines</li>\n  <li>Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior</li>\n</ul>\n",
           "icon": "icon_tjVjUxAqc2Wg1cEAO6_6dr3x4Ooi72fSbvITRSMZPug=.png",
           "name": "AfterSleep",
           "phoneScreenshots": [
@@ -47,7 +47,7 @@
             "3.png"
           ],
           "summary": "Set a timer to automatically pause or resume media playback while you sleep.",
-          "whatsNew": "Bump version to 1.0.2 and release configuration updates\n\n- Add `TimerChip` \"Off\" option and refine selected delay display logic (a43b124)\n- Refactor screen brightness logic for better readability (414966d)\n- Refactor code for improved readability and formatting (0354e1e)\n"
+          "whatsNew": "Bump version to 1.0.2 and release configuration updates\n\n<ul>\n  <li>Add `TimerChip` \"Off\" option and refine selected delay display logic (a43b124)</li>\n  <li>Refactor screen brightness logic for better readability (414966d)</li>\n  <li>Refactor code for improved readability and formatting (0354e1e)</li>\n</ul>\n"
         }
       }
     },
@@ -76,7 +76,7 @@
       "lastUpdated": 1781301775000,
       "localized": {
         "en-US": {
-          "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\nFeatures:\n\n\u00e2\u20ac\u00a2 Remove SponsorBlock segments from existing video and audio files\n\u00e2\u20ac\u00a2 Supports videos and audio shared from other apps\n\u00e2\u20ac\u00a2 Paste a YouTube URL to retrieve SponsorBlock segment information\n\u00e2\u20ac\u00a2 Queue multiple cleaning jobs for background processing\n\u00e2\u20ac\u00a2 Configure which SponsorBlock categories should be removed\n\u00e2\u20ac\u00a2 Persistent queue with progress tracking and notifications\n\u00e2\u20ac\u00a2 Separate settings for output behavior and file handling\n\u00e2\u20ac\u00a2 Material 3 user interface\n\u00e2\u20ac\u00a2 Translation-ready and fully open source\n\nSupported SponsorBlock categories include:\n\n\u00e2\u20ac\u00a2 Sponsor segments\n\u00e2\u20ac\u00a2 Self-promotion\n\u00e2\u20ac\u00a2 Interaction reminders (like, subscribe, etc.)\n\u00e2\u20ac\u00a2 Intros\n\u00e2\u20ac\u00a2 Outros\n\u00e2\u20ac\u00a2 Preview/recap sections\n\u00e2\u20ac\u00a2 Filler content\n\u00e2\u20ac\u00a2 Music off-topic sections\n\u00e2\u20ac\u00a2 And other categories provided by SponsorBlock\n\nHow it works:\n\n1. Select or share a media file with SB Skip.\n2. Provide the corresponding YouTube URL.\n3. SB Skip retrieves SponsorBlock segment data.\n4. Unwanted segments are removed from the media file.\n5. A cleaned copy is saved to your device.\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
+          "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\n<h3>Features</h3>\n\n<ul>\n  <li>Remove SponsorBlock segments from existing video and audio files</li>\n  <li>Supports videos and audio shared from other apps</li>\n  <li>Paste a YouTube URL to retrieve SponsorBlock segment information</li>\n  <li>Queue multiple cleaning jobs for background processing</li>\n  <li>Configure which SponsorBlock categories should be removed</li>\n  <li>Persistent queue with progress tracking and notifications</li>\n  <li>Separate settings for output behavior and file handling</li>\n  <li>Material 3 user interface</li>\n  <li>Translation-ready and fully open source</li>\n</ul>\n\n<h3>Supported SponsorBlock categories include</h3>\n\n<ul>\n  <li>Sponsor segments</li>\n  <li>Self-promotion</li>\n  <li>Interaction reminders (like, subscribe, etc.)</li>\n  <li>Intros</li>\n  <li>Outros</li>\n  <li>Preview/recap sections</li>\n  <li>Filler content</li>\n  <li>Music off-topic sections</li>\n  <li>And other categories provided by SponsorBlock</li>\n</ul>\n\n<h3>How it works</h3>\n\n<ol>\n  <li>Select or share a media file with SB Skip.</li>\n  <li>Provide the corresponding YouTube URL.</li>\n  <li>SB Skip retrieves SponsorBlock segment data.</li>\n  <li>Unwanted segments are removed from the media file.</li>\n  <li>A cleaned copy is saved to your device.</li>\n</ol>\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
           "icon": "icon_qwYQVmszeI92847Nyr8wq3Qkrfe6-PwdBzkq--_fh5E=.png",
           "name": "SB Skip",
           "phoneScreenshots": [
@@ -88,7 +88,7 @@
             "6.png"
           ],
           "summary": "Remove SponsorBlock segments from downloaded videos and audio files.",
-          "whatsNew": "SB Skip v1.3.0 (2026-06-10)\n\nCommits included in this release:\n- 5b5558d  feat: Add Folders to Watchlist for watching downloaded file\n- 90bf43d  feat: add runtime segment selection\n- ab6798c  style: Update Logging and Style Errors\n- 213f207  refactor: remove reduntant new pipe folder watching\n- 2e04df4  refactor: removed scanning for folders outside watchlist\n- 54787c2  refactor: remove \"keep temp files\" option\n- 9d0b3be  chore: update fastfile to list the commits in reverse\n"
+          "whatsNew": "SB Skip v1.3.0 (2026-06-10)\n\n<h3>Commits included in this release</h3>\n<ul>\n  <li>5b5558d  feat: Add Folders to Watchlist for watching downloaded file</li>\n  <li>90bf43d  feat: add runtime segment selection</li>\n  <li>ab6798c  style: Update Logging and Style Errors</li>\n  <li>213f207  refactor: remove reduntant new pipe folder watching</li>\n  <li>2e04df4  refactor: removed scanning for folders outside watchlist</li>\n  <li>54787c2  refactor: remove \"keep temp files\" option</li>\n  <li>9d0b3be  cho"
         }
       }
     },
@@ -117,7 +117,7 @@
       "lastUpdated": 1781117971000,
       "localized": {
         "en-US": {
-          "description": "Secret Chat is a local area network (LAN) messaging application that allows you to chat with friends and colleagues without an internet connection. Perfect for conferences, offices, events, or any situation where you need secure, private communication within a local network.\n\nFeatures:\n\u00e2\u20ac\u00a2 No Internet Required - Chat over your local WiFi or mobile hotspot\n\u00e2\u20ac\u00a2 Privacy Focused - Messages stay on your local network\n\u00e2\u20ac\u00a2 Multiple Security Options - Protect your rooms with passwords, PINs, or pattern locks\n\u00e2\u20ac\u00a2 Dark Theme - Easy on the eyes with built-in dark mode\n\u00e2\u20ac\u00a2 App Lock - Biometric or screen lock protection for the entire app\n\u00e2\u20ac\u00a2 Hidden Rooms - Create private rooms that don't appear in the room list\n\u00e2\u20ac\u00a2 Message History - Messages persist while the app is running, cleared when closed\n\u00e2\u20ac\u00a2 Material Design 3 - Modern, clean interface\n\nHow to Use:\n1. Choose \"Host Network\" to create a room and share as the host\n2. Or choose \"Use Wi-Fi\" to browse and join existing rooms\n3. Optionally protect your room with a password, PIN, or pattern\n4. Start chatting - all communication stays within your local network\n\nSecurity:\n- All communication happens locally on your WiFi network\n- No data transmitted to external servers\n- Messages are not stored permanently\n- Supports biometric authentication\n- Pattern lock option for additional security\n\nPerfect for:\n\u00e2\u20ac\u00a2 Office communications and quick collaboration\n\u00e2\u20ac\u00a2 Conferences and events\n\u00e2\u20ac\u00a2 Classroom discussions\n\u00e2\u20ac\u00a2 LAN parties and gaming events\n\u00e2\u20ac\u00a2 Emergency communication when internet is unavailable\n\u00e2\u20ac\u00a2 Privacy-conscious users who want local control",
+          "description": "Secret Chat is a local area network (LAN) messaging application that allows you to chat with friends and colleagues without an internet connection. Perfect for conferences, offices, events, or any situation where you need secure, private communication within a local network.\n\n<h3>Features</h3>\n<ul>\n<li>No Internet Required - Chat over your local WiFi or mobile hotspot</li>\n<li>Privacy Focused - Messages stay on your local network</li>\n<li>Multiple Security Options - Protect your rooms with passwords, PINs, or pattern locks</li>\n<li>Dark Theme - Easy on the eyes with built-in dark mode</li>\n<li>App Lock - Biometric or screen lock protection for the entire app</li>\n<li>Hidden Rooms - Create private rooms that don't appear in the room list</li>\n<li>Message History - Messages persist while the app is running, cleared when closed</li>\n<li>Material Design 3 - Modern, clean interface</li>\n</li>\n</ul>\n\n<h3>How to Use</h3>\n<ol>\n<li>Choose \"Host Network\" to create a room and share as the host</li>\n<li>Or choose \"Use Wi-Fi\" to browse and join existing rooms</li>\n<li>Optionally protect your room with a password, PIN, or pattern</li>\n<li>Start chatting - all communication stays within your local network</li>\n</li>\n</ol>\n\n<h3>Security</h3>\n<ul>\n<li>All communication happens locally on your WiFi network</li>\n<li>No data transmitted to external servers</li>\n<li>Messages are not stored permanently</li>\n<li>Supports biometric authentication</li>\n<li>Pattern lock option for additional security</li>\n</li>\n</ul>\n\n<h3>Perfect for</h3>\n<ul>\n<li>Office communications and quick collaboration</li>\n<li>Conferences and events</li>\n<li>Classroom discussions</li>\n<li>LAN parties and gaming events</li>\n<li>Emergency communication when internet is unavailable</li>\n<li>Privacy-conscious users who want local control</li>\n</li>\n</ul>\n",
           "icon": "icon_cEvdAYifCQ2u0rhzqS8r3pTULRH8CcGtFd-teo-vnTM=.png",
           "name": "Secret Chat",
           "phoneScreenshots": [
@@ -127,7 +127,7 @@
             "4.png"
           ],
           "summary": "LAN chat without internet - secure, private, instant messages",
-          "whatsNew": "Secret Chat v2.0.0 (2026-06-11)\n\nCommits included in this release:\n- cabb851  chore: add fastlane\n- 89d8b9a  change app name to secretchat\n"
+          "whatsNew": "Secret Chat v2.0.0 (2026-06-11)\n\n<h3>Commits included in this release</h3>\n<ul>\n<li>cabb851  chore: add fastlane</li>\n<li>89d8b9a  change app name to secretchat</li>\n</li>\n</ul>\n"
         }
       }
     },
@@ -156,6 +156,7 @@
       "lastUpdated": 1781158881000,
       "localized": {
         "en-US": {
+          "description": "Smart Ringtone automatically adjusts contact ringtones based on your call history, helping important callers stand out when you need them most.\n\nInstead of using the same ringtone for every contact, Smart Ringtone can assign different ringtones based on missed and answered calls. Contacts who repeatedly call without reaching you can be given more noticeable ringtones, making it easier to recognize potentially important calls.\n\n<h3>Features</h3>\n\n<ul>\n  <li>Automatically update contact-specific ringtones</li>\n  <li>Track missed, rejected, incoming, and outgoing calls</li>\n  <li>Configure multiple ringtones for different priority levels</li>\n  <li>Manage contact scores and ringtone assignments</li>\n  <li>View call history and ringtone changes</li>\n  <li>Reset scores manually at any time</li>\n  <li>Works entirely on your device</li>\n  <li>No account required</li>\n  <li>No internet connection required</li>\n</ul>\n\n<h3>How it works</h3>\n\n<ol>\n  <li>Add one or more ringtones to the app.</li>\n  <li>Smart Ringtone monitors call activity.</li>\n  <li>Missed or rejected calls increase a contact's score.</li>\n  <li>Answered calls reset the score.</li>\n  <li>The contact's ringtone is updated automatically based on the configured score level.</li>\n</ol>\n\n<h3>Privacy</h3>\n\nSmart Ringtone requires access to Contacts, Phone State, and Call Logs in order to assign custom contact ringtones and track call activity. All processing is performed locally on your device. No call data, contacts, or personal information are transmitted to external servers.\n\nSmart Ringtone helps ensure that important callers are easier to notice without changing how you normally use your phone.\n",
           "icon": "icon_Wgt3HHlMjfAgYH3csO8xgJB8HPu3AkDyTLPYNvERF6Q=.png",
           "name": "Smart Ringtone",
           "phoneScreenshots": [
@@ -168,7 +169,8 @@
             "7.png",
             "8.png"
           ],
-          "whatsNew": "Smart Ringtone v1.5.0 (2026-06-07)\n\nCommits included in this release:\n- 4f1e591  feat: scan the blocked contact upon unblock\n- b690527  feat: sort blocklist to show blocked contacts first\n- 0c9a619  feat: add blocklist for avoiding ringtone change for specific contacts\n"
+          "summary": "Automatically adjust contact ringtones based on missed and answered calls.",
+          "whatsNew": "Smart Ringtone v1.5.0 (2026-06-07)\n\n<h3>Commits included in this release</h3>\n<ul>\n  <li>4f1e591  feat: scan the blocked contact upon unblock</li>\n  <li>b690527  feat: sort blocklist to show blocked contacts first</li>\n  <li>0c9a619  feat: add blocklist for avoiding ringtone change for specific contacts</li>\n</ul>\n"
         }
       }
     },
@@ -198,7 +200,7 @@
       "lastUpdated": 1781017283000,
       "localized": {
         "en-US": {
-          "description": "Volume Lock gives you fine-grained control over your Android audio behavior with two core features:\n\n- Volume Lock: when the screen turns off, current media, ring, notification, and alarm volumes are locked and automatically restored if changed.\n- App Volume Lock: saves and restores media volume for selected apps when you return to them.\n\nKey highlights:\n- Tracks and restores audio levels automatically\n- Lets you choose which apps participate in App Volume Lock\n- Keeps behavior consistent after reboot\n\nPermissions:\n- Do Not Disturb / Notification Policy access is needed to lock ring and notification volumes on Android 6+\n- Accessibility service is needed to detect foreground app changes for App Volume Lock\n\nBuilt with Flutter",
+          "description": "<h3>Volume Lock gives you fine-grained control over your Android audio behavior with two core features</h3>\n\n<ul>\n<li>Volume Lock: when the screen turns off, current media, ring, notification, and alarm volumes are locked and automatically restored if changed.</li>\n<li>App Volume Lock: saves and restores media volume for selected apps when you return to them.</li>\n</li>\n</ul>\n\n<h3>Key highlights</h3>\n<ul>\n<li>Tracks and restores audio levels automatically</li>\n<li>Lets you choose which apps participate in App Volume Lock</li>\n<li>Keeps behavior consistent after reboot</li>\n</li>\n</ul>\n\n<h3>Permissions</h3>\n<ul>\n<li>Do Not Disturb / Notification Policy access is needed to lock ring and notification volumes on Android 6+</li>\n<li>Accessibility service is needed to detect foreground app changes for App Volume Lock</li>\n</li>\n</ul>\n",
           "icon": "icon__l8Ngazf-gX_9fNTaj9ideVFpxVfdiPJ9GsR8lGmGks=.png",
           "name": "Volume Lock",
           "phoneScreenshots": [
@@ -212,7 +214,7 @@
             "8.png"
           ],
           "summary": "Lock device volume profiles and auto-restore per-app media volume.",
-          "whatsNew": "Volume Lock v2.0.0 (2026-06-08)\n\nCommits included in this release:\n- 1c351ef  feat: Add background-aware App Volume Lock feature\n- 8e782b0  feat: Cache Installed Apps and Load in Background\n- b1515a1  style: change the windowBackground to ic launcher background color\n- 5e42988  style: add dark theme and material you support\n- 53ac655  refactor: migrate app to native Android\n- 46c52ad  docs: Update documentation and comments to reflect native Jetpack Compose architecture\n- 6cfbdaf  perf: Progress"
+          "whatsNew": "Volume Lock v2.0.0 (2026-06-08)\n\n<h3>Commits included in this release</h3>\n<ul>\n<li>1c351ef  feat: Add background-aware App Volume Lock feature</li>\n<li>8e782b0  feat: Cache Installed Apps and Load in Background</li>\n<li>b1515a1  style: change the windowBackground to ic launcher background color</li>\n<li>5e42988  style: add dark theme and material you support</li>\n<li>53ac655  refactor: migrate app to native Android</li>\n<li>46c52ad  docs: Update documentation and comments to reflect native Jetp"
         }
       }
     }
