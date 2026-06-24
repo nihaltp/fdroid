@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1782248218000,
+    "timestamp": 1782295783000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -3045,7 +3045,7 @@
           "Volume Control"
         ],
         "issueTracker": "https://github.com/nihaltp/volumelock/issues",
-        "lastUpdated": 1781017283000,
+        "lastUpdated": 1782295776000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/volumelock",
         "webSite": "https://nihaltp.github.io/volumelock/",
@@ -3116,6 +3116,56 @@
         "preferredSigner": "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
       },
       "versions": {
+        "99ef4bad929c990b586268a18b7aeeaeac44e0b19b6c89a5c41acf4f279ef305": {
+          "added": 1782295776000,
+          "file": {
+            "name": "/com.nihaltp.volumelock_5005.apk",
+            "sha256": "99ef4bad929c990b586268a18b7aeeaeac44e0b19b6c89a5c41acf4f279ef305",
+            "size": 3000455
+          },
+          "manifest": {
+            "versionName": "2.0.1",
+            "versionCode": 5005,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.CHANGE_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.MODIFY_AUDIO_SETTINGS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_SPECIAL_USE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.ACCESS_NOTIFICATION_POLICY"
+              },
+              {
+                "name": "com.nihaltp.volumelock.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "d3f6305cd9ca92f21754fc58306d2de17a429710a0f4c1a83b3f85a9ddc50387": {
           "added": 1781017283000,
           "file": {
