@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1783174011000,
+    "timestamp": 1783179203000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -63,7 +63,7 @@
       "webSite": "https://github.com/nihaltp/SmartRingtone/",
       "added": 1780700986000,
       "packageName": "com.nihaltp.smartringtone",
-      "lastUpdated": 1781158881000,
+      "lastUpdated": 1783179203000,
       "localized": {
         "en-US": {
           "name": "Smart Ringtone"
@@ -2139,6 +2139,70 @@
       }
     ],
     "com.nihaltp.smartringtone": [
+      {
+        "added": 1780813671000,
+        "apkName": "com.nihaltp.smartringtone_70.apk",
+        "hash": "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1567266,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 70,
+        "versionName": "1.4.0"
+      },
       {
         "added": 1780767552000,
         "apkName": "com.nihaltp.smartringtone_64.apk",

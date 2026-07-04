@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1783174018000,
+    "timestamp": 1783179211000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -2027,7 +2027,7 @@
           "Utilities"
         ],
         "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues",
-        "lastUpdated": 1781158881000,
+        "lastUpdated": 1783179203000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/SmartRingtone",
         "webSite": "https://github.com/nihaltp/SmartRingtone/",
@@ -2046,8 +2046,8 @@
               },
               {
                 "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/3.png",
-                "sha256": "f8810faac870ac32b492cbdafee30970570e59c0fa8f1aea5650c4cd014b58a0",
-                "size": 50692
+                "sha256": "d273a33ab417c3e0ecc468e4cc8d7db4bf1d68b67dc57c3b6e3a65290e24dd3a",
+                "size": 52006
               },
               {
                 "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/4.png",
@@ -2066,8 +2066,8 @@
               },
               {
                 "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/7.png",
-                "sha256": "7aacf7c003def98e362bd63d499d6bc5a690dd1683d256316692e31769daea36",
-                "size": 50646
+                "sha256": "e9621e76a48dd93aaedf2bb17cfdc0ac3c7681821433824d2edab0ebfe17ed82",
+                "size": 52030
               },
               {
                 "name": "/com.nihaltp.smartringtone/en-US/phoneScreenshots/8.png",
@@ -2098,6 +2098,69 @@
         "preferredSigner": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
       },
       "versions": {
+        "8fd015c27800836fc4daae49931ee80510063f9128217349006e56a5b15552da": {
+          "added": 1783179203000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_100.apk",
+            "sha256": "8fd015c27800836fc4daae49931ee80510063f9128217349006e56a5b15552da",
+            "size": 1580582
+          },
+          "manifest": {
+            "versionName": "1.6.0",
+            "versionCode": 100,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54": {
           "added": 1781158881000,
           "file": {
@@ -2927,69 +2990,6 @@
           "manifest": {
             "versionName": "1.4.0",
             "versionCode": 71,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 34
-            },
-            "signer": {
-              "sha256": [
-                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.READ_PHONE_STATE"
-              },
-              {
-                "name": "android.permission.READ_CALL_LOG"
-              },
-              {
-                "name": "android.permission.READ_CONTACTS"
-              },
-              {
-                "name": "android.permission.WRITE_CONTACTS"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": {
-          "added": 1780813671000,
-          "file": {
-            "name": "/com.nihaltp.smartringtone_70.apk",
-            "sha256": "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60",
-            "size": 1567266
-          },
-          "manifest": {
-            "versionName": "1.4.0",
-            "versionCode": 70,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 34

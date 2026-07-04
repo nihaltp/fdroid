@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1783174018000,
+    "timestamp": 1783179211000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -155,7 +155,7 @@
       "webSite": "https://github.com/nihaltp/SmartRingtone/",
       "added": 1780700986000,
       "packageName": "com.nihaltp.smartringtone",
-      "lastUpdated": 1781158881000,
+      "lastUpdated": 1783179203000,
       "localized": {
         "en-US": {
           "description": "Smart Ringtone automatically adjusts contact ringtones based on your call history, helping important callers stand out when you need them most.\n\nInstead of using the same ringtone for every contact, Smart Ringtone can assign different ringtones based on missed and answered calls. Contacts who repeatedly call without reaching you can be given more noticeable ringtones, making it easier to recognize potentially important calls.\n\n<h3>Features</h3>\n\n<ul>\n  <li>Automatically update contact-specific ringtones</li>\n  <li>Track missed, rejected, incoming, and outgoing calls</li>\n  <li>Configure multiple ringtones for different priority levels</li>\n  <li>Manage contact scores and ringtone assignments</li>\n  <li>View call history and ringtone changes</li>\n  <li>Reset scores manually at any time</li>\n  <li>Works entirely on your device</li>\n  <li>No account required</li>\n  <li>No internet connection required</li>\n</ul>\n\n<h3>How it works</h3>\n\n<ol>\n  <li>Add one or more ringtones to the app.</li>\n  <li>Smart Ringtone monitors call activity.</li>\n  <li>Missed or rejected calls increase a contact's score.</li>\n  <li>Answered calls reset the score.</li>\n  <li>The contact's ringtone is updated automatically based on the configured score level.</li>\n</ol>\n\n<h3>Privacy</h3>\n\nSmart Ringtone requires access to Contacts, Phone State, and Call Logs in order to assign custom contact ringtones and track call activity. All processing is performed locally on your device. No call data, contacts, or personal information are transmitted to external servers.\n\nSmart Ringtone helps ensure that important callers are easier to notice without changing how you normally use your phone.\n",
@@ -1835,6 +1835,70 @@
     ],
     "com.nihaltp.smartringtone": [
       {
+        "added": 1783179203000,
+        "apkName": "com.nihaltp.smartringtone_100.apk",
+        "hash": "8fd015c27800836fc4daae49931ee80510063f9128217349006e56a5b15552da",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1580582,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 100,
+        "versionName": "1.6.0"
+      },
+      {
         "added": 1781158881000,
         "apkName": "com.nihaltp.smartringtone_94.apk",
         "hash": "ca2307da2e585e6ec4058dabac103a38f421ce082fa7362c7b8157c4a8c9fc54",
@@ -2728,70 +2792,6 @@
           ]
         ],
         "versionCode": 71,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1780813671000,
-        "apkName": "com.nihaltp.smartringtone_70.apk",
-        "hash": "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1567266,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 70,
         "versionName": "1.4.0"
       }
     ],
