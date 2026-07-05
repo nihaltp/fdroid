@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1783179211000
+    "timestamp": 1783250399000
   },
   "packages": {
     "com.nihaltp.sbskip": {
@@ -400,7 +400,7 @@
     },
     "com.nihaltp.smartringtone": {
       "metadata": {
-        "lastUpdated": 1783179203000,
+        "lastUpdated": 1783250391000,
         "screenshots": {
           "phone": {
             "en-US": [
@@ -449,7 +449,71 @@
         }
       },
       "versions": {
+        "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b": null,
         "ed678ddeb5ca145c99dae514419937c74aaacf51259107408a7a43bc16fa4f60": null,
+        "9c84b99e8569b39146967d2b3a62bad98f4e995e2e2cf87a76dd302d380d2fff": {
+          "added": 1783250391000,
+          "file": {
+            "name": "/com.nihaltp.smartringtone_110.apk",
+            "sha256": "9c84b99e8569b39146967d2b3a62bad98f4e995e2e2cf87a76dd302d380d2fff",
+            "size": 1580530
+          },
+          "manifest": {
+            "versionName": "1.6.1",
+            "versionCode": 110,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 34
+            },
+            "signer": {
+              "sha256": [
+                "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.READ_PHONE_STATE"
+              },
+              {
+                "name": "android.permission.READ_CALL_LOG"
+              },
+              {
+                "name": "android.permission.READ_CONTACTS"
+              },
+              {
+                "name": "android.permission.WRITE_CONTACTS"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "8fd015c27800836fc4daae49931ee80510063f9128217349006e56a5b15552da": {
           "added": 1783179203000,
           "file": {
