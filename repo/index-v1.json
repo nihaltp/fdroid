@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785268577000,
+    "timestamp": 1785688014000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -73,7 +73,7 @@
       "webSite": "https://github.com/nihaltp/SBSkip",
       "added": 1780085906000,
       "packageName": "com.nihaltp.sbskip",
-      "lastUpdated": 1785268568000,
+      "lastUpdated": 1785688000000,
       "localized": {
         "en-US": {
           "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\n<h3>Features</h3>\n\n<ul>\n  <li>Remove SponsorBlock segments from existing video and audio files</li>\n  <li>Supports videos and audio shared from other apps</li>\n  <li>Paste a YouTube URL to retrieve SponsorBlock segment information</li>\n  <li>Queue multiple cleaning jobs for background processing</li>\n  <li>Configure which SponsorBlock categories should be removed</li>\n  <li>Persistent queue with progress tracking and notifications</li>\n  <li>Separate settings for output behavior and file handling</li>\n  <li>Material 3 user interface</li>\n  <li>Translation-ready and fully open source</li>\n</ul>\n\n<h3>Supported SponsorBlock categories include</h3>\n\n<ul>\n  <li>Sponsor segments</li>\n  <li>Self-promotion</li>\n  <li>Interaction reminders (like, subscribe, etc.)</li>\n  <li>Intros</li>\n  <li>Outros</li>\n  <li>Preview/recap sections</li>\n  <li>Filler content</li>\n  <li>Music off-topic sections</li>\n  <li>And other categories provided by SponsorBlock</li>\n</ul>\n\n<h3>How it works</h3>\n\n<ol>\n  <li>Select or share a media file with SB Skip.</li>\n  <li>Provide the corresponding YouTube URL.</li>\n  <li>SB Skip retrieves SponsorBlock segment data.</li>\n  <li>Unwanted segments are removed from the media file.</li>\n  <li>A cleaned copy is saved to your device.</li>\n</ol>\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
@@ -81,16 +81,35 @@
           "name": "SB Skip",
           "phoneScreenshots": [
             "1.png",
+            "10.png",
             "2.png",
             "3.png",
             "4.png",
             "5.png",
             "6.png",
             "7.png",
-            "8.png"
+            "8.png",
+            "9.png"
           ],
           "summary": "Remove SponsorBlock segments from downloaded videos and audio files.",
           "whatsNew": "SB Skip v1.3.0 (2026-06-10)\n\n<h3>Commits included in this release</h3>\n<ul>\n  <li>5b5558d  feat: Add Folders to Watchlist for watching downloaded file</li>\n  <li>90bf43d  feat: add runtime segment selection</li>\n  <li>ab6798c  style: Update Logging and Style Errors</li>\n  <li>213f207  refactor: remove reduntant new pipe folder watching</li>\n  <li>2e04df4  refactor: removed scanning for folders outside watchlist</li>\n  <li>54787c2  refactor: remove \"keep temp files\" option</li>\n  <li>9d0b3be  cho"
+        },
+        "tr-TR": {
+          "description": "SB Skip, cihaz\u00c4\u00b1n\u00c4\u00b1zda halihaz\u00c4\u00b1rda bulunan video ve ses dosyalar\u00c4\u00b1ndan SponsorBlock taraf\u00c4\u00b1ndan i\u00c5\u0178aretlenmi\u00c5\u0178 b\u00c3\u00b6l\u00c3\u00bcmleri kald\u00c4\u00b1rman\u00c4\u00b1za yard\u00c4\u00b1mc\u00c4\u00b1 olur.\n\nBir\u00c3\u00a7ok uygulama medya indirebilir, ancak ortaya \u00c3\u00a7\u00c4\u00b1kan dosyalar hala sponsorlu mesajlar, kendi tan\u00c4\u00b1t\u00c4\u00b1mlar\u00c4\u00b1, etkile\u00c5\u0178im hat\u00c4\u00b1rlat\u00c4\u00b1c\u00c4\u00b1lar\u00c4\u00b1, giri\u00c5\u0178ler, \u00c3\u00a7\u00c4\u00b1k\u00c4\u00b1\u00c5\u0178lar ve SponsorBlock kullan\u00c4\u00b1c\u00c4\u00b1lar\u00c4\u00b1n\u00c4\u00b1n tan\u00c4\u00b1mlad\u00c4\u00b1\u00c4\u0178\u00c4\u00b1 di\u00c4\u0178er b\u00c3\u00b6l\u00c3\u00bcmleri i\u00c3\u00a7erir. SB Skip, indirildikten sonra bu dosyalar\u00c4\u00b1 temizler ve istenmeyen b\u00c3\u00b6l\u00c3\u00bcmleri kald\u00c4\u00b1r\u00c4\u00b1lm\u00c4\u00b1\u00c5\u0178 yeni bir s\u00c3\u00bcr\u00c3\u00bcm olu\u00c5\u0178turur.\n\n<h3>\u00c3\u2013zellikler</h3>\n\n<ul>\n  <li>Mevcut video ve ses dosyalar\u00c4\u00b1ndan SponsorBlock b\u00c3\u00b6l\u00c3\u00bcmlerini kald\u00c4\u00b1r\u00c4\u00b1n</li>\n  <li>Di\u00c4\u0178er uygulamalardan payla\u00c5\u0178\u00c4\u00b1lan videolar\u00c4\u00b1 ve sesleri destekler</li>\n  <li>SponsorBlock b\u00c3\u00b6l\u00c3\u00bcm bilgilerini almak i\u00c3\u00a7in bir YouTube URL'si yap\u00c4\u00b1\u00c5\u0178t\u00c4\u00b1r\u00c4\u00b1n</li>\n  <li>Arka plan i\u00c5\u0178lemleri i\u00c3\u00a7in birden fazla temizleme i\u00c5\u0178ini s\u00c4\u00b1raya al\u00c4\u00b1n</li>\n  <li>Hangi SponsorBlock kategorilerinin kald\u00c4\u00b1r\u00c4\u00b1laca\u00c4\u0178\u00c4\u00b1n\u00c4\u00b1 yap\u00c4\u00b1land\u00c4\u00b1r\u00c4\u00b1n</li>\n  <li>\u00c4\u00b0lerleme takibi ve bildirimlerle kal\u00c4\u00b1c\u00c4\u00b1 s\u00c4\u00b1ra</li>\n  <li>\u00c3\u2021\u00c4\u00b1kt\u00c4\u00b1 davran\u00c4\u00b1\u00c5\u0178\u00c4\u00b1 ve dosya i\u00c5\u0178leme i\u00c3\u00a7in ayr\u00c4\u00b1 ayarlar</li>\n  <li>Material 3 kullan\u00c4\u00b1c\u00c4\u00b1 aray\u00c3\u00bcz\u00c3\u00bc</li>\n  <li>\u00c3\u2021eviriye haz\u00c4\u00b1r ve tamamen a\u00c3\u00a7\u00c4\u00b1k kaynakl\u00c4\u00b1</li>\n</ul>\n\n<h3>Desteklenen SponsorBlock kategorileri</h3>\n\n<ul>\n  <li>Sponsor b\u00c3\u00b6l\u00c3\u00bcmleri</li>\n  <li>Kendi tan\u00c4\u00b1t\u00c4\u00b1m\u00c4\u00b1</li>\n  <li>Etkile\u00c5\u0178im hat\u00c4\u00b1rlat\u00c4\u00b1c\u00c4\u00b1lar\u00c4\u00b1 (be\u00c4\u0178en, abone ol, vb.)</li>\n  <li>Giri\u00c5\u0178ler</li>\n  <li>\u00c3\u2021\u00c4\u00b1k\u00c4\u00b1\u00c5\u0178lar</li>\n  <li>\u00c3\u2013nizleme/\u00c3\u00b6zet b\u00c3\u00b6l\u00c3\u00bcmleri</li>\n  <li>Gereksiz (dolgu) i\u00c3\u00a7erik</li>\n  <li>M\u00c3\u00bczik konu d\u00c4\u00b1\u00c5\u0178\u00c4\u00b1 b\u00c3\u00b6l\u00c3\u00bcmler</li>\n  <li>Ve SponsorBlock taraf\u00c4\u00b1ndan sa\u00c4\u0178lanan di\u00c4\u0178er kategoriler</li>\n</ul>\n\n<h3>Nas\u00c4\u00b1l \u00c3\u00a7al\u00c4\u00b1\u00c5\u0178\u00c4\u00b1r?</h3>\n\n<ol>\n  <li>SB Skip ile bir medya dosyas\u00c4\u00b1 se\u00c3\u00a7in veya payla\u00c5\u0178\u00c4\u00b1n.</li>\n  <li>Kar\u00c5\u0178\u00c4\u00b1l\u00c4\u00b1k gelen YouTube URL'sini sa\u00c4\u0178lay\u00c4\u00b1n.</li>\n  <li>SB Skip SponsorBlock b\u00c3\u00b6l\u00c3\u00bcm verilerini al\u00c4\u00b1r.</li>\n  <li>\u00c4\u00b0stenmeyen b\u00c3\u00b6l\u00c3\u00bcmler medya dosyas\u00c4\u00b1ndan kald\u00c4\u00b1r\u00c4\u00b1l\u00c4\u00b1r.</li>\n  <li>Temizlenmi\u00c5\u0178 bir kopya cihaz\u00c4\u00b1n\u00c4\u00b1za kaydedilir.</li>\n</ol>\n\nSB Skip video indirmez. Zaten sahip oldu\u00c4\u0178unuz medya dosyalar\u00c4\u00b1yla \u00c3\u00a7al\u00c4\u00b1\u00c5\u0178mak \u00c3\u00bczere tasarlanm\u00c4\u00b1\u00c5\u0178t\u00c4\u00b1r ve hangi b\u00c3\u00b6l\u00c3\u00bcmlerin kald\u00c4\u00b1r\u00c4\u00b1lmas\u00c4\u00b1 gerekti\u00c4\u0178ini belirlemek i\u00c3\u00a7in topluluk taraf\u00c4\u00b1ndan korunan SponsorBlock veritaban\u00c4\u00b1n\u00c4\u00b1 kullan\u00c4\u00b1r.\n\nSB Skip \u00c3\u00bccretsiz bir yaz\u00c4\u00b1l\u00c4\u00b1md\u00c4\u00b1r ve hangi b\u00c3\u00b6l\u00c3\u00bcm kategorilerinin i\u00c5\u0178lenece\u00c4\u0178i konusunda tam kontrol sa\u00c4\u0178layarak kullan\u00c4\u00b1c\u00c4\u00b1 se\u00c3\u00a7imine sayg\u00c4\u00b1 duyar.\n",
+          "name": "SB Skip",
+          "phoneScreenshots": [
+            "1.png",
+            "10.png",
+            "2.png",
+            "3.png",
+            "4.png",
+            "5.png",
+            "6.png",
+            "7.png",
+            "8.png",
+            "9.png"
+          ],
+          "summary": "\u00c4\u00b0ndirilen video ve ses dosyalar\u00c4\u00b1ndan SponsorBlock b\u00c3\u00b6l\u00c3\u00bcmlerini kald\u00c4\u00b1r\u00c4\u00b1n."
         }
       }
     },
@@ -581,6 +600,208 @@
       }
     ],
     "com.nihaltp.sbskip": [
+      {
+        "added": 1785688000000,
+        "apkName": "com.nihaltp.sbskip_13002.apk",
+        "hash": "b85b9642ff9cab3dca96dd95e5b39bb88c8017a2b816f08064c60c7178adaf02",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 29005160,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 13002,
+        "versionName": "1.8.0"
+      },
+      {
+        "added": 1785687999000,
+        "apkName": "com.nihaltp.sbskip_13001.apk",
+        "hash": "bc9c3154f0b49a392ccf5293c5bdbaa28c1b95e44fcf207459328213673ec128",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 28188011,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 13001,
+        "versionName": "1.8.0"
+      },
+      {
+        "added": 1785687998000,
+        "apkName": "com.nihaltp.sbskip_13000.apk",
+        "hash": "d9bdcc694d7300a32e42fea83628e0d3a90edc1971049b47d5c2bd516c69895a",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 53354765,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 13000,
+        "versionName": "1.8.0"
+      },
       {
         "added": 1785268568000,
         "apkName": "com.nihaltp.sbskip_12002.apk",
@@ -1387,207 +1608,6 @@
           ]
         ],
         "versionCode": 9004,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1782843619000,
-        "apkName": "com.nihaltp.sbskip_9003.apk",
-        "hash": "c04840190bfe9425e351c07ac573f2fa1501eb1d0206bc545d89b0ba7956b467",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "x86"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 30106939,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 9003,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1782843618000,
-        "apkName": "com.nihaltp.sbskip_9002.apk",
-        "hash": "e350546fe4f2349c6b24e4717f60c97886f299e1932832da710dbbc9b0e28ac9",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 28488599,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 9002,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1782843617000,
-        "apkName": "com.nihaltp.sbskip_9001.apk",
-        "hash": "925f2428d751d5b4cf3f2105ef0627251640c42d158e016e946ff2fc096e9ac3",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 27671450,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 9001,
         "versionName": "1.4.0"
       }
     ],
