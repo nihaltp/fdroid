@@ -1,0 +1,32 @@
+{
+  "repo": {
+    "timestamp": 1785751842000
+  },
+  "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/AfterSleep/"
+      }
+    },
+    "com.nihaltp.sbskip": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip"
+      }
+    },
+    "com.nihaltp.secretchat": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SecretChat/"
+      }
+    },
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/"
+      }
+    },
+    "com.nihaltp.volumelock": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/VolumeLock/"
+      }
+    }
+  }
+}

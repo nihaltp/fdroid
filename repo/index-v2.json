@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1785751352000,
+    "timestamp": 1785751842000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -186,7 +186,7 @@
         "lastUpdated": 1780423822000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/AfterSleep",
-        "webSite": "https://github.com/nihaltp/AfterSleep",
+        "webSite": "https://nihaltp.vercel.app/apps/AfterSleep/",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -622,7 +622,7 @@
         "lastUpdated": 1785751340000,
         "license": "GPL-3.0-only",
         "sourceCode": "https://github.com/nihaltp/SBSkip",
-        "webSite": "https://github.com/nihaltp/SBSkip",
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -1776,7 +1776,7 @@
         "lastUpdated": 1781117971000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/secretchat",
-        "webSite": "https://nihaltp.github.io/secretchat/",
+        "webSite": "https://nihaltp.vercel.app/apps/SecretChat/",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -2091,7 +2091,7 @@
         "lastUpdated": 1783250391000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/SmartRingtone",
-        "webSite": "https://github.com/nihaltp/SmartRingtone/",
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/",
         "screenshots": {
           "phone": {
             "en-US": [
@@ -3119,7 +3119,7 @@
         "lastUpdated": 1782295776000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/volumelock",
-        "webSite": "https://nihaltp.github.io/volumelock/",
+        "webSite": "https://nihaltp.vercel.app/apps/VolumeLock/",
         "screenshots": {
           "phone": {
             "en-US": [

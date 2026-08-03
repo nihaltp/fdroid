@@ -1,0 +1,17 @@
+{
+  "repo": {
+    "timestamp": 1785751832000
+  },
+  "packages": {
+    "com.nihaltp.sbskip": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip"
+      }
+    },
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/"
+      }
+    }
+  }
+}

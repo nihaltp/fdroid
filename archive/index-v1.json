@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785751340000,
+    "timestamp": 1785751832000,
     "version": 20002,
     "name": "nihaltp archive",
     "icon": "icon.png",
@@ -31,7 +31,7 @@
       "license": "GPL-3.0-only",
       "sourceCode": "https://github.com/nihaltp/SBSkip",
       "summary": "Remove SponsorBlock segments from local video and audio files",
-      "webSite": "https://github.com/nihaltp/SBSkip",
+      "webSite": "https://nihaltp.vercel.app/apps/SBSkip",
       "added": 1780085906000,
       "packageName": "com.nihaltp.sbskip",
       "lastUpdated": 1785751340000,
@@ -60,7 +60,7 @@
       "license": "MIT",
       "sourceCode": "https://github.com/nihaltp/SmartRingtone",
       "summary": "Automatically adjust contact ringtones based on call activity",
-      "webSite": "https://github.com/nihaltp/SmartRingtone/",
+      "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/",
       "added": 1780700986000,
       "packageName": "com.nihaltp.smartringtone",
       "lastUpdated": 1783250391000,

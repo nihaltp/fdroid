@@ -1,11 +1,12 @@
 {
   "repo": {
-    "timestamp": 1785751340000
+    "timestamp": 1785751832000
   },
   "packages": {
     "com.nihaltp.sbskip": {
       "metadata": {
-        "lastUpdated": 1785751340000
+        "lastUpdated": 1785751340000,
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip"
       },
       "versions": {
         "f5758b135b01ee58e08c988b66375439960db824400a1ac79abecdf740c8ed64": {
@@ -822,7 +823,8 @@
     },
     "com.nihaltp.smartringtone": {
       "metadata": {
-        "lastUpdated": 1783250391000
+        "lastUpdated": 1783250391000,
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/"
       },
       "versions": {
         "62f8c3baaf7171ca652182e5d118222de480304d70859da976c1cc8b2a314f9b": {

@@ -1,11 +1,17 @@
 {
   "repo": {
-    "timestamp": 1785751352000
+    "timestamp": 1785751842000
   },
   "packages": {
+    "com.nihaltp.aftersleep": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/AfterSleep/"
+      }
+    },
     "com.nihaltp.sbskip": {
       "metadata": {
-        "lastUpdated": 1785751340000
+        "lastUpdated": 1785751340000,
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip"
       },
       "versions": {
         "f5758b135b01ee58e08c988b66375439960db824400a1ac79abecdf740c8ed64": null,
@@ -213,6 +219,21 @@
             "Beta"
           ]
         }
+      }
+    },
+    "com.nihaltp.secretchat": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SecretChat/"
+      }
+    },
+    "com.nihaltp.smartringtone": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/"
+      }
+    },
+    "com.nihaltp.volumelock": {
+      "metadata": {
+        "webSite": "https://nihaltp.vercel.app/apps/VolumeLock/"
       }
     }
   }

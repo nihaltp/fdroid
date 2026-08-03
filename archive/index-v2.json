@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/archive",
-    "timestamp": 1785751340000,
+    "timestamp": 1785751832000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -146,7 +146,7 @@
         "lastUpdated": 1785751340000,
         "license": "GPL-3.0-only",
         "sourceCode": "https://github.com/nihaltp/SBSkip",
-        "webSite": "https://github.com/nihaltp/SBSkip",
+        "webSite": "https://nihaltp.vercel.app/apps/SBSkip",
         "authorEmail": "nihaltpnki@gmail.com",
         "authorName": "nihaltp",
         "name": {
@@ -3049,7 +3049,7 @@
         "lastUpdated": 1783250391000,
         "license": "MIT",
         "sourceCode": "https://github.com/nihaltp/SmartRingtone",
-        "webSite": "https://github.com/nihaltp/SmartRingtone/",
+        "webSite": "https://nihaltp.vercel.app/apps/SmartRingtone/",
         "authorEmail": "nihaltpnki@gmail.com",
         "authorName": "nihaltp",
         "name": {
