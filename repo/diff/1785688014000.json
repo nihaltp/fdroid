@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1785751842000
+    "timestamp": 1785753509000
   },
   "packages": {
     "com.nihaltp.aftersleep": {
@@ -10,6 +10,7 @@
     },
     "com.nihaltp.sbskip": {
       "metadata": {
+        "added": 1781030747000,
         "lastUpdated": 1785751340000,
         "webSite": "https://nihaltp.vercel.app/apps/SBSkip"
       },

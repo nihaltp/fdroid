@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1785751842000,
+    "timestamp": 1785753509000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -612,7 +612,7 @@
     },
     "com.nihaltp.sbskip": {
       "metadata": {
-        "added": 1780085906000,
+        "added": 1781030747000,
         "categories": [
           "Audio",
           "Multimedia",
