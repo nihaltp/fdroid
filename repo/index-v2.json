@@ -14,7 +14,7 @@
       }
     },
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "timestamp": 1785753509000,
+    "timestamp": 1786807106000,
     "antiFeatures": {
       "Ads": {
         "description": {
@@ -619,7 +619,7 @@
           "Video"
         ],
         "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
-        "lastUpdated": 1785751340000,
+        "lastUpdated": 1786807097000,
         "license": "GPL-3.0-only",
         "sourceCode": "https://github.com/nihaltp/SBSkip",
         "webSite": "https://nihaltp.vercel.app/apps/SBSkip",
@@ -628,8 +628,8 @@
             "en-US": [
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png",
-                "sha256": "a89a3fe6738f07ab17033e58a7b08729d53d80db0a347035e6dd5cbb2e9a7fb8",
-                "size": 126427
+                "sha256": "60578e89a24e529dad1424d975a15c07c229fb7d99309aaa8add6832fda8a07e",
+                "size": 119415
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/10.png",
@@ -638,8 +638,8 @@
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png",
-                "sha256": "4c38d0bc8a263a63c2829a686a1d5ed1be0c372a18663ef24ffa5eace12765e6",
-                "size": 111095
+                "sha256": "18ed4f38969608dc029c925d45150b659d44a3551fb9e3e825154b19a3f0955a",
+                "size": 102545
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png",
@@ -658,13 +658,13 @@
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png",
-                "sha256": "07a4fc523204157e7b09c788a4788bb851c852ef5a3264351ec7016131e7a394",
-                "size": 123931
+                "sha256": "81476cf3a8a1c2e6467490daf108e7c99acc41d44a679f96ad20ca3ed135de4f",
+                "size": 117641
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/7.png",
-                "sha256": "e21d756bf7b2869742e48df588ebe67c2b951c7a6d2c8c4962d643d031565235",
-                "size": 110001
+                "sha256": "fb531e9542409bbf7e82786d4b2e5c2da50298f4de9e45f7cfe8d4e635a030ab",
+                "size": 101492
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/8.png",
@@ -680,8 +680,8 @@
             "tr-TR": [
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/1.png",
-                "sha256": "13a53d66bda35d677844eaf3c76b5f55d96e48282f4612a8050a7824077ed1d0",
-                "size": 130998
+                "sha256": "03ec2b765a8529cbbc65950362bdd19bf34f1f852498e082c45b3af1966266d7",
+                "size": 121805
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/10.png",
@@ -690,8 +690,8 @@
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/2.png",
-                "sha256": "314736eba791a14ebf69675d932b207350bc54a7b5634c19937ba6b1f7411a85",
-                "size": 97730
+                "sha256": "3e3287d4187b11606e1e350d845a25e56dcd26b19ee4435bddab60a0983bc0ed",
+                "size": 92750
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/3.png",
@@ -710,13 +710,13 @@
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/6.png",
-                "sha256": "58c14aeed17b5a2d0d211ed5620a781af40e821ef31209fe10cbf180074ba4ab",
-                "size": 129080
+                "sha256": "55e083e0da352c04af89585e12c7059e0ba2387728d6891fe164d63a6b0afa78",
+                "size": 120519
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/7.png",
-                "sha256": "50853a4359718f300010256cbbf5b6b7e39a81fd8577fc9c0a6ed97b71e0380c",
-                "size": 96430
+                "sha256": "5ae962704b6205b1737243911ce005414f7dc274b11dfb01aaf5c8b901c1a6c3",
+                "size": 91568
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/8.png",
@@ -753,6 +753,208 @@
         "preferredSigner": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
       },
       "versions": {
+        "55e669727d3e070a7097add1a0f29da9450e42831f3766c53ea13f1fce560293": {
+          "added": 1786807097000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_15002.apk",
+            "sha256": "55e669727d3e070a7097add1a0f29da9450e42831f3766c53ea13f1fce560293",
+            "size": 29023772
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.9.0",
+            "versionCode": 15002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "f83d1d3a32db677d806d3e6f63f95a7c6fcead57105ced4199771d647f4b0aa7": {
+          "added": 1786807096000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_15001.apk",
+            "sha256": "f83d1d3a32db677d806d3e6f63f95a7c6fcead57105ced4199771d647f4b0aa7",
+            "size": 28206619
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.9.0",
+            "versionCode": 15001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "6c28c0b96ab6bfcdafae383a93102a7eb6fb985d147b7bdafefbc3272ab493f0": {
+          "added": 1786807096000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_15000.apk",
+            "sha256": "6c28c0b96ab6bfcdafae383a93102a7eb6fb985d147b7bdafefbc3272ab493f0",
+            "size": 53373377
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "1.9.0",
+            "versionCode": 15000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "c6913497f047b9a9d742a3c279cf4f0602ecf783a64fe94eac5f15f433253a3d": {
           "added": 1785751340000,
           "file": {
@@ -1507,207 +1709,6 @@
             ],
             "versionName": "1.6.0",
             "versionCode": 11000,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 29
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "784cb0006fe3f1201535d47ade320be81d30284f23e48064a24de1e2f039ac12": {
-          "added": 1783174011000,
-          "file": {
-            "name": "/com.nihaltp.sbskip_10004.apk",
-            "sha256": "784cb0006fe3f1201535d47ade320be81d30284f23e48064a24de1e2f039ac12",
-            "size": 33452727
-          },
-          "manifest": {
-            "nativecode": [
-              "x86_64"
-            ],
-            "versionName": "1.5.0",
-            "versionCode": 10004,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 29
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "45dd42cffb0527570ffc234d4e553f422950e87f3ba17a6bd1c6baffcf216445": {
-          "added": 1783174010000,
-          "file": {
-            "name": "/com.nihaltp.sbskip_10003.apk",
-            "sha256": "45dd42cffb0527570ffc234d4e553f422950e87f3ba17a6bd1c6baffcf216445",
-            "size": 30106939
-          },
-          "manifest": {
-            "nativecode": [
-              "x86"
-            ],
-            "versionName": "1.5.0",
-            "versionCode": 10003,
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 35
-            },
-            "signer": {
-              "sha256": [
-                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 32
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 29
-              },
-              {
-                "name": "android.permission.READ_MEDIA_AUDIO"
-              },
-              {
-                "name": "android.permission.READ_MEDIA_VIDEO"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
-              },
-              {
-                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          },
-          "releaseChannels": [
-            "Beta"
-          ]
-        },
-        "68dfc179d926d2b12317151e75e246128bd1dc9b4335f98f20b116ee6ccda7b5": {
-          "added": 1783174009000,
-          "file": {
-            "name": "/com.nihaltp.sbskip_10002.apk",
-            "sha256": "68dfc179d926d2b12317151e75e246128bd1dc9b4335f98f20b116ee6ccda7b5",
-            "size": 28488595
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a"
-            ],
-            "versionName": "1.5.0",
-            "versionCode": 10002,
             "usesSdk": {
               "minSdkVersion": 26,
               "targetSdkVersion": 35
