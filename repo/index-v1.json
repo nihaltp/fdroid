@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1787055043000,
+    "timestamp": 1787090074000,
     "version": 20002,
     "name": "nihaltp",
     "icon": "icon.png",
@@ -71,9 +71,9 @@
       "sourceCode": "https://github.com/nihaltp/SBSkip",
       "summary": "Remove SponsorBlock segments from local video and audio files",
       "webSite": "https://nihaltp.vercel.app/apps/SBSkip",
-      "added": 1781030747000,
+      "added": 1781100951000,
       "packageName": "com.nihaltp.sbskip",
-      "lastUpdated": 1787055034000,
+      "lastUpdated": 1787090065000,
       "localized": {
         "en-US": {
           "description": "SB Skip helps you remove SponsorBlock-marked segments from videos and audio files you already have on your device.\n\nMany apps can download media, but the resulting files still contain sponsored messages, self-promotion, interaction reminders, intros, outros, and other segments that SponsorBlock users have identified. SB Skip cleans those files after download, creating a new version with unwanted sections removed.\n\n<h3>Features</h3>\n\n<ul>\n  <li>Remove SponsorBlock segments from existing video and audio files</li>\n  <li>Supports videos and audio shared from other apps</li>\n  <li>Paste a YouTube URL to retrieve SponsorBlock segment information</li>\n  <li>Queue multiple cleaning jobs for background processing</li>\n  <li>Configure which SponsorBlock categories should be removed</li>\n  <li>Persistent queue with progress tracking and notifications</li>\n  <li>Separate settings for output behavior and file handling</li>\n  <li>Material 3 user interface</li>\n  <li>Translation-ready and fully open source</li>\n</ul>\n\n<h3>Supported SponsorBlock categories include</h3>\n\n<ul>\n  <li>Sponsor segments</li>\n  <li>Self-promotion</li>\n  <li>Interaction reminders (like, subscribe, etc.)</li>\n  <li>Intros</li>\n  <li>Outros</li>\n  <li>Preview/recap sections</li>\n  <li>Filler content</li>\n  <li>Music off-topic sections</li>\n  <li>And other categories provided by SponsorBlock</li>\n</ul>\n\n<h3>How it works</h3>\n\n<ol>\n  <li>Select or share a media file with SB Skip.</li>\n  <li>Provide the corresponding YouTube URL.</li>\n  <li>SB Skip retrieves SponsorBlock segment data.</li>\n  <li>Unwanted segments are removed from the media file.</li>\n  <li>A cleaned copy is saved to your device.</li>\n</ol>\n\nSB Skip does not download videos. It is designed to work with media files you already possess and uses the community-maintained SponsorBlock database to determine which sections should be removed.\n\nSB Skip is free software and respects user choice by allowing complete control over which segment categories are processed.\n",
@@ -600,6 +600,208 @@
       }
     ],
     "com.nihaltp.sbskip": [
+      {
+        "added": 1787090065000,
+        "apkName": "com.nihaltp.sbskip_17002.apk",
+        "hash": "d443c11b34a11c302ab9041ddac92ae7f599b26594a6279c99f68bc492fd9f97",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 29060938,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 17002,
+        "versionName": "1.9.2"
+      },
+      {
+        "added": 1787090065000,
+        "apkName": "com.nihaltp.sbskip_17001.apk",
+        "hash": "40971a8b0e69ae2263480e89d19dbe165c1c66715a1aab590dc937f3a7741e57",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 28243789,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 17001,
+        "versionName": "1.9.2"
+      },
+      {
+        "added": 1787090064000,
+        "apkName": "com.nihaltp.sbskip_17000.apk",
+        "hash": "5097fe37cd71d49cbacd4e0450931a7a49be38c9bb124306df417edd059e103b",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 53410543,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 17000,
+        "versionName": "1.9.2"
+      },
       {
         "added": 1787055034000,
         "apkName": "com.nihaltp.sbskip_16002.apk",
@@ -1407,208 +1609,6 @@
         ],
         "versionCode": 13000,
         "versionName": "1.8.0"
-      },
-      {
-        "added": 1785268568000,
-        "apkName": "com.nihaltp.sbskip_12002.apk",
-        "hash": "58f5bcc89b6484cf83726a00a6e0ed6f08793e8d1d6135994fa0517961134133",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 28508039,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 12002,
-        "versionName": "1.7.0"
-      },
-      {
-        "added": 1785268568000,
-        "apkName": "com.nihaltp.sbskip_12001.apk",
-        "hash": "07bbaf6703bf581fb946e777f99e47fdfbf37889c91a6744f8ef20e627512b3c",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 27690890,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 12001,
-        "versionName": "1.7.0"
-      },
-      {
-        "added": 1785268567000,
-        "apkName": "com.nihaltp.sbskip_12000.apk",
-        "hash": "cb6e858195ca18466132003c915b28199c87a89595600f2e72e7dde0bb052eb1",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 52857644,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 12000,
-        "versionName": "1.7.0"
       }
     ],
     "com.nihaltp.secretchat": [
