@@ -1,122 +1,132 @@
 {
   "repo": {
-    "timestamp": 1787157316000
+    "timestamp": 1789706639000
   },
   "packages": {
     "com.nihaltp.sbskip": {
       "metadata": {
         "added": 1781301772000,
-        "lastUpdated": 1787157302000,
+        "lastUpdated": 1789706623000,
         "screenshots": {
           "phone": {
             "en-US": [
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/1.png",
-                "sha256": "60578e89a24e529dad1424d975a15c07c229fb7d99309aaa8add6832fda8a07e",
-                "size": 119415
+                "sha256": "70e3cf57c96ed8cb0428638b5a3a21cfec5e75d54ef898066330e398b87ffd7d",
+                "size": 120193
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/10.png",
-                "sha256": "408f7f7479b5b4bd2ba627c3ac0ccef79c9ebad72193f71e8d05b603bfe4318f",
-                "size": 89550
+                "sha256": "119a3c08e2815281af182f453c852790ddfaffee046c8934f386050a66d2aef4",
+                "size": 90311
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/2.png",
-                "sha256": "18ed4f38969608dc029c925d45150b659d44a3551fb9e3e825154b19a3f0955a",
-                "size": 102545
+                "sha256": "a0eea72f34f171bc6d20be9ade7c4ae6121bf367a72c170666a28615335bcebe",
+                "size": 103426
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/3.png",
-                "sha256": "2d0808a755b0e625e9f27bc7a4592f6b5fc13561be08de9a577d440785bf41ad",
-                "size": 87426
+                "sha256": "d12791bdeec0f80826512100dd790e269089f7d3f0dc94e6c876965295bcf255",
+                "size": 88420
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/4.png",
-                "sha256": "efa40872cf45c009c6deb847c365a98c2b9a0b48861f5d60c27cb0b72b6346de",
-                "size": 124703
+                "sha256": "623bedc491d7af9c6f645ce8ffc45348b9f1f50a74094ad4bdf3dbe942aff80f",
+                "size": 126097
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/5.png",
-                "sha256": "d33fd893c9acb45c665d2430482188461a559218d68484722c2b056f722d8a52",
-                "size": 89978
+                "sha256": "aaf274b54177f29e85ac4523e40cee528ad259977f3381e35ff14981b847eb97",
+                "size": 90794
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/6.png",
-                "sha256": "81476cf3a8a1c2e6467490daf108e7c99acc41d44a679f96ad20ca3ed135de4f",
-                "size": 117641
+                "sha256": "6af583f4da9918bf3fa352bdc61cd834be16f122a3c8603b89b5ede54f205662",
+                "size": 118456
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/7.png",
-                "sha256": "fb531e9542409bbf7e82786d4b2e5c2da50298f4de9e45f7cfe8d4e635a030ab",
-                "size": 101492
+                "sha256": "c7ff86cf3e431c328b5e7b719acd5abecca4289b8ca90deca413579804a0249f",
+                "size": 102585
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/8.png",
-                "sha256": "d84635a4fb5bdadb789e0c5c422e443e3709c8fde598e836ed5363c817a5dbd4",
-                "size": 87631
+                "sha256": "4b6d96a6b049a0d4cf4868faf2d7ec041ea9ba7c69008f8096cd09ff3b563bdb",
+                "size": 88425
               },
               {
                 "name": "/com.nihaltp.sbskip/en-US/phoneScreenshots/9.png",
-                "sha256": "9d7c50e0d000de133bfb8511fdca3ca8888abaec481184720d1a008a294a358e",
-                "size": 124049
+                "sha256": "a4b2e7991662dbecacdad93866e63461d4e68090d2e026b64d414cef9d043c7e",
+                "size": 125290
               }
             ],
             "tr-TR": [
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/1.png",
-                "sha256": "03ec2b765a8529cbbc65950362bdd19bf34f1f852498e082c45b3af1966266d7",
-                "size": 121805
+                "sha256": "9f42548321c8dbd51399eb51e7fb7705e572e6610873dbfade6039f3e0842e9f",
+                "size": 122661
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/10.png",
-                "sha256": "8cacf468edbef592745eb1b460832c8daaf2d0ab846f2261d503e986e5fad34b",
-                "size": 80402
+                "sha256": "493f4f44cf815bb702ef585bc7d917a609e909bb78b850abc6be0f7d39a8c4ad",
+                "size": 81174
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/2.png",
-                "sha256": "3e3287d4187b11606e1e350d845a25e56dcd26b19ee4435bddab60a0983bc0ed",
-                "size": 92750
+                "sha256": "7b66a7fb87d21187e04a166e3527203485674fa074d7004838fe73918982ae10",
+                "size": 93316
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/3.png",
-                "sha256": "e5742bffe1b596b48e44fd52335cccb974b166c91d92e741ff32458fcf276049",
-                "size": 74381
+                "sha256": "ac9c1ed02fbadf20bf7b9b8d335731f1944bf927e42c9101263c9a90d02690a5",
+                "size": 75156
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/4.png",
-                "sha256": "320837c52b8c00032d3dd510de9648614d84e6f1922367a4b8e1208add3e5028",
-                "size": 113740
+                "sha256": "da385b22b00fea4471750420aa992d570fefb2b5ee8ff7d30604e120686e0ea4",
+                "size": 114861
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/5.png",
-                "sha256": "12498e0721e53a214d55e6f4bc47b02c1678b57e24068499bdb008fddcb67ff7",
-                "size": 80320
+                "sha256": "dbcd13fabb2f3ddb2396b1cca62cc6a4deb5a404423ff00d1f8792d7e0c63fe5",
+                "size": 81229
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/6.png",
-                "sha256": "55e083e0da352c04af89585e12c7059e0ba2387728d6891fe164d63a6b0afa78",
-                "size": 120519
+                "sha256": "747e7e3b9397b69cf74087fea784b01ec60cb087581fc1a496eb873b25033b7b",
+                "size": 121375
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/7.png",
-                "sha256": "5ae962704b6205b1737243911ce005414f7dc274b11dfb01aaf5c8b901c1a6c3",
-                "size": 91568
+                "sha256": "d169ec0aaab8644c20117e7814ef437b44fd59e8fcfa999d9d9ade571062f7a4",
+                "size": 92305
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/8.png",
-                "sha256": "22e5e9b3f0f1d2bbc0f21d31005358bc4c8e9da9a55c6b57cd7e97d7fdcd9334",
-                "size": 74407
+                "sha256": "4f526f80b4f338095993e420fb5f5ce78a945ec858a116ba3a4c3d0463a7ea29",
+                "size": 75115
               },
               {
                 "name": "/com.nihaltp.sbskip/tr-TR/phoneScreenshots/9.png",
-                "sha256": "63939553acc96d92a5fab81a30d6d819f04676ad3deb351a4dfc3124251a7372",
-                "size": 113198
+                "sha256": "22e47d77f5dc0148aa71abfd680b93c190c094240ce8ffdccf42a3d3d6bc9a28",
+                "size": 114274
               }
             ]
+          }
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.nihaltp.sbskip/en-US/icon_THi_f2C_rXKMQZ-ZRhjGJFjy3Ieisov1zQ6OELFwDGc=.png",
+            "sha256": "4c78bf7f60bfad728c419f994618c62458f2dc87a2b28bf5cd0e8e10b1700c67",
+            "size": 1439468
           }
         }
       },
       "versions": {
+        "c6913497f047b9a9d742a3c279cf4f0602ecf783a64fe94eac5f15f433253a3d": null,
+        "774c0bae14f234155649dd303e426f0178a0066472448a68e824fdafbb6dc415": null,
+        "40ca2d369e6b95d0c5e0c4f96db9b33ae5717dacac0df5d553871fb7df50709b": null,
         "b85b9642ff9cab3dca96dd95e5b39bb88c8017a2b816f08064c60c7178adaf02": null,
         "bc9c3154f0b49a392ccf5293c5bdbaa28c1b95e44fcf207459328213673ec128": null,
         "d9bdcc694d7300a32e42fea83628e0d3a90edc1971049b47d5c2bd516c69895a": null,
@@ -129,6 +139,208 @@
         "784cb0006fe3f1201535d47ade320be81d30284f23e48064a24de1e2f039ac12": null,
         "45dd42cffb0527570ffc234d4e553f422950e87f3ba17a6bd1c6baffcf216445": null,
         "68dfc179d926d2b12317151e75e246128bd1dc9b4335f98f20b116ee6ccda7b5": null,
+        "6f05a929d695db11bb67c9a333caa63363eae5e4c3f1919a2577156da70af9b2": {
+          "added": 1789706623000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_19002.apk",
+            "sha256": "6f05a929d695db11bb67c9a333caa63363eae5e4c3f1919a2577156da70af9b2",
+            "size": 29571057
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a"
+            ],
+            "versionName": "1.9.4",
+            "versionCode": 19002,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "e3c111f09e38ce4f5bab20f0003b9685bb9acd454f72e51cf6ac34ec76346313": {
+          "added": 1789706623000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_19001.apk",
+            "sha256": "e3c111f09e38ce4f5bab20f0003b9685bb9acd454f72e51cf6ac34ec76346313",
+            "size": 28671988
+          },
+          "manifest": {
+            "nativecode": [
+              "armeabi-v7a"
+            ],
+            "versionName": "1.9.4",
+            "versionCode": 19001,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
+        "29953358aabe967096c7ef6540eff22f0f58281b9804c3a221acd110d151fb50": {
+          "added": 1789706622000,
+          "file": {
+            "name": "/com.nihaltp.sbskip_19000.apk",
+            "sha256": "29953358aabe967096c7ef6540eff22f0f58281b9804c3a221acd110d151fb50",
+            "size": 54346646
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "1.9.4",
+            "versionCode": 19000,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 35
+            },
+            "signer": {
+              "sha256": [
+                "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 32
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 29
+              },
+              {
+                "name": "android.permission.READ_MEDIA_AUDIO"
+              },
+              {
+                "name": "android.permission.READ_MEDIA_VIDEO"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.RECEIVE_BOOT_COMPLETED"
+              },
+              {
+                "name": "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          },
+          "releaseChannels": [
+            "Beta"
+          ]
+        },
         "a362b1f1fc53997c24ba96ef7407a30eb0df947046235d15262cefe626095395": {
           "added": 1787157302000,
           "file": {

@@ -1,0 +1,24 @@
+{
+  "repo": {
+    "timestamp": 1789706639000
+  },
+  "packages": {
+    "com.nihaltp.sbskip": {
+      "metadata": {
+        "added": 1781301772000,
+        "lastUpdated": 1789706623000
+      },
+      "versions": {
+        "6f05a929d695db11bb67c9a333caa63363eae5e4c3f1919a2577156da70af9b2": {
+          "added": 1789706623000
+        },
+        "e3c111f09e38ce4f5bab20f0003b9685bb9acd454f72e51cf6ac34ec76346313": {
+          "added": 1789706623000
+        },
+        "29953358aabe967096c7ef6540eff22f0f58281b9804c3a221acd110d151fb50": {
+          "added": 1789706622000
+        }
+      }
+    }
+  }
+}
