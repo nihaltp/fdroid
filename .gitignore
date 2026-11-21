@@ -1,4 +1,4 @@
-keystore.p12
+*.p12
 config.yml
 
 # Temporary and Build Artifacts
@@ -13,6 +13,8 @@ unsigned/
 # Other miscellaneous files
 *.ps1
 *.ini
+*.zsh
+.directory
 
 # Status files
 repo/status/
