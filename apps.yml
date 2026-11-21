@@ -1,0 +1,39 @@
+history:
+  # Number of distinct versionName groups to keep, not individual APK files.
+  keep_in_main_repo: 3
+
+apps:
+  - name: AfterSleep
+    github_repo: AfterSleep
+    package: com.nihaltp.aftersleep
+    metadata: metadata/com.nihaltp.aftersleep.yml
+    metadata_ref: main
+    signing_certificate: 6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908
+
+  - name: VolumeLock
+    github_repo: VolumeLock
+    package: com.nihaltp.volumelock
+    metadata: metadata/com.nihaltp.volumelock.yml
+    metadata_ref: main
+    signing_certificate: 6df9ce2e3c756a05f9a72b98e3bd555fa6f30bb99b56eba575ef9bce05d7b381
+
+  - name: SecretChat
+    github_repo: SecretChat
+    package: com.nihaltp.secretchat
+    metadata: metadata/com.nihaltp.secretchat.yml
+    metadata_ref: main
+    signing_certificate: eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2
+
+  - name: SmartRingtone
+    github_repo: SmartRingtone
+    package: com.nihaltp.smartringtone
+    metadata: metadata/com.nihaltp.smartringtone.yml
+    metadata_ref: main
+    signing_certificate: 10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b
+
+  - name: SBSkip
+    github_repo: SBSkip
+    package: com.nihaltp.sbskip
+    metadata: metadata/com.nihaltp.sbskip.yml
+    metadata_ref: main
+    signing_certificate: 004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c
