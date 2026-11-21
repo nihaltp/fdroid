@@ -1,10 +1,10 @@
 {
   "repo": {
-    "timestamp": 1789706627000,
+    "timestamp": 1795298125000,
     "version": 20002,
-    "name": "nihaltp archive",
+    "name": "nihaltp's F-Droid Archive",
     "icon": "icon.png",
-    "description": "The repository of older versions of packages from nihaltp repository.",
+    "description": "Older versions of applications developed by nihaltp.",
     "address": "https://nihaltp.github.io/fdroid/archive"
   },
   "requests": {
@@ -18,14 +18,13 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk",
       "categories": [
         "Audio",
         "Multimedia",
         "Video"
       ],
-      "suggestedVersionName": "1.3.0",
-      "suggestedVersionCode": "7",
+      "suggestedVersionName": "1.9.4",
+      "suggestedVersionCode": "19002",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
       "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
       "license": "GPL-3.0-only",
@@ -47,14 +46,13 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk",
       "categories": [
         "Ringtone",
         "System",
         "Utilities"
       ],
-      "suggestedVersionName": "1.5.0",
-      "suggestedVersionCode": "8",
+      "suggestedVersionName": "1.6.1",
+      "suggestedVersionCode": "110",
       "description": "Smart Ringtone automatically changes contact-specific ringtones based on your call history.\n\nThe app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.\n\nFeatures:\n\n* Automatic contact ringtone assignment\n* Configurable ringtone priority levels\n* Call score tracking based on call activity\n* Support for missed, rejected, incoming, and outgoing calls\n* Contact score management and reset controls\n* Local processing with no account required\n* No internet connection required\n\nSmart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.\n\nRequired permissions:\n\n* Contacts - to read and update contact ringtone settings\n* Phone State - to detect call state changes\n* Call Logs - to process call activity and update scores\n",
       "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues",
       "license": "MIT",
@@ -73,6 +71,343 @@
   ],
   "packages": {
     "com.nihaltp.sbskip": [
+      {
+        "added": 1787055033000,
+        "apkName": "com.nihaltp.sbskip_16001.apk",
+        "hash": "ea8ac6adb58aff232acd3df1946446bb029d11d18031bc9794f062032560e0aa",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 28206623,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 16001,
+        "versionName": "1.9.1"
+      },
+      {
+        "added": 1787055032000,
+        "apkName": "com.nihaltp.sbskip_16000.apk",
+        "hash": "f264e6a6c42b48f4195f88bd4f3de3425afc69be7bd2a174ab1a52616998cfd3",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 53373377,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 16000,
+        "versionName": "1.9.1"
+      },
+      {
+        "added": 1786807097000,
+        "apkName": "com.nihaltp.sbskip_15002.apk",
+        "hash": "55e669727d3e070a7097add1a0f29da9450e42831f3766c53ea13f1fce560293",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 29023772,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 15002,
+        "versionName": "1.9.0"
+      },
+      {
+        "added": 1786807096000,
+        "apkName": "com.nihaltp.sbskip_15001.apk",
+        "hash": "f83d1d3a32db677d806d3e6f63f95a7c6fcead57105ced4199771d647f4b0aa7",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 28206619,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 15001,
+        "versionName": "1.9.0"
+      },
+      {
+        "added": 1786807096000,
+        "apkName": "com.nihaltp.sbskip_15000.apk",
+        "hash": "6c28c0b96ab6bfcdafae383a93102a7eb6fb985d147b7bdafefbc3272ab493f0",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.sbskip",
+        "sig": "ec24e82e9864061cf08adf6c125e0644",
+        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
+        "size": 53373377,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            29
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.READ_MEDIA_VIDEO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 15000,
+        "versionName": "1.9.0"
+      },
       {
         "added": 1785751340000,
         "apkName": "com.nihaltp.sbskip_14002.apk",
@@ -614,6 +949,326 @@
       }
     ],
     "com.nihaltp.smartringtone": [
+      {
+        "added": 1780834745000,
+        "apkName": "com.nihaltp.smartringtone_81.apk",
+        "hash": "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1574522,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 81,
+        "versionName": "1.5.0"
+      },
+      {
+        "added": 1780834745000,
+        "apkName": "com.nihaltp.smartringtone_80.apk",
+        "hash": "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1574522,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 80,
+        "versionName": "1.5.0"
+      },
+      {
+        "added": 1780813673000,
+        "apkName": "com.nihaltp.smartringtone_74.apk",
+        "hash": "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1567266,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 74,
+        "versionName": "1.4.0"
+      },
+      {
+        "added": 1780813673000,
+        "apkName": "com.nihaltp.smartringtone_73.apk",
+        "hash": "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1567266,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 73,
+        "versionName": "1.4.0"
+      },
+      {
+        "added": 1780813672000,
+        "apkName": "com.nihaltp.smartringtone_72.apk",
+        "hash": "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "packageName": "com.nihaltp.smartringtone",
+        "sig": "43c2f9314c91e754dada460d54272176",
+        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
+        "size": 1567266,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.READ_PHONE_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_CALL_LOG",
+            null
+          ],
+          [
+            "android.permission.READ_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.WRITE_CONTACTS",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.READ_MEDIA_AUDIO",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 72,
+        "versionName": "1.4.0"
+      },
       {
         "added": 1780813672000,
         "apkName": "com.nihaltp.smartringtone_71.apk",

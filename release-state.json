@@ -1,0 +1,123 @@
+{
+  "com.nihaltp.aftersleep": {
+    "assets": [
+      {
+        "file": "com.nihaltp.aftersleep_4000.apk",
+        "id": "776067121",
+        "name": "app-release.apk",
+        "release_sha256": "fcf3d3fe74e16d43d37c43e06438bb2de4ecf847dc2a3a8cba230af529898457",
+        "sha256": "fcf3d3fe74e16d43d37c43e06438bb2de4ecf847dc2a3a8cba230af529898457",
+        "version_code": 4000,
+        "version_name": "1.0.3"
+      }
+    ],
+    "current_version_code": 4000,
+    "release_id": "453787090",
+    "tag": "v1.0.3",
+    "version_name": "1.0.3"
+  },
+  "com.nihaltp.sbskip": {
+    "assets": [
+      {
+        "file": "com.nihaltp.sbskip_19002.apk",
+        "id": "571063352",
+        "name": "app-arm64-v8a-release.apk",
+        "release_sha256": "6f05a929d695db11bb67c9a333caa63363eae5e4c3f1919a2577156da70af9b2",
+        "sha256": "6f05a929d695db11bb67c9a333caa63363eae5e4c3f1919a2577156da70af9b2",
+        "version_code": 19002,
+        "version_name": "1.9.4"
+      },
+      {
+        "file": "com.nihaltp.sbskip_19001.apk",
+        "id": "571062856",
+        "name": "app-armeabi-v7a-release.apk",
+        "release_sha256": "e3c111f09e38ce4f5bab20f0003b9685bb9acd454f72e51cf6ac34ec76346313",
+        "sha256": "e3c111f09e38ce4f5bab20f0003b9685bb9acd454f72e51cf6ac34ec76346313",
+        "version_code": 19001,
+        "version_name": "1.9.4"
+      },
+      {
+        "file": "com.nihaltp.sbskip_19000.apk",
+        "id": "571062847",
+        "name": "app-universal-release.apk",
+        "release_sha256": "29953358aabe967096c7ef6540eff22f0f58281b9804c3a221acd110d151fb50",
+        "sha256": "29953358aabe967096c7ef6540eff22f0f58281b9804c3a221acd110d151fb50",
+        "version_code": 19000,
+        "version_name": "1.9.4"
+      }
+    ],
+    "current_version_code": 19002,
+    "release_id": "391040651",
+    "tag": "v1.9.4",
+    "version_name": "1.9.4"
+  },
+  "com.nihaltp.secretchat": {
+    "assets": [
+      {
+        "file": "com.nihaltp.secretchat_2010.apk",
+        "id": "443946239",
+        "name": "app-arm64-v8a-release.apk",
+        "release_sha256": "e03563586074ac2a295052e5e10c22e5223f44a1cc1e5f8b268743de9432a624",
+        "sha256": "e03563586074ac2a295052e5e10c22e5223f44a1cc1e5f8b268743de9432a624",
+        "version_code": 2010,
+        "version_name": "2.0.0"
+      },
+      {
+        "file": "com.nihaltp.secretchat_1010.apk",
+        "id": "443946237",
+        "name": "app-armeabi-v7a-release.apk",
+        "release_sha256": "4c5d08f8f48a498f951523cb1f6a59cfb74b14173158cf8c0e1427dd8a52535e",
+        "sha256": "4c5d08f8f48a498f951523cb1f6a59cfb74b14173158cf8c0e1427dd8a52535e",
+        "version_code": 1010,
+        "version_name": "2.0.0"
+      },
+      {
+        "file": "com.nihaltp.secretchat_4010.apk",
+        "id": "443946238",
+        "name": "app-x86_64-release.apk",
+        "release_sha256": "c338e5dcf04c4a40191ec66b6e64ca0d2a857976768613e5312b631ce02ea389",
+        "sha256": "c338e5dcf04c4a40191ec66b6e64ca0d2a857976768613e5312b631ce02ea389",
+        "version_code": 4010,
+        "version_name": "2.0.0"
+      }
+    ],
+    "current_version_code": 4010,
+    "release_id": "337441234",
+    "tag": "v2.0.0",
+    "version_name": "2.0.0"
+  },
+  "com.nihaltp.smartringtone": {
+    "assets": [
+      {
+        "file": "com.nihaltp.smartringtone_110.apk",
+        "id": "467087093",
+        "name": "app-release.apk",
+        "release_sha256": "c9d35655391aea1b5f5fe3a5d09d1f2b6e6be09dbb1271da9094fed8c49c29ff",
+        "sha256": "c9d35655391aea1b5f5fe3a5d09d1f2b6e6be09dbb1271da9094fed8c49c29ff",
+        "version_code": 110,
+        "version_name": "1.6.1"
+      }
+    ],
+    "current_version_code": 110,
+    "release_id": "349143442",
+    "tag": "v1.6.1",
+    "version_name": "1.6.1"
+  },
+  "com.nihaltp.volumelock": {
+    "assets": [
+      {
+        "file": "com.nihaltp.volumelock_5005.apk",
+        "id": "456515764",
+        "name": "app-release.apk",
+        "release_sha256": "99ef4bad929c990b586268a18b7aeeaeac44e0b19b6c89a5c41acf4f279ef305",
+        "sha256": "99ef4bad929c990b586268a18b7aeeaeac44e0b19b6c89a5c41acf4f279ef305",
+        "version_code": 5005,
+        "version_name": "2.0.1"
+      }
+    ],
+    "current_version_code": 5005,
+    "release_id": "344024879",
+    "tag": "v2.0.1",
+    "version_name": "2.0.1"
+  }
+}

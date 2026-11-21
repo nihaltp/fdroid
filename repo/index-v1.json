@@ -1,11 +1,11 @@
 {
   "repo": {
-    "timestamp": 1789706639000,
+    "timestamp": 1795298128000,
     "version": 20002,
-    "name": "nihaltp",
+    "name": "nihaltp's F-Droid Repository",
     "icon": "icon.png",
     "address": "https://nihaltp.github.io/fdroid/repo",
-    "description": "This is a repository of apps made by nihaltp. Feel free to try them out!"
+    "description": "Open-source Android apps developed by nihaltp."
   },
   "requests": {
     "install": [],
@@ -18,15 +18,14 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/AfterSleep/releases/download/v%v/app-release.apk",
       "categories": [
         "Accessibility",
         "Multimedia",
         "Timer",
         "Utilities"
       ],
-      "suggestedVersionName": "1.0.2",
-      "suggestedVersionCode": "3",
+      "suggestedVersionName": "1.0.3",
+      "suggestedVersionCode": "4000",
       "description": "AfterSleep is a privacy-friendly Android app that lets users delay media playback until after they fall asleep.\n\nInstead of starting music, podcasts, audiobooks, or videos immediately, AfterSleep can pause active playback and automatically resume it later after a configurable delay.\n\nThe app works with Android media sessions and supports many media apps.\n\nFeatures:\n\n* Delayed playback start\n* Optional automatic stop timer\n* Foreground service reliability\n* AMOLED-friendly dark interface\n* Offline operation\n* No ads\n* No tracking\n* No account required\n\nAfterSleep is designed as a calm and minimal sleep companion focused on reliability and privacy.\n",
       "issueTracker": "https://github.com/nihaltp/AfterSleep/issues",
       "license": "MIT",
@@ -35,7 +34,7 @@
       "webSite": "https://nihaltp.vercel.app/apps/AfterSleep/",
       "added": 1778852814000,
       "packageName": "com.nihaltp.aftersleep",
-      "lastUpdated": 1780423822000,
+      "lastUpdated": 1795298106000,
       "localized": {
         "en-US": {
           "description": "AfterSleep is a Kotlin + Jetpack Compose Android app for delayed media playback control.\n\nSet a timer to automatically pause or resume media playback while you sleep. The app runs a foreground service for reliable timers and uses Notification listener support for active session detection.\n\n<h3>Highlights</h3>\n\n<ul>\n  <li>Dark-only Material 3 UI</li>\n  <li>MediaSessionManager and MediaController based playback control</li>\n  <li>Foreground service for reliable timers</li>\n  <li>Notification listener support for active session detection</li>\n  <li>MVVM architecture with StateFlow and coroutines</li>\n  <li>Settings for default delay, stop-after, dim screen, monochrome mode, and fallback behavior</li>\n</ul>\n",
@@ -44,10 +43,10 @@
           "phoneScreenshots": [
             "1.png",
             "2.png",
-            "3.png"
+            "3.png",
+            "4.png"
           ],
-          "summary": "Set a timer to automatically pause or resume media playback while you sleep.",
-          "whatsNew": "Bump version to 1.0.2 and release configuration updates\n\n<ul>\n  <li>Add `TimerChip` \"Off\" option and refine selected delay display logic (a43b124)</li>\n  <li>Refactor screen brightness logic for better readability (414966d)</li>\n  <li>Refactor code for improved readability and formatting (0354e1e)</li>\n</ul>\n"
+          "summary": "Set a timer to automatically pause or resume media playback while you sleep."
         }
       }
     },
@@ -57,14 +56,13 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/SBSkip/releases/download/v%v/app-universal-release.apk",
       "categories": [
         "Audio",
         "Multimedia",
         "Video"
       ],
-      "suggestedVersionName": "1.3.0",
-      "suggestedVersionCode": "7",
+      "suggestedVersionName": "1.9.4",
+      "suggestedVersionCode": "19002",
       "description": "SBSkip is a SponsorBlock-powered media cleaner for Android.\n\nSelect a local video or audio file, provide the corresponding YouTube URL,\nand SBSkip will retrieve SponsorBlock segments and create a cleaned copy\nwith sponsor segments removed.\n\nFeatures:\n\n* SponsorBlock integration\n* Local video and audio file processing\n* Background processing with WorkManager\n* Material 3 user interface\n* Persistent settings with DataStore\n* FFmpeg-based media trimming\n* No account required\n\nSBSkip processes media locally on the device. No YouTube account or API key\nis required.\n",
       "issueTracker": "https://github.com/nihaltp/SBSkip/issues",
       "license": "GPL-3.0-only",
@@ -91,8 +89,7 @@
             "8.png",
             "9.png"
           ],
-          "summary": "Remove SponsorBlock segments from downloaded videos and audio files.",
-          "whatsNew": "SB Skip v1.3.0 (2026-06-10)\n\n<h3>Commits included in this release</h3>\n<ul>\n  <li>5b5558d  feat: Add Folders to Watchlist for watching downloaded file</li>\n  <li>90bf43d  feat: add runtime segment selection</li>\n  <li>ab6798c  style: Update Logging and Style Errors</li>\n  <li>213f207  refactor: remove reduntant new pipe folder watching</li>\n  <li>2e04df4  refactor: removed scanning for folders outside watchlist</li>\n  <li>54787c2  refactor: remove \"keep temp files\" option</li>\n  <li>9d0b3be  cho"
+          "summary": "Remove SponsorBlock segments from downloaded videos and audio files."
         },
         "tr-TR": {
           "description": "SB Skip, cihaz\u0131n\u0131zda halihaz\u0131rda bulunan video ve ses dosyalar\u0131ndan SponsorBlock taraf\u0131ndan i\u015faretlenmi\u015f b\u00f6l\u00fcmleri kald\u0131rman\u0131za yard\u0131mc\u0131 olur.\n\nBir\u00e7ok uygulama medya indirebilir, ancak ortaya \u00e7\u0131kan dosyalar hala sponsorlu mesajlar, kendi tan\u0131t\u0131mlar\u0131, etkile\u015fim hat\u0131rlat\u0131c\u0131lar\u0131, giri\u015fler, \u00e7\u0131k\u0131\u015flar ve SponsorBlock kullan\u0131c\u0131lar\u0131n\u0131n tan\u0131mlad\u0131\u011f\u0131 di\u011fer b\u00f6l\u00fcmleri i\u00e7erir. SB Skip, indirildikten sonra bu dosyalar\u0131 temizler ve istenmeyen b\u00f6l\u00fcmleri kald\u0131r\u0131lm\u0131\u015f yeni bir s\u00fcr\u00fcm olu\u015fturur.\n\n<h3>\u00d6zellikler</h3>\n\n<ul>\n  <li>Mevcut video ve ses dosyalar\u0131ndan SponsorBlock b\u00f6l\u00fcmlerini kald\u0131r\u0131n</li>\n  <li>Di\u011fer uygulamalardan payla\u015f\u0131lan videolar\u0131 ve sesleri destekler</li>\n  <li>SponsorBlock b\u00f6l\u00fcm bilgilerini almak i\u00e7in bir YouTube URL'si yap\u0131\u015ft\u0131r\u0131n</li>\n  <li>Arka plan i\u015flemleri i\u00e7in birden fazla temizleme i\u015fini s\u0131raya al\u0131n</li>\n  <li>Hangi SponsorBlock kategorilerinin kald\u0131r\u0131laca\u011f\u0131n\u0131 yap\u0131land\u0131r\u0131n</li>\n  <li>\u0130lerleme takibi ve bildirimlerle kal\u0131c\u0131 s\u0131ra</li>\n  <li>\u00c7\u0131kt\u0131 davran\u0131\u015f\u0131 ve dosya i\u015fleme i\u00e7in ayr\u0131 ayarlar</li>\n  <li>Material 3 kullan\u0131c\u0131 aray\u00fcz\u00fc</li>\n  <li>\u00c7eviriye haz\u0131r ve tamamen a\u00e7\u0131k kaynakl\u0131</li>\n</ul>\n\n<h3>Desteklenen SponsorBlock kategorileri</h3>\n\n<ul>\n  <li>Sponsor b\u00f6l\u00fcmleri</li>\n  <li>Kendi tan\u0131t\u0131m\u0131</li>\n  <li>Etkile\u015fim hat\u0131rlat\u0131c\u0131lar\u0131 (be\u011fen, abone ol, vb.)</li>\n  <li>Giri\u015fler</li>\n  <li>\u00c7\u0131k\u0131\u015flar</li>\n  <li>\u00d6nizleme/\u00f6zet b\u00f6l\u00fcmleri</li>\n  <li>Gereksiz (dolgu) i\u00e7erik</li>\n  <li>M\u00fczik konu d\u0131\u015f\u0131 b\u00f6l\u00fcmler</li>\n  <li>Ve SponsorBlock taraf\u0131ndan sa\u011flanan di\u011fer kategoriler</li>\n</ul>\n\n<h3>Nas\u0131l \u00e7al\u0131\u015f\u0131r?</h3>\n\n<ol>\n  <li>SB Skip ile bir medya dosyas\u0131 se\u00e7in veya payla\u015f\u0131n.</li>\n  <li>Kar\u015f\u0131l\u0131k gelen YouTube URL'sini sa\u011flay\u0131n.</li>\n  <li>SB Skip SponsorBlock b\u00f6l\u00fcm verilerini al\u0131r.</li>\n  <li>\u0130stenmeyen b\u00f6l\u00fcmler medya dosyas\u0131ndan kald\u0131r\u0131l\u0131r.</li>\n  <li>Temizlenmi\u015f bir kopya cihaz\u0131n\u0131za kaydedilir.</li>\n</ol>\n\nSB Skip video indirmez. Zaten sahip oldu\u011funuz medya dosyalar\u0131yla \u00e7al\u0131\u015fmak \u00fczere tasarlanm\u0131\u015ft\u0131r ve hangi b\u00f6l\u00fcmlerin kald\u0131r\u0131lmas\u0131 gerekti\u011fini belirlemek i\u00e7in topluluk taraf\u0131ndan korunan SponsorBlock veritaban\u0131n\u0131 kullan\u0131r.\n\nSB Skip \u00fccretsiz bir yaz\u0131l\u0131md\u0131r ve hangi b\u00f6l\u00fcm kategorilerinin i\u015flenece\u011fi konusunda tam kontrol sa\u011flayarak kullan\u0131c\u0131 se\u00e7imine sayg\u0131 duyar.\n",
@@ -119,14 +116,13 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/secretchat/releases/download/v{version}/app-release.apk",
       "categories": [
         "Connectivity",
         "Internet",
         "Messaging"
       ],
       "suggestedVersionName": "2.0.0",
-      "suggestedVersionCode": "10",
+      "suggestedVersionCode": "4010",
       "description": "A simple LAN chat app built using Flutter. It allows users to chat with each other over a local network without the need for an internet connection. The app uses UDP sockets for communication and supports text messaging.",
       "issueTracker": "https://github.com/nihaltp/secretchat/issues",
       "license": "MIT",
@@ -135,7 +131,7 @@
       "webSite": "https://nihaltp.vercel.app/apps/SecretChat/",
       "added": 1781117967000,
       "packageName": "com.nihaltp.secretchat",
-      "lastUpdated": 1781117971000,
+      "lastUpdated": 1795298111000,
       "localized": {
         "en-US": {
           "description": "Secret Chat is a local area network (LAN) messaging application that allows you to chat with friends and colleagues without an internet connection. Perfect for conferences, offices, events, or any situation where you need secure, private communication within a local network.\n\n<h3>Features</h3>\n<ul>\n<li>No Internet Required - Chat over your local WiFi or mobile hotspot</li>\n<li>Privacy Focused - Messages stay on your local network</li>\n<li>Multiple Security Options - Protect your rooms with passwords, PINs, or pattern locks</li>\n<li>Dark Theme - Easy on the eyes with built-in dark mode</li>\n<li>App Lock - Biometric or screen lock protection for the entire app</li>\n<li>Hidden Rooms - Create private rooms that don't appear in the room list</li>\n<li>Message History - Messages persist while the app is running, cleared when closed</li>\n<li>Material Design 3 - Modern, clean interface</li>\n</li>\n</ul>\n\n<h3>How to Use</h3>\n<ol>\n<li>Choose \"Host Network\" to create a room and share as the host</li>\n<li>Or choose \"Use Wi-Fi\" to browse and join existing rooms</li>\n<li>Optionally protect your room with a password, PIN, or pattern</li>\n<li>Start chatting - all communication stays within your local network</li>\n</li>\n</ol>\n\n<h3>Security</h3>\n<ul>\n<li>All communication happens locally on your WiFi network</li>\n<li>No data transmitted to external servers</li>\n<li>Messages are not stored permanently</li>\n<li>Supports biometric authentication</li>\n<li>Pattern lock option for additional security</li>\n</li>\n</ul>\n\n<h3>Perfect for</h3>\n<ul>\n<li>Office communications and quick collaboration</li>\n<li>Conferences and events</li>\n<li>Classroom discussions</li>\n<li>LAN parties and gaming events</li>\n<li>Emergency communication when internet is unavailable</li>\n<li>Privacy-conscious users who want local control</li>\n</li>\n</ul>\n",
@@ -147,8 +143,7 @@
             "3.png",
             "4.png"
           ],
-          "summary": "LAN chat without internet - secure, private, instant messages",
-          "whatsNew": "Secret Chat v2.0.0 (2026-06-11)\n\n<h3>Commits included in this release</h3>\n<ul>\n<li>cabb851  chore: add fastlane</li>\n<li>89d8b9a  change app name to secretchat</li>\n</li>\n</ul>\n"
+          "summary": "LAN chat without internet - secure, private, instant messages"
         }
       }
     },
@@ -158,14 +153,13 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/SmartRingtone/releases/download/v{version}/app-universal-release.apk",
       "categories": [
         "Ringtone",
         "System",
         "Utilities"
       ],
-      "suggestedVersionName": "1.5.0",
-      "suggestedVersionCode": "8",
+      "suggestedVersionName": "1.6.1",
+      "suggestedVersionCode": "110",
       "description": "Smart Ringtone automatically changes contact-specific ringtones based on your call history.\n\nThe app tracks missed, rejected, incoming, and outgoing calls, assigning a score to each contact. As a contact's score changes, Smart Ringtone can automatically update their ringtone, helping important callers stand out.\n\nFeatures:\n\n* Automatic contact ringtone assignment\n* Configurable ringtone priority levels\n* Call score tracking based on call activity\n* Support for missed, rejected, incoming, and outgoing calls\n* Contact score management and reset controls\n* Local processing with no account required\n* No internet connection required\n\nSmart Ringtone uses Android's built-in contact ringtone functionality and performs all processing on the device. No call logs, contacts, or personal information are transmitted to external servers.\n\nRequired permissions:\n\n* Contacts - to read and update contact ringtone settings\n* Phone State - to detect call state changes\n* Call Logs - to process call activity and update scores\n",
       "issueTracker": "https://github.com/nihaltp/SmartRingtone/issues",
       "license": "MIT",
@@ -190,8 +184,7 @@
             "7.png",
             "8.png"
           ],
-          "summary": "Automatically adjust contact ringtones based on missed and answered calls.",
-          "whatsNew": "Smart Ringtone v1.5.0 (2026-06-07)\n\n<h3>Commits included in this release</h3>\n<ul>\n  <li>4f1e591  feat: scan the blocked contact upon unblock</li>\n  <li>b690527  feat: sort blocklist to show blocked contacts first</li>\n  <li>0c9a619  feat: add blocklist for avoiding ringtone change for specific contacts</li>\n</ul>\n"
+          "summary": "Automatically adjust contact ringtones based on missed and answered calls."
         }
       }
     },
@@ -201,15 +194,14 @@
       ],
       "authorEmail": "nihaltpnki@gmail.com",
       "authorName": "nihaltp",
-      "binaries": "https://github.com/nihaltp/volumelock/releases/download/v{version}/app-universal-release.apk",
       "categories": [
         "Accessibility",
         "System",
         "Utilities",
         "Volume Control"
       ],
-      "suggestedVersionName": "2.0.0",
-      "suggestedVersionCode": "5",
+      "suggestedVersionName": "2.0.1",
+      "suggestedVersionCode": "5005",
       "description": "A simple volume lock app built using Flutter. It allows users to lock their device's volume level and prevent accidental changes.",
       "issueTracker": "https://github.com/nihaltp/volumelock/issues",
       "license": "MIT",
@@ -235,13 +227,59 @@
             "8.png"
           ],
           "summary": "Lock device volume profiles and auto-restore per-app media volume.",
-          "whatsNew": "Volume Lock v2.0.0 (2026-06-08)\n\n<h3>Commits included in this release</h3>\n<ul>\n<li>1c351ef  feat: Add background-aware App Volume Lock feature</li>\n<li>8e782b0  feat: Cache Installed Apps and Load in Background</li>\n<li>b1515a1  style: change the windowBackground to ic launcher background color</li>\n<li>5e42988  style: add dark theme and material you support</li>\n<li>53ac655  refactor: migrate app to native Android</li>\n<li>46c52ad  docs: Update documentation and comments to reflect native Jetp"
+          "whatsNew": "Volume Lock v2.0.1 (2026-06-24)\n\nCommits included in this release:\n- 7c32540  feat: minimize foreground service notification visibility\n- b0c4932  chore: create dependabot.yml\n- 6bd9e0d  chore: update mergify to merge dependabot pr\n- 071df85  chore: bump fastlane from 2.235.0 to 2.236.1\n- 931b744  chore: use html in fastlane files\n- 869b4a2  chore: update gradle.properties\n- 71e733e  chore: remove apk splits\n- 70486d2  chore: remove proguard\n- cf76b64  chore: bump androidx.test.ext:junit from 1."
         }
       }
     }
   ],
   "packages": {
     "com.nihaltp.aftersleep": [
+      {
+        "added": 1795298106000,
+        "apkName": "com.nihaltp.aftersleep_4000.apk",
+        "hash": "fcf3d3fe74e16d43d37c43e06438bb2de4ecf847dc2a3a8cba230af529898457",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.aftersleep",
+        "sig": "143c85513cbb522e8dfce3f2f1a72ab1",
+        "signer": "6c1d2c7564cbbd3dbe0d40a6b7a1f4da98e06a19642bfcf314019d8a4d750908",
+        "size": 2757516,
+        "targetSdkVersion": 35,
+        "uses-permission": [
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS",
+            null
+          ],
+          [
+            "com.nihaltp.aftersleep.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4000,
+        "versionName": "1.0.3"
+      },
       {
         "added": 1780259804000,
         "apkName": "com.nihaltp.aftersleep_3004.apk",
@@ -1272,346 +1310,150 @@
         ],
         "versionCode": 16002,
         "versionName": "1.9.1"
-      },
-      {
-        "added": 1787055033000,
-        "apkName": "com.nihaltp.sbskip_16001.apk",
-        "hash": "ea8ac6adb58aff232acd3df1946446bb029d11d18031bc9794f062032560e0aa",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 28206623,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 16001,
-        "versionName": "1.9.1"
-      },
-      {
-        "added": 1787055032000,
-        "apkName": "com.nihaltp.sbskip_16000.apk",
-        "hash": "f264e6a6c42b48f4195f88bd4f3de3425afc69be7bd2a174ab1a52616998cfd3",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 53373377,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 16000,
-        "versionName": "1.9.1"
-      },
-      {
-        "added": 1786807097000,
-        "apkName": "com.nihaltp.sbskip_15002.apk",
-        "hash": "55e669727d3e070a7097add1a0f29da9450e42831f3766c53ea13f1fce560293",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 29023772,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 15002,
-        "versionName": "1.9.0"
-      },
-      {
-        "added": 1786807096000,
-        "apkName": "com.nihaltp.sbskip_15001.apk",
-        "hash": "f83d1d3a32db677d806d3e6f63f95a7c6fcead57105ced4199771d647f4b0aa7",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 28206619,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 15001,
-        "versionName": "1.9.0"
-      },
-      {
-        "added": 1786807096000,
-        "apkName": "com.nihaltp.sbskip_15000.apk",
-        "hash": "6c28c0b96ab6bfcdafae383a93102a7eb6fb985d147b7bdafefbc3272ab493f0",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "nativecode": [
-          "arm64-v8a",
-          "armeabi-v7a"
-        ],
-        "packageName": "com.nihaltp.sbskip",
-        "sig": "ec24e82e9864061cf08adf6c125e0644",
-        "signer": "004a495002a662595e46a49141d00b1fbb2360031128e6b59d09beab62abca1c",
-        "size": 53373377,
-        "targetSdkVersion": 35,
-        "uses-permission": [
-          [
-            "android.permission.INTERNET",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.WRITE_EXTERNAL_STORAGE",
-            29
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.READ_MEDIA_VIDEO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "com.nihaltp.sbskip.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 15000,
-        "versionName": "1.9.0"
       }
     ],
     "com.nihaltp.secretchat": [
+      {
+        "added": 1795298111000,
+        "apkName": "com.nihaltp.secretchat_4010.apk",
+        "hash": "c338e5dcf04c4a40191ec66b6e64ca0d2a857976768613e5312b631ce02ea389",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "x86_64"
+        ],
+        "packageName": "com.nihaltp.secretchat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 9254337,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4010,
+        "versionName": "2.0.0"
+      },
+      {
+        "added": 1795298111000,
+        "apkName": "com.nihaltp.secretchat_2010.apk",
+        "hash": "e03563586074ac2a295052e5e10c22e5223f44a1cc1e5f8b268743de9432a624",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "arm64-v8a"
+        ],
+        "packageName": "com.nihaltp.secretchat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 9087306,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2010,
+        "versionName": "2.0.0"
+      },
+      {
+        "added": 1795298110000,
+        "apkName": "com.nihaltp.secretchat_1010.apk",
+        "hash": "4c5d08f8f48a498f951523cb1f6a59cfb74b14173158cf8c0e1427dd8a52535e",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "nativecode": [
+          "armeabi-v7a"
+        ],
+        "packageName": "com.nihaltp.secretchat",
+        "sig": "d595dd76abbf3f3553a70d41bdbaf669",
+        "signer": "eff785302954debf2b4de15c60d66447999d312b5a4322b3c8ed8dd7632b6cb2",
+        "size": 8593328,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "com.nihaltp.secretchat.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 1010,
+        "versionName": "2.0.0"
+      },
       {
         "added": 1781117971000,
         "apkName": "com.nihaltp.secretchat_104.apk",
@@ -2491,326 +2333,6 @@
         ],
         "versionCode": 82,
         "versionName": "1.5.0"
-      },
-      {
-        "added": 1780834745000,
-        "apkName": "com.nihaltp.smartringtone_81.apk",
-        "hash": "24b6b37e2cca9be5fbf4336cf9e698f6d1a2f533d9cdf2b5bfc38c190b0d7466",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1574522,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 81,
-        "versionName": "1.5.0"
-      },
-      {
-        "added": 1780834745000,
-        "apkName": "com.nihaltp.smartringtone_80.apk",
-        "hash": "a0d34da76a3812820c7f1373ecf5fb1ee22e98573beda3b101c6a09a57f33210",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1574522,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 80,
-        "versionName": "1.5.0"
-      },
-      {
-        "added": 1780813673000,
-        "apkName": "com.nihaltp.smartringtone_74.apk",
-        "hash": "321325893e51163d1fb2ab3058a13a2257d9849297c6c4ebaa79755cb91f3d75",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1567266,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 74,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1780813673000,
-        "apkName": "com.nihaltp.smartringtone_73.apk",
-        "hash": "f0bc52bb1b41441b4c0925945cc1a9e4254f7f97e6a9e200733328e2016114a6",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1567266,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 73,
-        "versionName": "1.4.0"
-      },
-      {
-        "added": 1780813672000,
-        "apkName": "com.nihaltp.smartringtone_72.apk",
-        "hash": "544652757e2dabb8e0ecc0ae9bdb0a7d0d0bec6c0ea9c2a27cdfe10dc6ce3353",
-        "hashType": "sha256",
-        "minSdkVersion": 26,
-        "packageName": "com.nihaltp.smartringtone",
-        "sig": "43c2f9314c91e754dada460d54272176",
-        "signer": "10c351689ea7971f03ff954f817fa677e2344b0ead14bb707329057d0fee3f0b",
-        "size": 1567266,
-        "targetSdkVersion": 34,
-        "uses-permission": [
-          [
-            "android.permission.READ_PHONE_STATE",
-            null
-          ],
-          [
-            "android.permission.READ_CALL_LOG",
-            null
-          ],
-          [
-            "android.permission.READ_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.WRITE_CONTACTS",
-            null
-          ],
-          [
-            "android.permission.POST_NOTIFICATIONS",
-            null
-          ],
-          [
-            "android.permission.READ_EXTERNAL_STORAGE",
-            32
-          ],
-          [
-            "android.permission.READ_MEDIA_AUDIO",
-            null
-          ],
-          [
-            "android.permission.WAKE_LOCK",
-            null
-          ],
-          [
-            "android.permission.ACCESS_NETWORK_STATE",
-            null
-          ],
-          [
-            "android.permission.RECEIVE_BOOT_COMPLETED",
-            null
-          ],
-          [
-            "android.permission.FOREGROUND_SERVICE",
-            null
-          ],
-          [
-            "com.nihaltp.smartringtone.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
-            null
-          ]
-        ],
-        "versionCode": 72,
-        "versionName": "1.4.0"
       }
     ],
     "com.nihaltp.volumelock": [
