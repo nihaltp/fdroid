@@ -92,6 +92,15 @@ jobs:
           if keep < 1:
               raise SystemExit("history.keep_in_main_repo must be >= 1")
 
+          # scripts/organize_releases.py has already enforced retention by
+          # versionName groups. Set F-Droid's per-app APK-count threshold above
+          # the largest retained APK set so fdroid update does not split a group.
+          repo_apk_counts = [
+              sum(1 for _ in Path("repo").glob(f"{app['package']}_*.apk"))
+              for app in config_data["apps"]
+          ]
+          fdroid_archive_threshold = max(repo_apk_counts, default=0) + 1
+
           config = {
               "repo_url": "https://nihaltp.github.io/fdroid/repo",
               "repo_name": "nihaltp's F-Droid Repository",
@@ -100,12 +109,14 @@ jobs:
               "keystore": os.path.join(os.environ["RUNNER_TEMP"], "fdroid-index.p12"),
               "keystorepass": os.environ["FDROID_INDEX_KEYSTORE_PASSWORD"],
               "keypass": os.environ["FDROID_INDEX_KEYSTORE_PASSWORD"],
-              "archive_older": keep,
+              "archive_older": fdroid_archive_threshold,
               "archive_url": "https://nihaltp.github.io/fdroid/archive",
               "archive_name": "nihaltp's F-Droid Archive",
               "archive_description": "Older versions of applications developed by nihaltp.",
           }
           Path("config.yml").write_text(yaml.safe_dump(config, sort_keys=False), encoding="utf-8")
+          print(f"Custom retention: {keep} distinct versionName group(s) per app")
+          print(f"F-Droid APK-count safety threshold: {fdroid_archive_threshold}")
           PY
           fdroid update --pretty
 
