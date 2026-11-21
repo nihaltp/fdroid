@@ -9,22 +9,177 @@ on:
     - cron: "0 0 * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: fdroid-repository-update
   cancel-in-progress: false
 
 jobs:
-  update-repository:
+  import-and-organize:
+    name: Import APKs and organize release history
     runs-on: ubuntu-24.04
     timeout-minutes: 45
+    permissions:
+      contents: read
 
     steps:
-      - name: Check out the repository
+      - name: Check out the triggering commit
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+
+      - name: Set up Python and Java
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Install Android SDK packages
+        uses: android-actions/setup-android@v4
+        with:
+          packages: platform-tools
+
+      - name: Install Android SDK build tools
+        run: |
+          yes | sdkmanager --licenses >/dev/null
+          sdkmanager "build-tools;35.0.0"
+          echo "$ANDROID_HOME/build-tools/35.0.0" >> "$GITHUB_PATH"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install PyYAML
+
+      - name: Import latest releases
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          RELEASES_READ_TOKEN: ${{ secrets.RELEASES_READ_TOKEN }}
+        run: python scripts/update_repo.py
+
+      - name: Organize APKs by version name
+        run: python scripts/organize_releases.py
+
+      # Export only this job's changes. Binary APK additions/moves are included
+      # in the patch; unchanged repository history is not uploaded.
+      - name: Create APK import and organization patch
+        run: |
+          git add -A -- repo archive metadata release-state.json
+          : > "$RUNNER_TEMP/import-and-organize.patch"
+          git -c diff.renames=false diff --cached --binary --no-ext-diff \
+            > "$RUNNER_TEMP/import-and-organize.patch"
+          echo "Patch size: $(du -h "$RUNNER_TEMP/import-and-organize.patch" | cut -f1)"
+
+      - name: Upload APK import and organization patch
+        uses: actions/upload-artifact@v4
+        with:
+          name: import-and-organize-delta
+          path: ${{ runner.temp }}/import-and-organize.patch
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+  sync-metadata:
+    name: Synchronize Fastlane store metadata
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out metadata-related files only
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          sparse-checkout: |
+            scripts
+            metadata
+          sparse-checkout-cone-mode: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install PyYAML
+
+      - name: Sync Fastlane store metadata
+        env:
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+          RELEASES_READ_TOKEN: ${{ secrets.RELEASES_READ_TOKEN }}
+        run: python scripts/sync_fastlane_metadata.py
+
+      - name: Create metadata synchronization patch
+        run: |
+          git add -A -- metadata
+          : > "$RUNNER_TEMP/metadata-sync.patch"
+          git -c diff.renames=false diff --cached --binary --no-ext-diff \
+            > "$RUNNER_TEMP/metadata-sync.patch"
+          echo "Patch size: $(du -h "$RUNNER_TEMP/metadata-sync.patch" | cut -f1)"
+
+      - name: Upload metadata synchronization patch
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata-sync-delta
+          path: ${{ runner.temp }}/metadata-sync.patch
+          if-no-files-found: error
+          retention-days: 1
+          compression-level: 0
+
+  publish:
+    name: Generate F-Droid indexes and publish
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    needs:
+      - import-and-organize
+      - sync-metadata
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out the triggering commit
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+
+      - name: Download APK import and organization patch
+        uses: actions/download-artifact@v4
+        with:
+          name: import-and-organize-delta
+          path: ${{ runner.temp }}/import-and-organize
+
+      - name: Download metadata synchronization patch
+        uses: actions/download-artifact@v4
+        with:
+          name: metadata-sync-delta
+          path: ${{ runner.temp }}/metadata-sync
+
+      - name: Apply processing job changes
+        run: |
+          set -euo pipefail
+          IMPORT_PATCH="$RUNNER_TEMP/import-and-organize/import-and-organize.patch"
+          METADATA_PATCH="$RUNNER_TEMP/metadata-sync/metadata-sync.patch"
+
+          if [[ -s "$IMPORT_PATCH" ]]; then
+            git apply --binary --index "$IMPORT_PATCH"
+          else
+            echo "No APK import or organization changes."
+          fi
+
+          if [[ -s "$METADATA_PATCH" ]]; then
+            git apply --binary --index "$METADATA_PATCH"
+          else
+            echo "No Fastlane metadata changes."
+          fi
 
       - name: Set up Python and Java
         uses: actions/setup-python@v5
@@ -52,21 +207,6 @@ jobs:
           python -m pip install fdroidserver PyYAML
           fdroid --version
 
-      - name: Import latest releases
-        env:
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-          RELEASES_READ_TOKEN: ${{ secrets.RELEASES_READ_TOKEN }}
-        run: python scripts/update_repo.py
-
-      - name: Sync Fastlane store metadata
-        env:
-          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
-          RELEASES_READ_TOKEN: ${{ secrets.RELEASES_READ_TOKEN }}
-        run: python scripts/sync_fastlane_metadata.py
-
-      - name: Organize APKs by version name
-        run: python scripts/organize_releases.py
-
       - name: Restore F-Droid repository signing key
         env:
           FDROID_INDEX_KEYSTORE: ${{ secrets.FDROID_INDEX_KEYSTORE }}
@@ -87,14 +227,12 @@ jobs:
 
           config_data = yaml.safe_load(Path("apps.yml").read_text(encoding="utf-8"))
           keep = int(config_data.get("history", {}).get("keep_in_main_repo", 3))
-          if keep != 3:
-              print(f"Configured main repository retention: {keep} versions per app")
           if keep < 1:
               raise SystemExit("history.keep_in_main_repo must be >= 1")
 
-          # scripts/organize_releases.py has already enforced retention by
-          # versionName groups. Set F-Droid's per-app APK-count threshold above
-          # the largest retained APK set so fdroid update does not split a group.
+          # organize_releases.py has already retained complete versionName
+          # groups. Keep F-Droid's APK-count threshold above every app's current
+          # repo count so fdroid update cannot split those groups again.
           repo_apk_counts = [
               sum(1 for _ in Path("repo").glob(f"{app['package']}_*.apk"))
               for app in config_data["apps"]
@@ -124,10 +262,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add archive metadata repo release-state.json
+          git add -A -- archive metadata repo release-state.json
           if git diff --cached --quiet; then
             echo "No repository changes to commit."
             exit 0
           fi
           git commit -m "Update F-Droid repository"
-          git push
+          git push origin "HEAD:${GITHUB_REF_NAME}"
